@@ -1,0 +1,13 @@
+row_number,name,uan,ip_number,expected_pf_status,expected_esic_status,pf_scenario,esic_scenario
+2,ANIL KUMAR,999912340001,9912340001,Matched,Matched,clean,clean
+3,SUNITA DEVI,999912340002,9912340002,Matched,Matched,clean,clean
+4,RAKESH VERMA,999912340003,9912340003,Matched,Matched,clean,clean
+5,PRIYA SINGH,999912340004,9912340004,Matched,Matched,clean,clean
+6,MANOJ YADAV,999912340005,9912340005,Matched,Matched,clean,clean
+7,KAVITA KUMARI,999912340006,9912340006,Matched,Matched,clean,clean
+8,DINESH PRASAD,999912340007,9912340007,Name mismatch,Matched,first_name_conflict (DEVENDRA),clean
+9,REKHA SHARMA,999912340008,9912340008,Matched,Name mismatch,clean,first_name_conflict (RENU)
+10,SANJAY PASWAN,999912340009,9912340009,Missing,Missing,missing_in_ecr,missing_in_ecr
+11,POOJA GUPTA,999912340010,9912340010,Matched,Missing,clean,missing_in_ecr
+12,VIKRAM THAKUR,999912340011,9912340011,Amount mismatch,Matched,short_deposit (-300),clean
+13,NEHA MISHRA,999912340012,9912340012,Matched,Amount mismatch,clean,short_deposit (-20)

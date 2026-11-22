@@ -1,0 +1,49 @@
+{% extends "shared/base.html" %}
+{% block title %}Case Study 2{% endblock %}
+
+{% block content %}
+<section class="card">
+  <h1>Case Study 2: Wagesheet vs PF / ESIC ECR verification</h1>
+  <p class="muted">Upload the vendor's monthly wagesheet and the two statutory filings. Each employee is checked
+    for the right identifier, the right person and the right amount. Processing runs in the background,
+    so you can leave this page and come back to the results.</p>
+
+  <form id="upload-form" class="upload-grid" novalidate>
+    <label class="drop">
+      <span class="drop-title">1. Wagesheet</span>
+      <span class="muted">.xlsx or .csv</span>
+      <input type="file" name="wagesheet" accept=".xlsx,.xlsm,.csv" required>
+    </label>
+    <label class="drop">
+      <span class="drop-title">2. PF ECR</span>
+      <span class="muted">EPFO ECR, PDF</span>
+      <input type="file" name="pf_ecr" accept=".pdf" required>
+    </label>
+    <label class="drop">
+      <span class="drop-title">3. ESIC ECR</span>
+      <span class="muted">ESIC contribution history, PDF</span>
+      <input type="file" name="esic_ecr" accept=".pdf" required>
+    </label>
+
+    <label class="full">
+      <span>Label (optional)</span>
+      <input type="text" name="label" maxlength="80" placeholder="e.g. Sample Staffing - Aug 2025">
+    </label>
+
+    <div class="full actions">
+      <button type="submit" id="submit-btn">Start verification</button>
+      <span id="form-error" class="error" role="alert"></span>
+    </div>
+  </form>
+</section>
+
+<section class="card">
+  <h2>Recent verifications</h2>
+  <table class="table" id="jobs-table">
+    <thead><tr><th>Created</th><th>Label / files</th><th>Status</th><th>PF matched</th><th>ESIC matched</th><th></th></tr></thead>
+    <tbody><tr><td colspan="6" class="muted">Loading...</td></tr></tbody>
+  </table>
+</section>
+{% endblock %}
+
+{% block scripts %}<script src="/static/js/case_study_2/upload.js?v={{ asset_version }}"></script>{% endblock %}

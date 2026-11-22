@@ -1,0 +1,38 @@
+# One command: docker compose up --build   ->  http://localhost:8000
+services:
+  mongo:
+    image: mongo:7
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  app:
+    build: .
+    depends_on:
+      - mongo
+    ports:
+      - "8000:8000"
+    environment:
+      # Uses MONGO_URI from .env (e.g. MongoDB Atlas); falls back to the bundled mongo container
+      MONGO_URI: ${MONGO_URI:-mongodb://mongo:27017}
+      MONGO_DB_NAME: ${MONGO_DB_NAME:-prozo_compliance}
+      ALLOW_IN_MEMORY_DB: "false"
+      STORAGE_DIR: /app/storage
+      LLM_PROVIDER: ${LLM_PROVIDER:-none}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      GEMINI_MODEL: ${GEMINI_MODEL:-gemini-2.0-flash}
+      # Case Study 3 digest email (optional; without it digests go to storage/cs3_outbox)
+      SMTP_HOST: ${SMTP_HOST:-}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_USER: ${SMTP_USER:-}
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+      SMTP_FROM: ${SMTP_FROM:-}
+      CS3_DIGEST_TIME: ${CS3_DIGEST_TIME:-}
+    volumes:
+      - app_storage:/app/storage
+
+volumes:
+  mongo_data:
+  app_storage:

@@ -1,0 +1,1 @@
+1,500 employees (~70 PF pages); continuation pages do not repeat the table header.

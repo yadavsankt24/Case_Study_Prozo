@@ -1,0 +1,52 @@
+{% extends "shared/base.html" %}
+{% block title %}Case Study 3{% endblock %}
+
+{% block content %}
+<section class="card">
+  <div class="row-between">
+    <h1>Case Study 3: Daily FC P&amp;L monitor &amp; alert digest</h1>
+    <a class="button" href="/case-study-3/dashboard">Open central dashboard</a>
+  </div>
+  <p class="muted">Upload daily revenue and costs per fulfilment centre. Each FC-day gets its P&amp;L (CM1, CM2),
+    a colour, flags for costs outside their target range, a plain-English insight, and the FC manager gets a
+    colour-coded digest. Processing runs in the background.</p>
+
+  <form id="cs3-form" class="upload-grid" novalidate>
+    <label class="drop full">
+      <span class="drop-title">Daily P&amp;L file</span>
+      <span class="muted">.xlsx or .csv · columns: Date (or Day), FC (optional), Revenue, Manpower, Packaging,
+        Power &amp; Fuel, FC Rent, Equipment Rentals, Overheads</span>
+      <input type="file" name="data_file" accept=".xlsx,.xlsm,.csv" required>
+    </label>
+
+    <label>
+      <span class="field-title">FC name <span class="muted">(used when the file has no FC column)</span></span>
+      <input type="text" name="fc_name" value="FC-01" maxlength="40">
+    </label>
+    <label>
+      <span class="field-title">First date <span class="muted">(when the file has Day 1, 2, 3 …)</span></span>
+      <input type="date" name="start_date" value="2025-05-01">
+    </label>
+    <label class="inline-check">
+      <input type="checkbox" name="send_digests" value="true">
+      <span>Send each FC's digest to its manager when done</span>
+    </label>
+
+    <div class="full actions">
+      <button type="submit" id="cs3-submit">Analyse</button>
+      <span id="cs3-error" class="error" role="alert"></span>
+    </div>
+  </form>
+
+</section>
+
+<section class="card">
+  <h2>Recent analyses</h2>
+  <table class="table" id="cs3-runs">
+    <thead><tr><th>Created</th><th>File</th><th>Status</th><th>FCs</th><th>FC-days</th><th>Red / Yellow / Green / Blue</th><th></th></tr></thead>
+    <tbody><tr><td colspan="7" class="muted">Loading...</td></tr></tbody>
+  </table>
+</section>
+{% endblock %}
+
+{% block scripts %}<script src="/static/js/case_study_3/upload.js?v={{ asset_version }}"></script>{% endblock %}

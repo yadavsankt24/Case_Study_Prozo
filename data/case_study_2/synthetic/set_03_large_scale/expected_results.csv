@@ -1,0 +1,1501 @@
+row_number,name,uan,ip_number,expected_pf_status,expected_esic_status,pf_scenario,esic_scenario
+2,NEETU PRASAD BHARDWAJ,103300000000,2300000000,Matched,Amount mismatch,spelling_variant,short_deposit
+3,POOJA PRASAD,103300000001,2300000001,Matched,Amount mismatch,initial_in_ecr,short_deposit
+4,NEHA KHAN,103300000002,2300000002,Matched,Name mismatch,clean,surname_conflict
+5,HARISH ANSARI,103300000003,2300000003,Matched,Matched,clean,clean
+6,RAHUL NEGI,103300000004,2300000004,Amount mismatch,Matched,wagesheet_wrong,word_order
+7,PRADEEP GUPTA,103300000005,2300000005,Name mismatch,Matched,surname_conflict,clean
+8,RAHUL PANDEY,103300000006,2300000006,Matched,Matched,clean,rounding_within_1
+9,SUNITA TIWARI,103300000007,2300000007,Matched,Matched,spelling_variant,clean
+10,RAJEEV RAWAT,103300000008,2300000008,Matched,Matched,clean,title_in_ecr
+11,AMIT LAL QURESHI,103300000009,2300000009,Amount mismatch,Matched,wagesheet_wrong,clean
+12,ASHOK SRIVASTAVA,103300000010,2300000010,Matched,Matched,clean,clean
+13,SEEMA RAWAT,103300000011,2300000011,Matched,Matched,clean,spelling_variant
+14,AJAY SINGH MEENA,103300000012,2300000012,Matched,Matched,clean,clean
+15,ASHA SHARMA,103300000013,2300000013,Matched,Matched,clean,clean
+16,Rahul Bhardwaj,103300000014,2300000014,Matched,Matched,clean,initial_in_ecr
+17,SAROJ VERMA,103300000015,2300000015,Amount mismatch,Matched,short_deposit,clean
+18,Ashok Pandey,103300000016,2300000016,Matched,Matched,clean,clean
+19,REENA SHARMA,103300000017,2300000017,Name mismatch,Matched,first_name_conflict,rounding_within_1
+20,ANIL CHAND CHAUDHARY,103300000018,2300000018,Matched,Amount mismatch,clean,short_deposit
+21,SURESH RAWAT,103300000019,2300000019,Matched,Matched,clean,clean
+22,PRIYA KUSHWAHA,103300000020,2300000020,Matched,Matched,clean,clean
+23,LAXMI MOHAN MAURYA,103300000021,2300000021,Matched,Matched,clean,spelling_variant
+24,SHWETA LAL KUMAR,103300000022,2300000022,Matched,Matched,clean,spelling_variant
+25,AMIT KUMAR DUBEY,103300000023,2300000023,Matched,Matched,word_order,clean
+26,IMRAN IRFAN CHAND JAIN,103300000024,2300000024,Matched,Matched,clean,word_order
+27,SUNIL DUBEY,103300000025,2300000025,Amount mismatch,Amount mismatch,short_deposit,short_deposit
+28,NEHA KUMARI GUPTA,103300000026,2300000026,Matched,Matched,clean,clean
+29,DINESH BHARDWAJ,103300000027,2300000027,Matched,Matched,clean,clean
+30,PRADEEP CHAUHAN,103300000028,2300000028,Matched,Matched,clean,clean
+31,ROHIT KUSHWAHA,103300000029,2300000029,Matched,Matched,clean,clean
+32,SUNITA SINGH,103300000030,2300000030,Matched,Matched,clean,clean
+33,SUNITA SINGH TIWARI,103300000031,2300000031,Missing,Matched,missing_in_ecr,spelling_variant
+34,LAXMI PRAKASH SHARMA,103300000032,2300000032,Matched,Matched,title_in_ecr,clean
+35,IMRAN MISHRA,103300000033,2300000033,Matched,Matched,spelling_variant,clean
+36,PRAKASH DUBEY,103300000034,2300000034,Matched,Matched,clean,word_order
+37,REENA CHAND MEENA,103300000035,2300000035,Matched,Matched,clean,clean
+38,RAJEEV KUMAR,103300000036,2300000036,Missing,Matched,missing_in_ecr,clean
+39,VIKAS VERMA,103300000037,2300000037,Matched,Matched,clean,clean
+40,ANIL MEENA,103300000038,2300000038,Matched,Amount mismatch,clean,short_deposit
+41,AJAY KUMAR,103300000039,2300000039,Name mismatch,Matched,surname_conflict,clean
+42,PRADEEP MEENA,103300000040,2300000040,Name mismatch,Matched,first_name_conflict,clean
+43,SHWETA MEENA,103300000041,2300000041,Matched,Matched,word_order,clean
+44,GURPREET RAWAT,103300000042,2300000042,Matched,Name mismatch,initial_in_ecr,first_name_conflict
+45,ARVIND YADAV,103300000043,2300000043,Matched,Matched,clean,clean
+46,VINOD BHARDWAJ,103300000044,2300000044,Matched,Matched,clean,clean
+47,KOMAL RANI SINGH,103300000045,2300000045,Matched,Matched,clean,clean
+48,JYOTI YADAV,103300000046,2300000046,Amount mismatch,Name mismatch,short_deposit,first_name_conflict
+49,SALMAN LAL QURESHI,103300000047,2300000047,Matched,Matched,clean,clean
+50,ARVIND THAKUR,103300000048,2300000048,Matched,Matched,spelling_variant,clean
+51,PRADEEP NEGI,103300000049,2300000049,Matched,Matched,clean,clean
+52,YOGESH SINGH THAKUR,103300000050,2300000050,Matched,Matched,word_order,clean
+53,YOGESH KUMAR,103300000051,2300000051,Name mismatch,Matched,surname_conflict,word_order
+54,SANJAY SRIVASTAVA,103300000052,2300000052,Matched,Matched,clean,clean
+55,KAVITA KUMAR JAIN,103300000053,2300000053,Name mismatch,Matched,first_name_conflict,clean
+56,ASHOK BISHT,103300000054,2300000054,Matched,Matched,extra_name_part,clean
+57,SANJAY THAKUR,103300000055,2300000055,Missing,Matched,missing_in_ecr,title_in_ecr
+58,ARVIND DEVI VERMA,103300000056,2300000056,Matched,Matched,clean,clean
+59,Rahul Jain,103300000057,2300000057,Matched,Missing,clean,missing_in_ecr
+60,MOHAMMAD VERMA,103300000058,2300000058,Matched,Amount mismatch,clean,wagesheet_wrong
+61,VINOD NEGI,103300000059,2300000059,Matched,Matched,clean,word_order
+62,VIJAY SAINI,103300000060,2300000060,Matched,Matched,clean,clean
+63,MANOJ SINGH,103300000061,2300000061,Matched,Matched,clean,word_order
+64,MOHAMMAD THAKUR,103300000062,2300000062,Matched,Matched,word_order,clean
+65,ANIL GUPTA,103300000063,2300000063,Matched,Amount mismatch,clean,short_deposit
+66,MANOJ NEGI,103300000064,2300000064,Amount mismatch,Missing,short_deposit,blank_id
+67,ANITA DUBEY,103300000065,2300000065,Matched,Matched,extra_name_part,spelling_variant
+68,Neha Kushwaha,103300000066,2300000066,Matched,Matched,clean,clean
+69,ROHIT PASWAN,103300000067,2300000067,Amount mismatch,Matched,short_deposit,clean
+70,REENA PRASAD,103300000068,2300000068,Amount mismatch,Matched,wagesheet_wrong,clean
+71,ASHA YADAV,103300000069,2300000069,Matched,Matched,clean,clean
+72,REENA RANI TIWARI,103300000070,2300000070,Amount mismatch,Amount mismatch,short_deposit,short_deposit
+73,RAMESH MAURYA,103300000071,2300000071,Matched,Amount mismatch,clean,short_deposit
+74,NAVEEN QURESHI,103300000072,2300000072,Matched,Matched,clean,spelling_variant
+75,VIJAY SINGH,103300000073,2300000073,Matched,Matched,clean,clean
+76,PRADEEP CHAUHAN,103300000074,2300000074,Matched,Matched,word_order,clean
+77,Arvind Bisht,103300000075,2300000075,Amount mismatch,Amount mismatch,wagesheet_wrong,wagesheet_wrong
+78,SANJEEV CHAUHAN,103300000076,2300000076,Matched,Matched,clean,spelling_variant
+79,SUNIL PRASAD TIWARI,103300000077,2300000077,Matched,Matched,extra_name_part,clean
+80,AMIT RAWAT,103300000078,2300000078,Matched,Matched,spelling_variant,clean
+81,REKHA PRASAD BHARDWAJ,103300000079,2300000079,Matched,Matched,word_order,clean
+82,SONIA YADAV,103300000080,2300000080,Amount mismatch,Matched,wagesheet_wrong,spelling_variant
+83,JYOTI VERMA,103300000081,2300000081,Matched,Name mismatch,clean,first_name_conflict
+84,GEETA SHARMA,103300000082,2300000082,Matched,Matched,clean,spelling_variant
+85,SANJAY MEENA,103300000083,2300000083,Matched,Matched,clean,clean
+86,RAJEEV MEENA,103300000084,2300000084,Matched,Missing,clean,missing_in_ecr
+87,YOGESH SHARMA,103300000085,2300000085,Matched,Matched,clean,word_order
+88,Vinod Kushwaha,103300000086,2300000086,Missing,Matched,missing_in_ecr,rounding_within_1
+89,JYOTI CHAUDHARY,103300000087,2300000087,Matched,Matched,clean,clean
+90,SONIA PANDEY,103300000088,2300000088,Matched,Matched,word_order,clean
+91,Kavita Verma,103300000089,2300000089,Matched,Matched,clean,clean
+92,ROHIT CHAUHAN,103300000090,2300000090,Matched,Amount mismatch,spelling_variant,short_deposit
+93,YOGESH KUSHWAHA,103300000091,2300000091,Matched,Matched,clean,clean
+94,YOGESH MEENA,103300000092,2300000092,Matched,Matched,title_in_ecr,clean
+95,SUNITA GUPTA,103300000093,2300000093,Missing,Matched,missing_in_ecr,spelling_variant
+96,PRIYA PANDEY,103300000094,2300000094,Matched,Matched,clean,clean
+97,NISHA PRASAD,103300000095,2300000095,Matched,Matched,word_order,clean
+98,GURPREET QURESHI,103300000096,2300000096,Matched,Matched,spelling_variant,clean
+99,Naveen Bhardwaj,103300000097,2300000097,Matched,Matched,clean,spelling_variant
+100,RAKESH DUBEY,103300000098,2300000098,Amount mismatch,Matched,short_deposit,clean
+101,IMRAN KUSHWAHA,103300000099,2300000099,Name mismatch,Matched,first_name_conflict,clean
+102,GEETA SINGH CHAUHAN,103300000100,2300000100,Matched,Matched,clean,initial_in_ecr
+103,PREETI CHAUDHARY,103300000101,2300000101,Missing,Matched,blank_id,clean
+104,ANIL PRAKASH SINGH MAURYA,103300000102,2300000102,Matched,Matched,clean,spelling_variant
+105,VINOD PRASAD QURESHI,103300000103,2300000103,Matched,Matched,spelling_variant,clean
+106,Anil Singh Maurya,103300000104,2300000104,Matched,Matched,clean,rounding_within_1
+107,LAXMI KHAN,103300000105,2300000105,Name mismatch,Matched,first_name_conflict,clean
+108,SURESH SINGH,103300000106,2300000106,Matched,Matched,clean,spelling_variant
+109,GURPREET DUBEY,103300000107,2300000107,Matched,Matched,title_in_ecr,spelling_variant
+110,SONIA PRASAD,103300000108,2300000108,Matched,Matched,clean,clean
+111,HARISH QURESHI,103300000109,2300000109,Matched,Missing,clean,blank_id
+112,NEHA MAURYA,103300000110,2300000110,Matched,Matched,clean,clean
+113,IMRAN PANDEY,103300000111,2300000111,Missing,Matched,missing_in_ecr,clean
+114,PREETI KUMARI SHARMA,103300000112,2300000112,Matched,Matched,rounding_within_1,word_order
+115,SEEMA LAL NEGI,103300000113,2300000113,Amount mismatch,Matched,short_deposit,spelling_variant
+116,VEENA SAINI,103300000114,2300000114,Matched,Name mismatch,word_order,first_name_conflict
+117,RAMESH SRIVASTAVA,103300000115,2300000115,Matched,Matched,extra_name_part,clean
+118,AMIT MEENA,103300000116,2300000116,Matched,Matched,word_order,clean
+119,VIJAY YADAV,103300000117,2300000117,Matched,Matched,clean,clean
+120,RAKESH SAINI,103300000118,2300000118,Matched,Matched,spelling_variant,extra_name_part
+121,SANJEEV RANI KUSHWAHA,103300000119,2300000119,Matched,Amount mismatch,clean,short_deposit
+122,REENA SINGH MAURYA,103300000120,2300000120,Matched,Matched,spelling_variant,clean
+123,MOHAMMAD PASWAN,103300000121,2300000121,Missing,Matched,missing_in_ecr,clean
+124,ROHIT PRASAD,103300000122,2300000122,Matched,Matched,clean,clean
+125,KAVITA ANSARI,103300000123,2300000123,Matched,Missing,clean,missing_in_ecr
+126,Asha Bhardwaj,103300000124,2300000124,Matched,Name mismatch,clean,surname_conflict
+127,ASHOK KUSHWAHA,103300000125,2300000125,Matched,Missing,clean,missing_in_ecr
+128,MAHESH MISHRA,103300000126,2300000126,Matched,Matched,word_order,clean
+129,VIJAY PASWAN,103300000127,2300000127,Missing,Matched,missing_in_ecr,clean
+130,PREETI BISHT,103300000128,2300000128,Matched,Matched,spelling_variant,clean
+131,ANITA MISHRA,103300000129,2300000129,Matched,Matched,spelling_variant,clean
+132,YOGESH RANI PANDEY,103300000130,2300000130,Amount mismatch,Matched,short_deposit,clean
+133,ANIL CHAND DUBEY,103300000131,2300000131,Matched,Matched,clean,spelling_variant
+134,ANITA LAL SRIVASTAVA,103300000132,2300000132,Matched,Matched,clean,clean
+135,SUNIL BHARDWAJ,103300000133,2300000133,Matched,Matched,clean,extra_name_part
+136,PRAKASH CHAUHAN,103300000134,2300000134,Matched,Matched,clean,clean
+137,YOGESH PRASAD,103300000135,2300000135,Name mismatch,Matched,surname_conflict,clean
+138,RAMESH NEGI,103300000136,2300000136,Amount mismatch,Matched,short_deposit,clean
+139,AJAY BHARDWAJ,103300000137,2300000137,Matched,Missing,word_order,missing_in_ecr
+140,PANKAJ KUSHWAHA,103300000138,2300000138,Matched,Name mismatch,spelling_variant,surname_conflict
+141,SATISH CHAND ANSARI,103300000139,2300000139,Matched,Name mismatch,clean,name_and_amount
+142,SUNIL MEENA,103300000140,2300000140,Matched,Missing,spelling_variant,missing_in_ecr
+143,ARVIND THAKUR,103300000141,2300000141,Matched,Matched,clean,clean
+144,ASHOK SRIVASTAVA,103300000142,2300000142,Matched,Missing,clean,missing_in_ecr
+145,MANOJ MAURYA,103300000143,2300000143,Matched,Matched,clean,extra_name_part
+146,LAXMI CHAUHAN,103300000144,2300000144,Matched,Matched,clean,rounding_within_1
+147,DINESH DUBEY,103300000145,2300000145,Name mismatch,Matched,first_name_conflict,spelling_variant
+148,POOJA BHARDWAJ,103300000146,2300000146,Missing,Matched,missing_in_ecr,initial_in_ecr
+149,SUNITA NEGI,103300000147,2300000147,Matched,Amount mismatch,clean,wagesheet_wrong
+150,DEEPAK CHAUDHARY,103300000148,2300000148,Matched,Name mismatch,clean,surname_conflict
+151,DEEPAK KUSHWAHA,103300000149,2300000149,Matched,Matched,clean,title_in_ecr
+152,LAXMI QURESHI,103300000150,2300000150,Matched,Name mismatch,initial_in_ecr,first_name_conflict
+153,Satish Tiwari,103300000151,2300000151,Matched,Matched,spelling_variant,clean
+154,PREETI PRASAD,103300000152,2300000152,Matched,Matched,clean,clean
+155,VIJAY TIWARI,103300000153,2300000153,Matched,Amount mismatch,clean,short_deposit
+156,PRIYA KUSHWAHA,103300000154,2300000154,Name mismatch,Matched,first_name_conflict,word_order
+157,REKHA BISHT,103300000155,2300000155,Matched,Matched,clean,clean
+158,ANIL THAKUR,103300000156,2300000156,Matched,Matched,spelling_variant,clean
+159,ANIL PANDEY,103300000157,2300000157,Matched,Matched,clean,title_in_ecr
+160,RAHUL MAURYA,103300000158,2300000158,Amount mismatch,Matched,short_deposit,extra_name_part
+161,JYOTI KUMAR CHAUDHARY,103300000159,2300000159,Name mismatch,Matched,surname_conflict,clean
+162,ASHA RAWAT,103300000160,2300000160,Amount mismatch,Name mismatch,short_deposit,first_name_conflict
+163,SANJEEV THAKUR,103300000161,2300000161,Matched,Matched,clean,word_order
+164,RAKESH SHARMA,103300000162,2300000162,Matched,Matched,clean,clean
+165,PRAKASH CHAUDHARY,103300000163,2300000163,Amount mismatch,Matched,short_deposit,clean
+166,Komal Ansari,103300000164,2300000164,Missing,Matched,missing_in_ecr,word_order
+167,HARISH NEGI,103300000165,2300000165,Matched,Matched,clean,spelling_variant
+168,ASHOK SAINI,103300000166,2300000166,Missing,Name mismatch,missing_in_ecr,first_name_conflict
+169,ROHIT KUMARI MEENA,103300000167,2300000167,Matched,Matched,clean,clean
+170,Saroj Lal Prasad,103300000168,2300000168,Matched,Missing,clean,missing_in_ecr
+171,IMRAN NEGI,103300000169,2300000169,Missing,Matched,missing_in_ecr,rounding_within_1
+172,Yogesh Negi,103300000170,2300000170,Matched,Matched,clean,clean
+173,NISHA MAURYA,103300000171,2300000171,Matched,Matched,spelling_variant,clean
+174,ANITA PANDEY,103300000172,2300000172,Amount mismatch,Matched,short_deposit,clean
+175,ROHIT BISHT,103300000173,2300000173,Matched,Matched,clean,spelling_variant
+176,SHWETA ANSARI,103300000174,2300000174,Matched,Matched,clean,title_in_ecr
+177,RAJEEV MOHAN PASWAN,103300000175,2300000175,Matched,Matched,spelling_variant,clean
+178,SUNITA RAWAT,103300000176,2300000176,Matched,Matched,clean,clean
+179,SAROJ TIWARI,103300000177,2300000177,Matched,Matched,clean,clean
+180,YOGESH GUPTA,103300000178,2300000178,Matched,Matched,clean,word_order
+181,ANITA SAINI,103300000179,2300000179,Matched,Matched,clean,clean
+182,PANKAJ DUBEY,103300000180,2300000180,Matched,Matched,clean,clean
+183,KAVITA MISHRA,103300000181,2300000181,Matched,Name mismatch,clean,surname_conflict
+184,SUNITA JAIN,103300000182,2300000182,Matched,Name mismatch,spelling_variant,surname_conflict
+185,SANJEEV PASWAN,103300000183,2300000183,Matched,Matched,clean,clean
+186,ANITA BHARDWAJ,103300000184,2300000184,Matched,Matched,spelling_variant,clean
+187,RAMESH CHANDRA ANSARI,103300000185,2300000185,Matched,Matched,title_in_ecr,clean
+188,PRIYA RAWAT,103300000186,2300000186,Matched,Matched,spelling_variant,clean
+189,PRAKASH GUPTA,103300000187,2300000187,Matched,Matched,clean,clean
+190,SUNITA KHAN,103300000188,2300000188,Matched,Matched,clean,clean
+191,DEEPAK CHAUHAN,103300000189,2300000189,Matched,Matched,clean,extra_name_part
+192,RAMESH DEVI SAINI,103300000190,2300000190,Matched,Matched,rounding_within_1,clean
+193,AMIT KUMAR,103300000191,2300000191,Matched,Matched,title_in_ecr,clean
+194,SAROJ LAL SHARMA,103300000192,2300000192,Matched,Matched,clean,title_in_ecr
+195,KAVITA SRIVASTAVA,103300000193,2300000193,Matched,Matched,clean,extra_name_part
+196,SALMAN SRIVASTAVA,103300000194,2300000194,Matched,Matched,clean,clean
+197,Sunil Singh,103300000195,2300000195,Matched,Missing,clean,missing_in_ecr
+198,SANJAY PRAKASH PANDEY,103300000196,2300000196,Matched,Matched,rounding_within_1,title_in_ecr
+199,SEEMA NEGI,103300000197,2300000197,Matched,Matched,spelling_variant,clean
+200,DINESH KHAN,103300000198,2300000198,Matched,Matched,clean,clean
+201,SEEMA CHAND JAIN,103300000199,2300000199,Matched,Matched,clean,word_order
+202,PRIYA SHARMA,103300000200,2300000200,Matched,Amount mismatch,clean,short_deposit
+203,PRAKASH TIWARI,103300000201,2300000201,Matched,Matched,clean,word_order
+204,PRADEEP PRASAD,103300000202,2300000202,Matched,Name mismatch,clean,first_name_conflict
+205,PRIYA PRASAD,103300000203,2300000203,Amount mismatch,Matched,short_deposit,spelling_variant
+206,SATISH KUMAR QURESHI,103300000204,2300000204,Matched,Matched,clean,clean
+207,DINESH GUPTA,103300000205,2300000205,Matched,Matched,clean,clean
+208,VINOD CHAND YADAV,103300000206,2300000206,Matched,Matched,clean,clean
+209,MAMTA YADAV,103300000207,2300000207,Name mismatch,Matched,first_name_conflict,clean
+210,SAROJ KUSHWAHA,103300000208,2300000208,Matched,Matched,clean,clean
+211,NEHA THAKUR,103300000209,2300000209,Matched,Matched,clean,spelling_variant
+212,VIKAS PRASAD,103300000210,2300000210,Name mismatch,Matched,first_name_conflict,clean
+213,NEHA JAIN,103300000211,2300000211,Matched,Matched,clean,clean
+214,VEENA BHARDWAJ,103300000212,2300000212,Matched,Matched,word_order,clean
+215,SONIA MEENA,103300000213,2300000213,Matched,Matched,clean,spelling_variant
+216,ROHIT PRAKASH MAURYA,103300000214,2300000214,Matched,Matched,clean,clean
+217,ASHOK VERMA,103300000215,2300000215,Amount mismatch,Matched,wagesheet_wrong,clean
+218,SHWETA MAURYA,103300000216,2300000216,Matched,Matched,clean,clean
+219,JYOTI NEGI,103300000217,2300000217,Matched,Matched,clean,title_in_ecr
+220,Satish Thakur,103300000218,2300000218,Matched,Matched,clean,clean
+221,SEEMA SINGH THAKUR,103300000219,2300000219,Matched,Matched,extra_name_part,clean
+222,SUNITA BHARDWAJ,103300000220,2300000220,Matched,Matched,word_order,clean
+223,REKHA DUBEY,103300000221,2300000221,Matched,Matched,clean,word_order
+224,RAKESH SRIVASTAVA,103300000222,2300000222,Matched,Missing,clean,blank_id
+225,ANITA SHARMA,103300000223,2300000223,Matched,Matched,word_order,clean
+226,MAMTA VERMA,103300000224,2300000224,Matched,Name mismatch,clean,first_name_conflict
+227,HARISH QURESHI,103300000225,2300000225,Matched,Matched,clean,clean
+228,MAHESH BISHT,103300000226,2300000226,Matched,Matched,clean,rounding_within_1
+229,Rohit Singh Kumar,103300000227,2300000227,Matched,Matched,clean,spelling_variant
+230,YOGESH ANSARI,103300000228,2300000228,Matched,Missing,clean,missing_in_ecr
+231,PANKAJ SINGH DUBEY,103300000229,2300000229,Matched,Matched,clean,clean
+232,KAVITA BHARDWAJ,103300000230,2300000230,Matched,Name mismatch,clean,first_name_conflict
+233,ARVIND DEVI PRASAD,103300000231,2300000231,Matched,Amount mismatch,clean,short_deposit
+234,LAXMI RANI CHAUHAN,103300000232,2300000232,Amount mismatch,Missing,short_deposit,blank_id
+235,LAXMI CHANDRA YADAV,103300000233,2300000233,Matched,Name mismatch,clean,name_and_amount
+236,RAMESH DEVI MEENA,103300000234,2300000234,Matched,Name mismatch,clean,surname_conflict
+237,SUNITA KUMARI SRIVASTAVA,103300000235,2300000235,Matched,Matched,title_in_ecr,clean
+238,RAMESH GUPTA,103300000236,2300000236,Matched,Matched,spelling_variant,clean
+239,AJAY KUMAR,103300000237,2300000237,Matched,Matched,clean,spelling_variant
+240,ROHIT NEGI,103300000238,2300000238,Amount mismatch,Matched,short_deposit,clean
+241,AJAY RANI MEENA,103300000239,2300000239,Matched,Missing,clean,blank_id
+242,Vijay Yadav,103300000240,2300000240,Amount mismatch,Matched,short_deposit,rounding_within_1
+243,MANOJ CHAUHAN,103300000241,2300000241,Matched,Matched,clean,clean
+244,RAHUL SRIVASTAVA,103300000242,2300000242,Matched,Matched,spelling_variant,clean
+245,RAHUL QURESHI,103300000243,2300000243,Matched,Matched,clean,clean
+246,SALMAN KHAN,103300000244,2300000244,Matched,Matched,rounding_within_1,clean
+247,GURPREET KUMAR THAKUR,103300000245,2300000245,Matched,Matched,clean,rounding_within_1
+248,ROHIT YADAV,103300000246,2300000246,Matched,Matched,word_order,title_in_ecr
+249,SALMAN BISHT,103300000247,2300000247,Matched,Matched,clean,spelling_variant
+250,PREETI KUMARI CHAUHAN,103300000248,2300000248,Matched,Matched,clean,clean
+251,ANITA JAIN,103300000249,2300000249,Matched,Matched,extra_name_part,spelling_variant
+252,SUNITA MEENA,103300000250,2300000250,Amount mismatch,Matched,wagesheet_wrong,clean
+253,VIJAY CHAUHAN,103300000251,2300000251,Matched,Matched,word_order,title_in_ecr
+254,VINOD SRIVASTAVA,103300000252,2300000252,Matched,Matched,extra_name_part,clean
+255,SUNITA ANSARI,103300000253,2300000253,Matched,Matched,clean,clean
+256,Ajay Khan,103300000254,2300000254,Amount mismatch,Missing,short_deposit,missing_in_ecr
+257,ANIL BHARDWAJ,103300000255,2300000255,Matched,Matched,clean,clean
+258,MAHESH VERMA,103300000256,2300000256,Matched,Matched,clean,clean
+259,VIKAS VERMA,103300000257,2300000257,Matched,Matched,clean,clean
+260,SURESH QURESHI,103300000258,2300000258,Matched,Name mismatch,spelling_variant,first_name_conflict
+261,VEENA JAIN,103300000259,2300000259,Matched,Matched,title_in_ecr,clean
+262,ASHOK IRFAN RAWAT,103300000260,2300000260,Matched,Matched,clean,clean
+263,REENA IRFAN KHAN,103300000261,2300000261,Matched,Matched,spelling_variant,spelling_variant
+264,SANJEEV SHARMA,103300000262,2300000262,Matched,Matched,word_order,initial_in_ecr
+265,SUNIL RANI GUPTA,103300000263,2300000263,Matched,Missing,title_in_ecr,blank_id
+266,SONIA GUPTA,103300000264,2300000264,Matched,Matched,clean,clean
+267,REKHA TIWARI,103300000265,2300000265,Amount mismatch,Matched,short_deposit,clean
+268,NISHA VERMA,103300000266,2300000266,Matched,Matched,clean,clean
+269,ARVIND SRIVASTAVA,103300000267,2300000267,Matched,Matched,extra_name_part,clean
+270,MAHESH DUBEY,103300000268,2300000268,Matched,Matched,clean,rounding_within_1
+271,SONIA DEVI BISHT,103300000269,2300000269,Matched,Matched,clean,clean
+272,RAJEEV TIWARI,103300000270,2300000270,Matched,Matched,extra_name_part,clean
+273,RAKESH CHAUDHARY,103300000271,2300000271,Missing,Matched,missing_in_ecr,clean
+274,Reena Khan,103300000272,2300000272,Matched,Matched,clean,extra_name_part
+275,LAXMI MEENA,103300000273,2300000273,Amount mismatch,Matched,short_deposit,clean
+276,SUNIL GUPTA,103300000274,2300000274,Matched,Matched,clean,clean
+277,JYOTI SAINI,103300000275,2300000275,Matched,Matched,title_in_ecr,clean
+278,VINOD CHAUDHARY,103300000276,2300000276,Matched,Matched,clean,title_in_ecr
+279,DINESH KHAN,103300000277,2300000277,Matched,Missing,clean,missing_in_ecr
+280,HARISH CHAND NEGI,103300000278,2300000278,Missing,Matched,missing_in_ecr,spelling_variant
+281,MOHAMMAD KUMAR,103300000279,2300000279,Matched,Matched,clean,word_order
+282,ARVIND CHAND BISHT,103300000280,2300000280,Matched,Matched,spelling_variant,clean
+283,SHWETA SINGH,103300000281,2300000281,Matched,Matched,rounding_within_1,clean
+284,SANJEEV SAINI,103300000282,2300000282,Matched,Matched,clean,rounding_within_1
+285,SHWETA SINGH,103300000283,2300000283,Matched,Matched,clean,clean
+286,JYOTI SRIVASTAVA,103300000284,2300000284,Matched,Matched,clean,clean
+287,MAMTA BISHT,103300000285,2300000285,Matched,Matched,clean,clean
+288,SATISH PRASAD BHARDWAJ,103300000286,2300000286,Amount mismatch,Matched,short_deposit,clean
+289,PRIYA CHAND THAKUR,103300000287,2300000287,Missing,Amount mismatch,missing_in_ecr,short_deposit
+290,SEEMA PASWAN,103300000288,2300000288,Missing,Missing,missing_in_ecr,missing_in_ecr
+291,HARISH BISHT,103300000289,2300000289,Matched,Matched,title_in_ecr,extra_name_part
+292,GEETA CHAUHAN,103300000290,2300000290,Name mismatch,Matched,first_name_conflict,rounding_within_1
+293,ARVIND NEGI,103300000291,2300000291,Matched,Matched,clean,extra_name_part
+294,ASHA KUSHWAHA,103300000292,2300000292,Matched,Amount mismatch,clean,wagesheet_wrong
+295,Vikas Kumar,103300000293,2300000293,Matched,Matched,clean,word_order
+296,AJAY RAWAT,103300000294,2300000294,Amount mismatch,Name mismatch,short_deposit,name_and_amount
+297,AMIT KUMAR,103300000295,2300000295,Matched,Matched,clean,title_in_ecr
+298,RAKESH KUSHWAHA,103300000296,2300000296,Matched,Matched,extra_name_part,clean
+299,GURPREET THAKUR,103300000297,2300000297,Matched,Matched,clean,clean
+300,Deepak Rawat,103300000298,2300000298,Matched,Matched,clean,clean
+301,NAVEEN RAWAT,103300000299,2300000299,Missing,Matched,missing_in_ecr,clean
+302,PRAKASH MEENA,103300000300,2300000300,Missing,Name mismatch,blank_id,first_name_conflict
+303,IMRAN PRASAD,103300000301,2300000301,Name mismatch,Matched,name_and_amount,title_in_ecr
+304,SALMAN KHAN,103300000302,2300000302,Matched,Matched,clean,clean
+305,HARISH KUMAR,103300000303,2300000303,Matched,Matched,clean,clean
+306,POOJA PASWAN,103300000304,2300000304,Matched,Matched,clean,clean
+307,PRAKASH PANDEY,103300000305,2300000305,Matched,Amount mismatch,clean,short_deposit
+308,ANIL KUMAR,103300000306,2300000306,Name mismatch,Matched,first_name_conflict,clean
+309,SAROJ JAIN,103300000307,2300000307,Name mismatch,Matched,surname_conflict,clean
+310,SALMAN NEGI,103300000308,2300000308,Matched,Matched,clean,clean
+311,GEETA KUMARI SHARMA,103300000309,2300000309,Matched,Matched,clean,clean
+312,NISHA GUPTA,103300000310,2300000310,Matched,Matched,clean,clean
+313,VEENA SHARMA,103300000311,2300000311,Matched,Amount mismatch,clean,short_deposit
+314,RAMESH MAURYA,103300000312,2300000312,Matched,Matched,spelling_variant,clean
+315,SATISH PRASAD CHAUHAN,103300000313,2300000313,Matched,Matched,clean,clean
+316,DEEPAK KUMAR,103300000314,2300000314,Missing,Matched,blank_id,clean
+317,RAKESH ANSARI,103300000315,2300000315,Matched,Matched,clean,rounding_within_1
+318,SANJAY KUSHWAHA,103300000316,2300000316,Matched,Matched,clean,spelling_variant
+319,SURESH NEGI,103300000317,2300000317,Matched,Matched,clean,word_order
+320,SONIA NEGI,103300000318,2300000318,Matched,Amount mismatch,clean,short_deposit
+321,HARISH VERMA,103300000319,2300000319,Matched,Matched,word_order,clean
+322,VEENA KHAN,103300000320,2300000320,Matched,Matched,spelling_variant,clean
+323,SURESH NEGI,103300000321,2300000321,Matched,Matched,clean,clean
+324,IMRAN TIWARI,103300000322,2300000322,Matched,Matched,spelling_variant,initial_in_ecr
+325,MAMTA SHARMA,103300000323,2300000323,Matched,Matched,clean,spelling_variant
+326,VEENA DUBEY,103300000324,2300000324,Matched,Matched,clean,clean
+327,MAHESH VERMA,103300000325,2300000325,Amount mismatch,Matched,wagesheet_wrong,clean
+328,SUNITA PRASAD,103300000326,2300000326,Matched,Matched,word_order,clean
+329,SEEMA JAIN,103300000327,2300000327,Matched,Matched,clean,rounding_within_1
+330,DEEPAK YADAV,103300000328,2300000328,Matched,Matched,clean,clean
+331,Vijay Paswan,103300000329,2300000329,Matched,Matched,clean,clean
+332,MAHESH CHAND TIWARI,103300000330,2300000330,Matched,Matched,clean,clean
+333,Amit Kumar,103300000331,2300000331,Amount mismatch,Matched,short_deposit,word_order
+334,Neha Meena,103300000332,2300000332,Matched,Matched,clean,clean
+335,PANKAJ LAL GUPTA,103300000333,2300000333,Matched,Amount mismatch,clean,wagesheet_wrong
+336,SUNITA SRIVASTAVA,103300000334,2300000334,Matched,Amount mismatch,clean,short_deposit
+337,PREETI SRIVASTAVA,103300000335,2300000335,Matched,Missing,clean,missing_in_ecr
+338,SAROJ SINGH SRIVASTAVA,103300000336,2300000336,Matched,Matched,clean,title_in_ecr
+339,PRADEEP SAINI,103300000337,2300000337,Matched,Name mismatch,word_order,surname_conflict
+340,SONIA CHAUDHARY,103300000338,2300000338,Name mismatch,Amount mismatch,first_name_conflict,short_deposit
+341,NEHA QURESHI,103300000339,2300000339,Matched,Matched,clean,clean
+342,VEENA BISHT,103300000340,2300000340,Matched,Matched,clean,clean
+343,RAHUL SINGH PASWAN,103300000341,2300000341,Matched,Matched,clean,clean
+344,MAHESH SRIVASTAVA,103300000342,2300000342,Amount mismatch,Matched,short_deposit,clean
+345,AJAY CHAUHAN,103300000343,2300000343,Matched,Matched,clean,rounding_within_1
+346,AMIT KUSHWAHA,103300000344,2300000344,Matched,Matched,clean,clean
+347,PRADEEP PASWAN,103300000345,2300000345,Matched,Matched,rounding_within_1,word_order
+348,GEETA BHARDWAJ,103300000346,2300000346,Matched,Matched,rounding_within_1,clean
+349,RAHUL BISHT,103300000347,2300000347,Name mismatch,Matched,first_name_conflict,clean
+350,REKHA SINGH,103300000348,2300000348,Matched,Matched,spelling_variant,clean
+351,SANJAY KUMAR CHAUDHARY,103300000349,2300000349,Matched,Name mismatch,clean,surname_conflict
+352,PANKAJ KUMAR BISHT,103300000350,2300000350,Matched,Matched,clean,clean
+353,VIKAS RAWAT,103300000351,2300000351,Matched,Matched,spelling_variant,clean
+354,SAROJ SRIVASTAVA,103300000352,2300000352,Matched,Matched,clean,extra_name_part
+355,GEETA PASWAN,103300000353,2300000353,Matched,Matched,clean,clean
+356,PANKAJ KUMAR,103300000354,2300000354,Matched,Matched,rounding_within_1,clean
+357,DINESH PASWAN,103300000355,2300000355,Matched,Matched,clean,spelling_variant
+358,GEETA KUMAR,103300000356,2300000356,Matched,Matched,clean,word_order
+359,SONIA KHAN,103300000357,2300000357,Matched,Matched,clean,clean
+360,RAKESH RANI NEGI,103300000358,2300000358,Matched,Matched,clean,clean
+361,JYOTI SINGH TIWARI,103300000359,2300000359,Name mismatch,Matched,first_name_conflict,clean
+362,VEENA RANI CHAUHAN,103300000360,2300000360,Matched,Matched,clean,clean
+363,PRAKASH MEENA,103300000361,2300000361,Matched,Matched,clean,rounding_within_1
+364,KOMAL SRIVASTAVA,103300000362,2300000362,Matched,Matched,clean,clean
+365,SALMAN KHAN,103300000363,2300000363,Missing,Matched,blank_id,clean
+366,ANITA LAL QURESHI,103300000364,2300000364,Matched,Matched,rounding_within_1,clean
+367,Neha Pandey,103300000365,2300000365,Matched,Matched,clean,clean
+368,RAHUL MISHRA,103300000366,2300000366,Matched,Matched,word_order,clean
+369,SANJEEV KUMARI THAKUR,103300000367,2300000367,Matched,Matched,clean,clean
+370,NEHA VERMA,103300000368,2300000368,Matched,Matched,word_order,clean
+371,REENA PASWAN,103300000369,2300000369,Matched,Matched,rounding_within_1,clean
+372,SAROJ NEGI,103300000370,2300000370,Matched,Matched,clean,clean
+373,Vikas Bhardwaj,103300000371,2300000371,Matched,Matched,spelling_variant,clean
+374,VIJAY KUSHWAHA,103300000372,2300000372,Matched,Matched,clean,clean
+375,NEHA YADAV,103300000373,2300000373,Matched,Matched,clean,clean
+376,SURESH QURESHI,103300000374,2300000374,Matched,Matched,spelling_variant,clean
+377,VINOD KUMARI VERMA,103300000375,2300000375,Matched,Matched,extra_name_part,title_in_ecr
+378,NAVEEN SAINI,103300000376,2300000376,Matched,Matched,word_order,clean
+379,SUNIL GUPTA,103300000377,2300000377,Matched,Matched,clean,clean
+380,VIJAY KUMAR,103300000378,2300000378,Matched,Matched,clean,spelling_variant
+381,ASHOK YADAV,103300000379,2300000379,Matched,Amount mismatch,rounding_within_1,short_deposit
+382,NEHA KHAN,103300000380,2300000380,Matched,Matched,spelling_variant,clean
+383,SATISH DUBEY,103300000381,2300000381,Name mismatch,Matched,surname_conflict,rounding_within_1
+384,AMIT KHAN,103300000382,2300000382,Amount mismatch,Matched,short_deposit,clean
+385,PRAKASH KHAN,103300000383,2300000383,Matched,Matched,clean,clean
+386,SALMAN SHARMA,103300000384,2300000384,Matched,Matched,clean,word_order
+387,Rekha Paswan,103300000385,2300000385,Missing,Matched,blank_id,clean
+388,ARVIND MEENA,103300000386,2300000386,Matched,Matched,clean,clean
+389,SANJEEV BHARDWAJ,103300000387,2300000387,Amount mismatch,Matched,short_deposit,clean
+390,YOGESH MISHRA,103300000388,2300000388,Matched,Matched,spelling_variant,title_in_ecr
+391,ANIL CHAND CHAUHAN,103300000389,2300000389,Matched,Missing,title_in_ecr,missing_in_ecr
+392,Sanjay Qureshi,103300000390,2300000390,Matched,Amount mismatch,clean,wagesheet_wrong
+393,PREETI JAIN,103300000391,2300000391,Matched,Matched,clean,word_order
+394,SUNIL DEVI MEENA,103300000392,2300000392,Matched,Name mismatch,clean,surname_conflict
+395,POOJA SINGH MEENA,103300000393,2300000393,Matched,Matched,clean,title_in_ecr
+396,ARVIND NEGI,103300000394,2300000394,Matched,Matched,clean,clean
+397,MOHAMMAD TIWARI,103300000395,2300000395,Matched,Matched,clean,clean
+398,NEHA DUBEY,103300000396,2300000396,Matched,Matched,clean,clean
+399,Yogesh Mishra,103300000397,2300000397,Matched,Matched,clean,clean
+400,JYOTI SAINI,103300000398,2300000398,Matched,Matched,clean,clean
+401,RAJEEV TIWARI,103300000399,2300000399,Missing,Missing,missing_in_ecr,missing_in_ecr
+402,AJAY PASWAN,103300000400,2300000400,Matched,Matched,clean,spelling_variant
+403,NISHA SINGH DUBEY,103300000401,2300000401,Matched,Matched,clean,clean
+404,RAHUL KUSHWAHA,103300000402,2300000402,Matched,Matched,clean,clean
+405,KAVITA PRASAD,103300000403,2300000403,Matched,Matched,clean,spelling_variant
+406,VINOD KUMARI SAINI,103300000404,2300000404,Amount mismatch,Matched,wagesheet_wrong,clean
+407,REENA CHAND SHARMA,103300000405,2300000405,Matched,Matched,rounding_within_1,clean
+408,SALMAN PANDEY,103300000406,2300000406,Matched,Matched,spelling_variant,word_order
+409,ARVIND CHAUDHARY,103300000407,2300000407,Matched,Matched,clean,title_in_ecr
+410,SUNITA SINGH BISHT,103300000408,2300000408,Name mismatch,Matched,surname_conflict,clean
+411,SHWETA CHAUHAN,103300000409,2300000409,Matched,Matched,clean,clean
+412,SUNITA SINGH,103300000410,2300000410,Matched,Matched,spelling_variant,clean
+413,GEETA ANSARI,103300000411,2300000411,Matched,Matched,spelling_variant,clean
+414,SATISH KUMAR RAWAT,103300000412,2300000412,Name mismatch,Matched,surname_conflict,clean
+415,SAROJ QURESHI,103300000413,2300000413,Missing,Matched,missing_in_ecr,clean
+416,Pradeep Negi,103300000414,2300000414,Name mismatch,Matched,first_name_conflict,extra_name_part
+417,NISHA MEENA,103300000415,2300000415,Missing,Missing,missing_in_ecr,blank_id
+418,DEEPAK BISHT,103300000416,2300000416,Matched,Matched,title_in_ecr,spelling_variant
+419,NISHA PASWAN,103300000417,2300000417,Matched,Matched,clean,clean
+420,ARVIND SHARMA,103300000418,2300000418,Matched,Matched,clean,clean
+421,LAXMI CHAUHAN,103300000419,2300000419,Missing,Missing,missing_in_ecr,missing_in_ecr
+422,SHWETA QURESHI,103300000420,2300000420,Name mismatch,Matched,first_name_conflict,clean
+423,VINOD PANDEY,103300000421,2300000421,Matched,Matched,clean,clean
+424,KAVITA CHAUDHARY,103300000422,2300000422,Matched,Missing,clean,missing_in_ecr
+425,NISHA LAL KUSHWAHA,103300000423,2300000423,Matched,Matched,clean,spelling_variant
+426,RAKESH SINGH ANSARI,103300000424,2300000424,Missing,Matched,missing_in_ecr,clean
+427,NEHA CHAUDHARY,103300000425,2300000425,Matched,Matched,spelling_variant,clean
+428,KOMAL GUPTA,103300000426,2300000426,Amount mismatch,Matched,short_deposit,clean
+429,RAHUL KUMARI YADAV,103300000427,2300000427,Amount mismatch,Matched,wagesheet_wrong,clean
+430,LAXMI YADAV,103300000428,2300000428,Matched,Matched,word_order,extra_name_part
+431,NEETU SRIVASTAVA,103300000429,2300000429,Matched,Missing,clean,missing_in_ecr
+432,NEETU SAINI,103300000430,2300000430,Matched,Matched,clean,clean
+433,Ajay Kumar,103300000431,2300000431,Amount mismatch,Matched,wagesheet_wrong,clean
+434,IMRAN MISHRA,103300000432,2300000432,Matched,Matched,clean,spelling_variant
+435,ASHA JAIN,103300000433,2300000433,Matched,Matched,clean,clean
+436,VEENA BISHT,103300000434,2300000434,Matched,Matched,clean,initial_in_ecr
+437,Vijay Saini,103300000435,2300000435,Name mismatch,Matched,name_and_amount,clean
+438,ANITA MAURYA,103300000436,2300000436,Matched,Matched,word_order,initial_in_ecr
+439,SALMAN CHANDRA ANSARI,103300000437,2300000437,Matched,Matched,clean,spelling_variant
+440,Jyoti Kumar Mishra,103300000438,2300000438,Matched,Amount mismatch,clean,short_deposit
+441,SAROJ SRIVASTAVA,103300000439,2300000439,Matched,Name mismatch,clean,surname_conflict
+442,PANKAJ NEGI,103300000440,2300000440,Matched,Name mismatch,clean,first_name_conflict
+443,SUNIL IRFAN VERMA,103300000441,2300000441,Matched,Amount mismatch,spelling_variant,short_deposit
+444,MANOJ KHAN,103300000442,2300000442,Matched,Amount mismatch,title_in_ecr,short_deposit
+445,PREETI SAINI,103300000443,2300000443,Matched,Matched,clean,clean
+446,POOJA KHAN,103300000444,2300000444,Matched,Matched,clean,clean
+447,ROHIT YADAV,103300000445,2300000445,Matched,Missing,clean,missing_in_ecr
+448,ROHIT PANDEY,103300000446,2300000446,Matched,Amount mismatch,clean,short_deposit
+449,SAROJ SHARMA,103300000447,2300000447,Matched,Matched,clean,clean
+450,GURPREET DUBEY,103300000448,2300000448,Matched,Matched,spelling_variant,title_in_ecr
+451,GURPREET KUMAR MAURYA,103300000449,2300000449,Matched,Matched,clean,clean
+452,SALMAN PRASAD,103300000450,2300000450,Matched,Matched,spelling_variant,clean
+453,SEEMA BISHT,103300000451,2300000451,Matched,Name mismatch,clean,surname_conflict
+454,VIJAY PRASAD,103300000452,2300000452,Matched,Matched,clean,clean
+455,VIKAS YADAV,103300000453,2300000453,Matched,Matched,extra_name_part,initial_in_ecr
+456,VIJAY THAKUR,103300000454,2300000454,Matched,Matched,clean,extra_name_part
+457,SONIA ANSARI,103300000455,2300000455,Matched,Matched,spelling_variant,clean
+458,ANITA SRIVASTAVA,103300000456,2300000456,Matched,Matched,title_in_ecr,word_order
+459,AJAY DUBEY,103300000457,2300000457,Amount mismatch,Matched,wagesheet_wrong,clean
+460,NAVEEN CHAUHAN,103300000458,2300000458,Matched,Matched,clean,clean
+461,IMRAN LAL CHAUHAN,103300000459,2300000459,Matched,Matched,rounding_within_1,clean
+462,PREETI YADAV,103300000460,2300000460,Matched,Matched,clean,clean
+463,ROHIT MISHRA,103300000461,2300000461,Matched,Matched,clean,clean
+464,Amit Dubey,103300000462,2300000462,Matched,Matched,clean,clean
+465,GURPREET SAINI,103300000463,2300000463,Matched,Matched,clean,clean
+466,ANITA BHARDWAJ,103300000464,2300000464,Matched,Matched,clean,clean
+467,NAVEEN MAURYA,103300000465,2300000465,Matched,Matched,clean,clean
+468,LAXMI SAINI,103300000466,2300000466,Amount mismatch,Matched,short_deposit,clean
+469,RAKESH THAKUR,103300000467,2300000467,Matched,Matched,clean,word_order
+470,SATISH NEGI,103300000468,2300000468,Matched,Name mismatch,clean,surname_conflict
+471,MOHAMMAD GUPTA,103300000469,2300000469,Matched,Matched,clean,spelling_variant
+472,SONIA KUMAR ANSARI,103300000470,2300000470,Matched,Matched,clean,clean
+473,SANJEEV DUBEY,103300000471,2300000471,Missing,Missing,missing_in_ecr,missing_in_ecr
+474,JYOTI TIWARI,103300000472,2300000472,Matched,Matched,spelling_variant,clean
+475,PANKAJ CHAUDHARY,103300000473,2300000473,Matched,Matched,clean,extra_name_part
+476,SUNITA KHAN,103300000474,2300000474,Matched,Name mismatch,clean,first_name_conflict
+477,KOMAL QURESHI,103300000475,2300000475,Missing,Matched,missing_in_ecr,clean
+478,Sunil Pandey,103300000476,2300000476,Matched,Amount mismatch,clean,wagesheet_wrong
+479,JYOTI SINGH,103300000477,2300000477,Matched,Matched,clean,extra_name_part
+480,YOGESH KHAN,103300000478,2300000478,Matched,Matched,clean,clean
+481,RAMESH CHAUHAN,103300000479,2300000479,Matched,Matched,word_order,clean
+482,NEHA QURESHI,103300000480,2300000480,Matched,Matched,clean,clean
+483,NEETU KUMAR,103300000481,2300000481,Matched,Matched,clean,clean
+484,ANIL SHARMA,103300000482,2300000482,Matched,Matched,spelling_variant,clean
+485,SEEMA DEVI MAURYA,103300000483,2300000483,Amount mismatch,Matched,short_deposit,clean
+486,Sunita Negi,103300000484,2300000484,Amount mismatch,Matched,short_deposit,spelling_variant
+487,LAXMI TIWARI,103300000485,2300000485,Matched,Matched,clean,initial_in_ecr
+488,SEEMA SRIVASTAVA,103300000486,2300000486,Matched,Amount mismatch,spelling_variant,short_deposit
+489,MOHAMMAD KHAN,103300000487,2300000487,Matched,Amount mismatch,clean,short_deposit
+490,MAMTA RAWAT,103300000488,2300000488,Matched,Matched,word_order,clean
+491,MOHAMMAD TIWARI,103300000489,2300000489,Matched,Name mismatch,spelling_variant,name_and_amount
+492,VIKAS MISHRA,103300000490,2300000490,Matched,Matched,clean,clean
+493,Neetu Meena,103300000491,2300000491,Matched,Missing,clean,missing_in_ecr
+494,MAHESH BHARDWAJ,103300000492,2300000492,Name mismatch,Matched,name_and_amount,clean
+495,Sanjay Thakur,103300000493,2300000493,Matched,Matched,clean,clean
+496,SHWETA MAURYA,103300000494,2300000494,Matched,Matched,clean,clean
+497,KOMAL BISHT,103300000495,2300000495,Name mismatch,Matched,first_name_conflict,spelling_variant
+498,MAMTA KUMAR KHAN,103300000496,2300000496,Matched,Amount mismatch,clean,short_deposit
+499,IMRAN SAINI,103300000497,2300000497,Matched,Matched,clean,clean
+500,RAKESH RANI DUBEY,103300000498,2300000498,Matched,Matched,clean,clean
+501,VINOD KUSHWAHA,103300000499,2300000499,Matched,Matched,word_order,clean
+502,SATISH TIWARI,103300000500,2300000500,Matched,Matched,spelling_variant,clean
+503,YOGESH MAURYA,103300000501,2300000501,Matched,Missing,clean,missing_in_ecr
+504,YOGESH YADAV,103300000502,2300000502,Matched,Missing,spelling_variant,blank_id
+505,VIJAY MEENA,103300000503,2300000503,Matched,Matched,clean,clean
+506,PRAKASH DEVI PRASAD,103300000504,2300000504,Matched,Matched,clean,clean
+507,SATISH LAL TIWARI,103300000505,2300000505,Matched,Matched,spelling_variant,clean
+508,VIJAY PANDEY,103300000506,2300000506,Matched,Matched,clean,clean
+509,SANJAY SHARMA,103300000507,2300000507,Name mismatch,Matched,surname_conflict,extra_name_part
+510,VINOD KUMAR SINGH,103300000508,2300000508,Amount mismatch,Matched,short_deposit,word_order
+511,SATISH QURESHI,103300000509,2300000509,Missing,Matched,missing_in_ecr,clean
+512,ASHA SRIVASTAVA,103300000510,2300000510,Matched,Matched,spelling_variant,rounding_within_1
+513,ASHOK SRIVASTAVA,103300000511,2300000511,Matched,Matched,spelling_variant,clean
+514,SURESH MISHRA,103300000512,2300000512,Matched,Matched,clean,clean
+515,RAMESH DEVI KUMAR,103300000513,2300000513,Matched,Matched,rounding_within_1,extra_name_part
+516,LAXMI MAURYA,103300000514,2300000514,Missing,Matched,missing_in_ecr,clean
+517,VIKAS GUPTA,103300000515,2300000515,Amount mismatch,Amount mismatch,short_deposit,wagesheet_wrong
+518,KOMAL CHAUHAN,103300000516,2300000516,Matched,Matched,clean,clean
+519,SUNITA SHARMA,103300000517,2300000517,Matched,Matched,clean,clean
+520,REKHA PRASAD DUBEY,103300000518,2300000518,Amount mismatch,Matched,short_deposit,clean
+521,RAHUL SINGH SAINI,103300000519,2300000519,Name mismatch,Matched,surname_conflict,extra_name_part
+522,Rohit Dubey,103300000520,2300000520,Matched,Matched,clean,clean
+523,MOHAMMAD YADAV,103300000521,2300000521,Matched,Matched,clean,clean
+524,NEETU MISHRA,103300000522,2300000522,Matched,Matched,rounding_within_1,clean
+525,MAHESH RAWAT,103300000523,2300000523,Matched,Matched,clean,clean
+526,VIKAS KHAN,103300000524,2300000524,Matched,Matched,extra_name_part,clean
+527,NISHA PRASAD,103300000525,2300000525,Matched,Name mismatch,clean,surname_conflict
+528,RAHUL SRIVASTAVA,103300000526,2300000526,Missing,Missing,missing_in_ecr,missing_in_ecr
+529,NEETU CHAUHAN,103300000527,2300000527,Matched,Matched,clean,title_in_ecr
+530,RAKESH CHAUDHARY,103300000528,2300000528,Matched,Matched,clean,word_order
+531,NEHA PRAKASH CHAUDHARY,103300000529,2300000529,Name mismatch,Matched,surname_conflict,clean
+532,RAHUL TIWARI,103300000530,2300000530,Matched,Matched,clean,word_order
+533,SEEMA MAURYA,103300000531,2300000531,Matched,Matched,clean,clean
+534,REKHA PRASAD TIWARI,103300000532,2300000532,Amount mismatch,Matched,short_deposit,rounding_within_1
+535,SONIA VERMA,103300000533,2300000533,Matched,Matched,clean,clean
+536,PRIYA RAWAT,103300000534,2300000534,Matched,Matched,spelling_variant,clean
+537,PRADEEP SAINI,103300000535,2300000535,Matched,Matched,clean,clean
+538,PANKAJ MAURYA,103300000536,2300000536,Name mismatch,Matched,surname_conflict,spelling_variant
+539,MAMTA TIWARI,103300000537,2300000537,Matched,Matched,clean,clean
+540,SONIA YADAV,103300000538,2300000538,Missing,Matched,blank_id,clean
+541,RAKESH RAWAT,103300000539,2300000539,Matched,Matched,clean,clean
+542,GEETA KUMAR ANSARI,103300000540,2300000540,Matched,Matched,spelling_variant,spelling_variant
+543,ARVIND KUMARI PASWAN,103300000541,2300000541,Matched,Matched,spelling_variant,clean
+544,REENA VERMA,103300000542,2300000542,Matched,Matched,clean,initial_in_ecr
+545,KOMAL CHANDRA TIWARI,103300000543,2300000543,Missing,Matched,missing_in_ecr,clean
+546,PRIYA YADAV,103300000544,2300000544,Matched,Matched,clean,clean
+547,DEEPAK TIWARI,103300000545,2300000545,Matched,Matched,clean,clean
+548,PREETI GUPTA,103300000546,2300000546,Matched,Amount mismatch,clean,short_deposit
+549,NEETU NEGI,103300000547,2300000547,Matched,Matched,clean,clean
+550,NEHA SAINI,103300000548,2300000548,Matched,Name mismatch,clean,name_and_amount
+551,ANIL CHAND KUMAR,103300000549,2300000549,Matched,Matched,clean,clean
+552,MAMTA KUMAR,103300000550,2300000550,Matched,Matched,clean,clean
+553,Rohit Kushwaha,103300000551,2300000551,Matched,Matched,clean,clean
+554,SANJEEV CHAUDHARY,103300000552,2300000552,Matched,Matched,clean,clean
+555,SONIA PRAKASH PRASAD RAWAT,103300000553,2300000553,Matched,Amount mismatch,title_in_ecr,short_deposit
+556,RAMESH MISHRA,103300000554,2300000554,Matched,Matched,clean,clean
+557,NISHA THAKUR,103300000555,2300000555,Matched,Matched,clean,clean
+558,MANOJ MAURYA,103300000556,2300000556,Matched,Matched,clean,clean
+559,NISHA BISHT,103300000557,2300000557,Matched,Matched,clean,rounding_within_1
+560,PANKAJ MISHRA,103300000558,2300000558,Matched,Matched,clean,clean
+561,ARVIND JAIN,103300000559,2300000559,Matched,Name mismatch,title_in_ecr,surname_conflict
+562,RAHUL CHAUHAN,103300000560,2300000560,Matched,Matched,clean,rounding_within_1
+563,KAVITA CHAUDHARY,103300000561,2300000561,Missing,Name mismatch,missing_in_ecr,first_name_conflict
+564,PRAKASH RANI ANSARI,103300000562,2300000562,Matched,Matched,clean,spelling_variant
+565,SAROJ MEENA,103300000563,2300000563,Matched,Matched,spelling_variant,word_order
+566,DEEPAK MEENA,103300000564,2300000564,Matched,Matched,clean,clean
+567,SUNITA BISHT,103300000565,2300000565,Matched,Matched,word_order,clean
+568,PREETI CHAUHAN,103300000566,2300000566,Matched,Matched,word_order,clean
+569,SEEMA CHAUHAN,103300000567,2300000567,Matched,Matched,clean,clean
+570,SANJAY PASWAN,103300000568,2300000568,Matched,Matched,clean,clean
+571,PRAKASH MEENA,103300000569,2300000569,Matched,Matched,clean,clean
+572,JYOTI CHAUDHARY,103300000570,2300000570,Matched,Matched,clean,clean
+573,LAXMI IRFAN PRASAD,103300000571,2300000571,Name mismatch,Matched,name_and_amount,clean
+574,ARVIND JAIN,103300000572,2300000572,Matched,Matched,clean,clean
+575,SAROJ SRIVASTAVA,103300000573,2300000573,Matched,Matched,spelling_variant,clean
+576,NAVEEN SINGH,103300000574,2300000574,Matched,Matched,word_order,clean
+577,YOGESH SINGH,103300000575,2300000575,Amount mismatch,Matched,short_deposit,clean
+578,PREETI MEENA,103300000576,2300000576,Name mismatch,Matched,name_and_amount,clean
+579,VINOD SAINI,103300000577,2300000577,Matched,Matched,clean,clean
+580,ANITA KUMAR MAURYA,103300000578,2300000578,Matched,Matched,clean,initial_in_ecr
+581,ARVIND PASWAN,103300000579,2300000579,Matched,Matched,clean,clean
+582,DINESH MISHRA,103300000580,2300000580,Amount mismatch,Name mismatch,short_deposit,surname_conflict
+583,RAHUL PRAKASH KUSHWAHA,103300000581,2300000581,Amount mismatch,Missing,wagesheet_wrong,missing_in_ecr
+584,ANIL NEGI,103300000582,2300000582,Matched,Matched,clean,clean
+585,SUNIL RAWAT,103300000583,2300000583,Matched,Matched,clean,clean
+586,SATISH MAURYA,103300000584,2300000584,Matched,Matched,clean,clean
+587,RAKESH TIWARI,103300000585,2300000585,Matched,Matched,title_in_ecr,spelling_variant
+588,NEETU CHAND YADAV,103300000586,2300000586,Matched,Amount mismatch,clean,short_deposit
+589,REENA SINGH PRASAD,103300000587,2300000587,Matched,Matched,spelling_variant,clean
+590,SUNIL GUPTA,103300000588,2300000588,Name mismatch,Matched,first_name_conflict,clean
+591,DEEPAK TIWARI,103300000589,2300000589,Matched,Matched,clean,spelling_variant
+592,PRIYA QURESHI,103300000590,2300000590,Matched,Matched,clean,clean
+593,PREETI RAWAT,103300000591,2300000591,Matched,Matched,clean,clean
+594,Arvind Rani Saini,103300000592,2300000592,Matched,Name mismatch,clean,first_name_conflict
+595,AJAY GUPTA,103300000593,2300000593,Matched,Matched,clean,clean
+596,PRADEEP BISHT,103300000594,2300000594,Matched,Matched,title_in_ecr,clean
+597,Pradeep Negi,103300000595,2300000595,Matched,Matched,clean,clean
+598,HARISH YADAV,103300000596,2300000596,Amount mismatch,Matched,wagesheet_wrong,clean
+599,MOHAMMAD PRASAD SHARMA,103300000597,2300000597,Matched,Matched,word_order,clean
+600,RAMESH RANI PRASAD,103300000598,2300000598,Matched,Matched,clean,clean
+601,JYOTI DEVI PASWAN,103300000599,2300000599,Matched,Matched,clean,title_in_ecr
+602,SANJAY DEVI BHARDWAJ,103300000600,2300000600,Matched,Missing,clean,missing_in_ecr
+603,AJAY TIWARI,103300000601,2300000601,Matched,Name mismatch,clean,first_name_conflict
+604,ANIL SHARMA,103300000602,2300000602,Matched,Matched,clean,clean
+605,VIJAY KHAN,103300000603,2300000603,Amount mismatch,Matched,short_deposit,clean
+606,ARVIND THAKUR,103300000604,2300000604,Matched,Matched,clean,clean
+607,HARISH CHAUDHARY,103300000605,2300000605,Matched,Matched,spelling_variant,clean
+608,RAHUL KUMAR MISHRA,103300000606,2300000606,Matched,Missing,clean,blank_id
+609,SANJAY NEGI,103300000607,2300000607,Matched,Matched,clean,clean
+610,VEENA KUMAR SRIVASTAVA,103300000608,2300000608,Missing,Matched,missing_in_ecr,clean
+611,NEETU ANSARI,103300000609,2300000609,Matched,Name mismatch,spelling_variant,first_name_conflict
+612,VIJAY PANDEY,103300000610,2300000610,Matched,Matched,clean,clean
+613,SANJEEV PANDEY,103300000611,2300000611,Name mismatch,Name mismatch,first_name_conflict,first_name_conflict
+614,NEETU KUSHWAHA,103300000612,2300000612,Matched,Name mismatch,clean,first_name_conflict
+615,SALMAN TIWARI,103300000613,2300000613,Matched,Missing,rounding_within_1,missing_in_ecr
+616,LAXMI ANSARI,103300000614,2300000614,Matched,Matched,clean,clean
+617,SHWETA SAINI,103300000615,2300000615,Matched,Matched,extra_name_part,clean
+618,ANIL TIWARI,103300000616,2300000616,Amount mismatch,Matched,wagesheet_wrong,clean
+619,ARVIND MOHAN SHARMA,103300000617,2300000617,Matched,Matched,clean,clean
+620,NISHA DUBEY,103300000618,2300000618,Name mismatch,Matched,surname_conflict,clean
+621,POOJA DUBEY,103300000619,2300000619,Matched,Matched,clean,clean
+622,NEHA KUMAR MEENA,103300000620,2300000620,Matched,Matched,clean,clean
+623,ROHIT NEGI,103300000621,2300000621,Matched,Matched,spelling_variant,clean
+624,SHWETA KUMAR,103300000622,2300000622,Matched,Missing,clean,missing_in_ecr
+625,POOJA SAINI,103300000623,2300000623,Amount mismatch,Matched,short_deposit,clean
+626,NEETU CHAUDHARY,103300000624,2300000624,Matched,Matched,title_in_ecr,clean
+627,KOMAL MEENA,103300000625,2300000625,Matched,Matched,clean,clean
+628,REENA BHARDWAJ,103300000626,2300000626,Matched,Matched,extra_name_part,spelling_variant
+629,RAKESH RANI CHAUHAN,103300000627,2300000627,Matched,Name mismatch,clean,surname_conflict
+630,Vinod Singh,103300000628,2300000628,Matched,Matched,clean,clean
+631,SANJEEV DEVI DUBEY,103300000629,2300000629,Missing,Matched,missing_in_ecr,clean
+632,PRADEEP BISHT,103300000630,2300000630,Matched,Matched,clean,clean
+633,ASHOK MAURYA,103300000631,2300000631,Matched,Matched,clean,clean
+634,YOGESH PANDEY,103300000632,2300000632,Amount mismatch,Amount mismatch,short_deposit,short_deposit
+635,Reena Kushwaha,103300000633,2300000633,Matched,Missing,rounding_within_1,missing_in_ecr
+636,NAVEEN PASWAN,103300000634,2300000634,Matched,Matched,clean,clean
+637,HARISH GUPTA,103300000635,2300000635,Matched,Matched,clean,rounding_within_1
+638,SATISH KUMAR SRIVASTAVA,103300000636,2300000636,Amount mismatch,Name mismatch,short_deposit,first_name_conflict
+639,MAHESH KUMAR THAKUR,103300000637,2300000637,Matched,Amount mismatch,word_order,short_deposit
+640,SALMAN NEGI,103300000638,2300000638,Matched,Matched,clean,spelling_variant
+641,PRADEEP SINGH,103300000639,2300000639,Matched,Matched,word_order,spelling_variant
+642,ANITA LAL SINGH,103300000640,2300000640,Matched,Name mismatch,clean,surname_conflict
+643,REENA KUMAR,103300000641,2300000641,Matched,Matched,clean,clean
+644,SUNIL CHAUDHARY,103300000642,2300000642,Matched,Matched,clean,clean
+645,DINESH RANI YADAV,103300000643,2300000643,Matched,Missing,title_in_ecr,missing_in_ecr
+646,SAROJ TIWARI,103300000644,2300000644,Missing,Amount mismatch,missing_in_ecr,short_deposit
+647,NEHA BHARDWAJ,103300000645,2300000645,Amount mismatch,Matched,short_deposit,clean
+648,ROHIT MEENA,103300000646,2300000646,Matched,Matched,spelling_variant,clean
+649,REKHA JAIN,103300000647,2300000647,Matched,Amount mismatch,clean,short_deposit
+650,VIKAS NEGI,103300000648,2300000648,Matched,Matched,clean,clean
+651,REKHA NEGI,103300000649,2300000649,Matched,Matched,clean,clean
+652,VIKAS BISHT,103300000650,2300000650,Matched,Name mismatch,word_order,name_and_amount
+653,HARISH RAWAT,103300000651,2300000651,Matched,Matched,word_order,clean
+654,SAROJ BHARDWAJ,103300000652,2300000652,Matched,Matched,word_order,clean
+655,SATISH SHARMA,103300000653,2300000653,Amount mismatch,Missing,wagesheet_wrong,missing_in_ecr
+656,VINOD IRFAN PRASAD MISHRA,103300000654,2300000654,Matched,Matched,clean,clean
+657,DEEPAK JAIN,103300000655,2300000655,Matched,Matched,clean,clean
+658,ANIL QURESHI,103300000656,2300000656,Matched,Matched,clean,clean
+659,Vikas Kumar,103300000657,2300000657,Amount mismatch,Matched,short_deposit,clean
+660,GURPREET PANDEY,103300000658,2300000658,Amount mismatch,Matched,wagesheet_wrong,clean
+661,NISHA PRASAD SHARMA,103300000659,2300000659,Matched,Name mismatch,clean,first_name_conflict
+662,VIJAY JAIN,103300000660,2300000660,Name mismatch,Name mismatch,first_name_conflict,first_name_conflict
+663,SANJAY QURESHI,103300000661,2300000661,Matched,Matched,clean,rounding_within_1
+664,SHWETA KUMARI DUBEY,103300000662,2300000662,Matched,Matched,clean,title_in_ecr
+665,Vikas Dubey,103300000663,2300000663,Matched,Matched,clean,word_order
+666,PANKAJ TIWARI,103300000664,2300000664,Missing,Name mismatch,missing_in_ecr,first_name_conflict
+667,MOHAMMAD KUSHWAHA,103300000665,2300000665,Matched,Matched,clean,title_in_ecr
+668,ASHOK MAURYA,103300000666,2300000666,Missing,Matched,blank_id,clean
+669,VINOD PANDEY,103300000667,2300000667,Matched,Matched,clean,rounding_within_1
+670,Asha Irfan Prasad Khan,103300000668,2300000668,Matched,Matched,clean,rounding_within_1
+671,ROHIT JAIN,103300000669,2300000669,Matched,Matched,clean,rounding_within_1
+672,MAMTA DUBEY,103300000670,2300000670,Matched,Missing,clean,missing_in_ecr
+673,NAVEEN JAIN,103300000671,2300000671,Matched,Amount mismatch,clean,short_deposit
+674,ANITA KUSHWAHA,103300000672,2300000672,Matched,Matched,clean,clean
+675,DEEPAK QURESHI,103300000673,2300000673,Matched,Matched,title_in_ecr,clean
+676,IMRAN DUBEY,103300000674,2300000674,Matched,Matched,clean,clean
+677,HARISH THAKUR,103300000675,2300000675,Matched,Matched,clean,clean
+678,YOGESH PANDEY,103300000676,2300000676,Amount mismatch,Missing,wagesheet_wrong,missing_in_ecr
+679,SHWETA QURESHI,103300000677,2300000677,Amount mismatch,Matched,short_deposit,clean
+680,NAVEEN PANDEY,103300000678,2300000678,Missing,Name mismatch,missing_in_ecr,first_name_conflict
+681,VEENA YADAV,103300000679,2300000679,Name mismatch,Matched,surname_conflict,clean
+682,Asha Prasad,103300000680,2300000680,Name mismatch,Matched,first_name_conflict,clean
+683,PREETI BISHT,103300000681,2300000681,Name mismatch,Matched,first_name_conflict,clean
+684,DEEPAK BHARDWAJ,103300000682,2300000682,Missing,Matched,missing_in_ecr,clean
+685,MAHESH DEVI NEGI,103300000683,2300000683,Amount mismatch,Matched,short_deposit,clean
+686,VIJAY KUMARI THAKUR,103300000684,2300000684,Matched,Matched,clean,word_order
+687,VEENA RANI SINGH,103300000685,2300000685,Missing,Matched,missing_in_ecr,clean
+688,SHWETA RAWAT,103300000686,2300000686,Missing,Matched,blank_id,clean
+689,Ajay Lal Prasad,103300000687,2300000687,Matched,Matched,clean,clean
+690,IMRAN SRIVASTAVA,103300000688,2300000688,Matched,Matched,clean,extra_name_part
+691,NAVEEN NEGI,103300000689,2300000689,Matched,Amount mismatch,clean,short_deposit
+692,SANJAY PRASAD,103300000690,2300000690,Matched,Amount mismatch,clean,short_deposit
+693,VIKAS CHAND PRASAD,103300000691,2300000691,Matched,Matched,clean,spelling_variant
+694,YOGESH PRASAD,103300000692,2300000692,Matched,Matched,clean,clean
+695,POOJA PANDEY,103300000693,2300000693,Matched,Matched,title_in_ecr,spelling_variant
+696,KAVITA THAKUR,103300000694,2300000694,Matched,Name mismatch,spelling_variant,first_name_conflict
+697,KAVITA SHARMA,103300000695,2300000695,Amount mismatch,Missing,short_deposit,missing_in_ecr
+698,RAHUL MEENA,103300000696,2300000696,Matched,Matched,clean,clean
+699,SURESH QURESHI,103300000697,2300000697,Matched,Matched,title_in_ecr,clean
+700,PRAKASH MAURYA,103300000698,2300000698,Amount mismatch,Matched,wagesheet_wrong,clean
+701,Nisha Ansari,103300000699,2300000699,Matched,Matched,clean,clean
+702,RAHUL MEENA,103300000700,2300000700,Name mismatch,Matched,surname_conflict,clean
+703,NEETU SINGH,103300000701,2300000701,Matched,Matched,clean,clean
+704,SEEMA TIWARI,103300000702,2300000702,Matched,Name mismatch,word_order,first_name_conflict
+705,REENA CHAUDHARY,103300000703,2300000703,Name mismatch,Amount mismatch,surname_conflict,short_deposit
+706,VINOD RANI KHAN,103300000704,2300000704,Matched,Name mismatch,spelling_variant,surname_conflict
+707,PANKAJ DEVI KUMAR,103300000705,2300000705,Matched,Matched,clean,spelling_variant
+708,GURPREET SAINI,103300000706,2300000706,Matched,Matched,clean,spelling_variant
+709,MANOJ CHAUHAN,103300000707,2300000707,Name mismatch,Matched,first_name_conflict,clean
+710,SATISH KUSHWAHA,103300000708,2300000708,Matched,Name mismatch,clean,first_name_conflict
+711,NEETU KHAN,103300000709,2300000709,Matched,Missing,spelling_variant,blank_id
+712,HARISH PRASAD QURESHI,103300000710,2300000710,Matched,Matched,clean,clean
+713,PRAKASH VERMA,103300000711,2300000711,Matched,Amount mismatch,clean,short_deposit
+714,VINOD CHAUHAN,103300000712,2300000712,Matched,Matched,clean,clean
+715,REENA DEVI SHARMA,103300000713,2300000713,Name mismatch,Matched,first_name_conflict,rounding_within_1
+716,GEETA CHAND JAIN,103300000714,2300000714,Matched,Matched,clean,word_order
+717,IMRAN SAINI,103300000715,2300000715,Missing,Amount mismatch,missing_in_ecr,short_deposit
+718,PREETI IRFAN MISHRA,103300000716,2300000716,Matched,Matched,clean,clean
+719,VEENA MAURYA,103300000717,2300000717,Matched,Matched,clean,extra_name_part
+720,NAVEEN CHAND KUMAR,103300000718,2300000718,Matched,Matched,clean,title_in_ecr
+721,RAKESH GUPTA,103300000719,2300000719,Name mismatch,Missing,surname_conflict,missing_in_ecr
+722,VINOD SRIVASTAVA,103300000720,2300000720,Amount mismatch,Matched,wagesheet_wrong,clean
+723,Pradeep Bisht,103300000721,2300000721,Matched,Matched,spelling_variant,clean
+724,SATISH VERMA,103300000722,2300000722,Amount mismatch,Matched,short_deposit,clean
+725,YOGESH RANI KHAN,103300000723,2300000723,Matched,Matched,clean,clean
+726,GURPREET KUSHWAHA,103300000724,2300000724,Matched,Matched,clean,title_in_ecr
+727,ASHOK ANSARI,103300000725,2300000725,Matched,Matched,clean,clean
+728,MANOJ RANI PASWAN,103300000726,2300000726,Matched,Matched,spelling_variant,clean
+729,REKHA MAURYA,103300000727,2300000727,Matched,Matched,word_order,clean
+730,HARISH VERMA,103300000728,2300000728,Name mismatch,Matched,first_name_conflict,clean
+731,VIKAS MEENA,103300000729,2300000729,Matched,Matched,clean,clean
+732,REKHA SHARMA,103300000730,2300000730,Missing,Matched,missing_in_ecr,word_order
+733,MAMTA YADAV,103300000731,2300000731,Matched,Matched,word_order,clean
+734,VIKAS SINGH RAWAT,103300000732,2300000732,Matched,Matched,spelling_variant,spelling_variant
+735,ANITA CHAND SHARMA,103300000733,2300000733,Name mismatch,Matched,first_name_conflict,rounding_within_1
+736,NEETU KUMAR SRIVASTAVA,103300000734,2300000734,Matched,Matched,clean,clean
+737,RAHUL JAIN,103300000735,2300000735,Matched,Missing,clean,blank_id
+738,AMIT JAIN,103300000736,2300000736,Matched,Missing,clean,missing_in_ecr
+739,NEHA YADAV,103300000737,2300000737,Matched,Matched,clean,extra_name_part
+740,SALMAN SINGH,103300000738,2300000738,Name mismatch,Matched,first_name_conflict,clean
+741,PREETI TIWARI,103300000739,2300000739,Matched,Matched,clean,clean
+742,VIJAY MAURYA,103300000740,2300000740,Matched,Amount mismatch,clean,wagesheet_wrong
+743,SANJEEV KUMAR YADAV,103300000741,2300000741,Matched,Matched,clean,spelling_variant
+744,SURESH MISHRA,103300000742,2300000742,Missing,Matched,missing_in_ecr,clean
+745,PRIYA PRAKASH ANSARI,103300000743,2300000743,Matched,Matched,spelling_variant,extra_name_part
+746,PRADEEP RANI MAURYA,103300000744,2300000744,Matched,Name mismatch,clean,first_name_conflict
+747,GURPREET DUBEY,103300000745,2300000745,Name mismatch,Matched,surname_conflict,clean
+748,MAHESH SRIVASTAVA,103300000746,2300000746,Amount mismatch,Matched,short_deposit,clean
+749,ASHOK TIWARI,103300000747,2300000747,Matched,Matched,clean,extra_name_part
+750,MAMTA NEGI,103300000748,2300000748,Matched,Matched,clean,spelling_variant
+751,RAMESH PANDEY,103300000749,2300000749,Matched,Matched,clean,initial_in_ecr
+752,RAJEEV SINGH,103300000750,2300000750,Amount mismatch,Matched,short_deposit,clean
+753,SONIA DUBEY,103300000751,2300000751,Matched,Matched,spelling_variant,clean
+754,REKHA VERMA,103300000752,2300000752,Matched,Matched,clean,clean
+755,VEENA YADAV,103300000753,2300000753,Matched,Matched,clean,spelling_variant
+756,MOHAMMAD CHAUDHARY,103300000754,2300000754,Matched,Matched,spelling_variant,clean
+757,SURESH SINGH,103300000755,2300000755,Matched,Missing,clean,missing_in_ecr
+758,PRADEEP ANSARI,103300000756,2300000756,Matched,Matched,clean,clean
+759,GURPREET MEENA,103300000757,2300000757,Amount mismatch,Matched,short_deposit,clean
+760,SAROJ YADAV,103300000758,2300000758,Name mismatch,Matched,first_name_conflict,spelling_variant
+761,SUNITA DUBEY,103300000759,2300000759,Missing,Amount mismatch,missing_in_ecr,short_deposit
+762,MAHESH VERMA,103300000760,2300000760,Missing,Matched,missing_in_ecr,clean
+763,ARVIND KHAN,103300000761,2300000761,Matched,Name mismatch,clean,first_name_conflict
+764,NEETU JAIN,103300000762,2300000762,Matched,Matched,extra_name_part,spelling_variant
+765,REKHA VERMA,103300000763,2300000763,Matched,Amount mismatch,clean,short_deposit
+766,KOMAL YADAV,103300000764,2300000764,Missing,Matched,missing_in_ecr,spelling_variant
+767,SANJEEV JAIN,103300000765,2300000765,Matched,Matched,spelling_variant,clean
+768,Manoj Khan,103300000766,2300000766,Missing,Matched,missing_in_ecr,extra_name_part
+769,VINOD DEVI PRASAD,103300000767,2300000767,Matched,Matched,clean,clean
+770,SUNITA SAINI,103300000768,2300000768,Missing,Matched,missing_in_ecr,clean
+771,SATISH PRASAD SHARMA,103300000769,2300000769,Matched,Missing,clean,blank_id
+772,NAVEEN YADAV,103300000770,2300000770,Matched,Matched,clean,clean
+773,MAMTA KUSHWAHA,103300000771,2300000771,Matched,Name mismatch,clean,surname_conflict
+774,Asha Verma,103300000772,2300000772,Matched,Matched,spelling_variant,clean
+775,VIJAY SRIVASTAVA,103300000773,2300000773,Matched,Matched,clean,clean
+776,SONIA SINGH SHARMA,103300000774,2300000774,Matched,Matched,clean,clean
+777,SALMAN KUMAR,103300000775,2300000775,Matched,Matched,clean,clean
+778,POOJA GUPTA,103300000776,2300000776,Matched,Amount mismatch,clean,short_deposit
+779,GEETA MISHRA,103300000777,2300000777,Matched,Matched,clean,spelling_variant
+780,Mohammad Verma,103300000778,2300000778,Matched,Matched,clean,clean
+781,Reena Tiwari,103300000779,2300000779,Matched,Matched,clean,clean
+782,GEETA ANSARI,103300000780,2300000780,Matched,Matched,clean,clean
+783,DINESH DEVI QURESHI,103300000781,2300000781,Matched,Matched,clean,clean
+784,RAJEEV QURESHI,103300000782,2300000782,Name mismatch,Matched,surname_conflict,clean
+785,SONIA SINGH,103300000783,2300000783,Matched,Matched,clean,clean
+786,AJAY PANDEY,103300000784,2300000784,Matched,Matched,clean,clean
+787,HARISH SAINI,103300000785,2300000785,Matched,Name mismatch,spelling_variant,first_name_conflict
+788,NEETU PASWAN,103300000786,2300000786,Matched,Matched,clean,word_order
+789,RAMESH SAINI,103300000787,2300000787,Matched,Matched,rounding_within_1,clean
+790,GEETA ANSARI,103300000788,2300000788,Matched,Missing,clean,missing_in_ecr
+791,DINESH BISHT,103300000789,2300000789,Matched,Matched,clean,clean
+792,SUNITA CHAUDHARY,103300000790,2300000790,Matched,Matched,clean,clean
+793,HARISH PANDEY,103300000791,2300000791,Matched,Amount mismatch,title_in_ecr,short_deposit
+794,SEEMA SAINI,103300000792,2300000792,Name mismatch,Matched,first_name_conflict,clean
+795,LAXMI VERMA,103300000793,2300000793,Matched,Matched,title_in_ecr,clean
+796,REENA YADAV,103300000794,2300000794,Matched,Name mismatch,clean,first_name_conflict
+797,VIJAY RAWAT,103300000795,2300000795,Matched,Matched,clean,clean
+798,PRIYA TIWARI,103300000796,2300000796,Matched,Matched,initial_in_ecr,clean
+799,Naveen Gupta,103300000797,2300000797,Matched,Matched,spelling_variant,clean
+800,NISHA SHARMA,103300000798,2300000798,Matched,Matched,clean,extra_name_part
+801,SEEMA KUSHWAHA,103300000799,2300000799,Missing,Missing,missing_in_ecr,missing_in_ecr
+802,AMIT PRASAD KHAN,103300000800,2300000800,Matched,Matched,rounding_within_1,clean
+803,LAXMI KUMAR,103300000801,2300000801,Matched,Missing,rounding_within_1,missing_in_ecr
+804,ANIL PANDEY,103300000802,2300000802,Matched,Matched,clean,rounding_within_1
+805,SAROJ KUMARI RAWAT,103300000803,2300000803,Matched,Matched,clean,clean
+806,ASHOK BISHT,103300000804,2300000804,Matched,Missing,clean,missing_in_ecr
+807,VEENA GUPTA,103300000805,2300000805,Matched,Matched,spelling_variant,clean
+808,MOHAMMAD THAKUR,103300000806,2300000806,Matched,Amount mismatch,rounding_within_1,short_deposit
+809,ASHA ANSARI,103300000807,2300000807,Matched,Matched,clean,clean
+810,PRADEEP QURESHI,103300000808,2300000808,Matched,Matched,clean,title_in_ecr
+811,KAVITA RANI VERMA,103300000809,2300000809,Amount mismatch,Matched,short_deposit,clean
+812,ANIL SRIVASTAVA,103300000810,2300000810,Matched,Matched,clean,clean
+813,SATISH VERMA,103300000811,2300000811,Amount mismatch,Matched,wagesheet_wrong,clean
+814,SURESH SRIVASTAVA,103300000812,2300000812,Matched,Matched,clean,clean
+815,SAROJ CHAUDHARY,103300000813,2300000813,Matched,Missing,clean,missing_in_ecr
+816,SURESH CHAUHAN,103300000814,2300000814,Missing,Amount mismatch,missing_in_ecr,short_deposit
+817,ARVIND QURESHI,103300000815,2300000815,Amount mismatch,Matched,short_deposit,initial_in_ecr
+818,KAVITA RAWAT,103300000816,2300000816,Matched,Matched,clean,spelling_variant
+819,REENA KUMARI KUSHWAHA,103300000817,2300000817,Matched,Matched,clean,clean
+820,PREETI NEGI,103300000818,2300000818,Amount mismatch,Matched,wagesheet_wrong,clean
+821,PREETI DUBEY,103300000819,2300000819,Matched,Matched,clean,clean
+822,HARISH MEENA,103300000820,2300000820,Amount mismatch,Matched,short_deposit,clean
+823,HARISH JAIN,103300000821,2300000821,Matched,Matched,clean,clean
+824,KOMAL GUPTA,103300000822,2300000822,Matched,Matched,clean,clean
+825,VINOD KHAN,103300000823,2300000823,Matched,Matched,rounding_within_1,word_order
+826,VINOD QURESHI,103300000824,2300000824,Matched,Matched,spelling_variant,clean
+827,AJAY MEENA,103300000825,2300000825,Matched,Matched,clean,clean
+828,REKHA CHAUHAN,103300000826,2300000826,Matched,Matched,clean,spelling_variant
+829,MAHESH CHANDRA CHAUHAN,103300000827,2300000827,Matched,Matched,title_in_ecr,clean
+830,SHWETA SRIVASTAVA,103300000828,2300000828,Matched,Matched,clean,clean
+831,RAHUL PRASAD NEGI,103300000829,2300000829,Matched,Matched,spelling_variant,spelling_variant
+832,MAMTA RAWAT,103300000830,2300000830,Matched,Matched,title_in_ecr,initial_in_ecr
+833,MANOJ BHARDWAJ,103300000831,2300000831,Matched,Matched,clean,word_order
+834,ROHIT ANSARI,103300000832,2300000832,Amount mismatch,Matched,wagesheet_wrong,clean
+835,Prakash Paswan,103300000833,2300000833,Matched,Matched,clean,word_order
+836,PREETI VERMA,103300000834,2300000834,Amount mismatch,Matched,short_deposit,clean
+837,SAROJ SINGH DUBEY,103300000835,2300000835,Matched,Amount mismatch,clean,wagesheet_wrong
+838,NAVEEN DUBEY,103300000836,2300000836,Matched,Missing,clean,missing_in_ecr
+839,SALMAN SRIVASTAVA,103300000837,2300000837,Matched,Missing,clean,missing_in_ecr
+840,HARISH VERMA,103300000838,2300000838,Missing,Matched,missing_in_ecr,title_in_ecr
+841,SANJEEV PANDEY,103300000839,2300000839,Missing,Matched,blank_id,clean
+842,SURESH BHARDWAJ,103300000840,2300000840,Matched,Matched,clean,clean
+843,PRAKASH PRASAD SHARMA,103300000841,2300000841,Matched,Amount mismatch,clean,short_deposit
+844,SATISH KUSHWAHA,103300000842,2300000842,Matched,Matched,clean,clean
+845,NAVEEN KUMARI MAURYA,103300000843,2300000843,Matched,Matched,clean,initial_in_ecr
+846,PRIYA ANSARI,103300000844,2300000844,Matched,Matched,clean,clean
+847,SAROJ DEVI BHARDWAJ,103300000845,2300000845,Amount mismatch,Matched,short_deposit,clean
+848,SUNITA THAKUR,103300000846,2300000846,Matched,Matched,clean,clean
+849,NEHA YADAV,103300000847,2300000847,Matched,Matched,clean,clean
+850,KOMAL SHARMA,103300000848,2300000848,Matched,Missing,clean,missing_in_ecr
+851,RAJEEV MEENA,103300000849,2300000849,Matched,Amount mismatch,clean,wagesheet_wrong
+852,SURESH KUMAR,103300000850,2300000850,Matched,Missing,clean,missing_in_ecr
+853,RAKESH SINGH MEENA,103300000851,2300000851,Matched,Matched,clean,clean
+854,ANITA IRFAN KHAN,103300000852,2300000852,Missing,Matched,missing_in_ecr,spelling_variant
+855,Geeta Chauhan,103300000853,2300000853,Matched,Missing,clean,missing_in_ecr
+856,PANKAJ PASWAN,103300000854,2300000854,Matched,Matched,title_in_ecr,clean
+857,NISHA BHARDWAJ,103300000855,2300000855,Matched,Matched,clean,clean
+858,SHWETA KUSHWAHA,103300000856,2300000856,Matched,Amount mismatch,clean,short_deposit
+859,GURPREET KUMARI TIWARI,103300000857,2300000857,Matched,Matched,clean,clean
+860,ANITA MEENA,103300000858,2300000858,Matched,Matched,extra_name_part,title_in_ecr
+861,ARVIND KUMAR,103300000859,2300000859,Matched,Missing,clean,blank_id
+862,VIJAY SINGH,103300000860,2300000860,Matched,Name mismatch,clean,surname_conflict
+863,IMRAN SHARMA,103300000861,2300000861,Matched,Matched,clean,clean
+864,SATISH CHANDRA BISHT,103300000862,2300000862,Amount mismatch,Matched,short_deposit,spelling_variant
+865,ASHA GUPTA,103300000863,2300000863,Amount mismatch,Matched,short_deposit,rounding_within_1
+866,ANITA KHAN,103300000864,2300000864,Matched,Matched,initial_in_ecr,word_order
+867,MOHAMMAD CHAND JAIN,103300000865,2300000865,Matched,Name mismatch,word_order,first_name_conflict
+868,SANJEEV PRAKASH SRIVASTAVA,103300000866,2300000866,Matched,Matched,clean,clean
+869,AMIT LAL CHAUHAN,103300000867,2300000867,Amount mismatch,Matched,short_deposit,clean
+870,SEEMA SRIVASTAVA,103300000868,2300000868,Matched,Matched,clean,clean
+871,IMRAN THAKUR,103300000869,2300000869,Matched,Matched,clean,spelling_variant
+872,IMRAN YADAV,103300000870,2300000870,Name mismatch,Matched,name_and_amount,clean
+873,SUNITA TIWARI,103300000871,2300000871,Matched,Matched,spelling_variant,clean
+874,JYOTI LAL KUSHWAHA,103300000872,2300000872,Name mismatch,Matched,first_name_conflict,clean
+875,Ashok Pandey,103300000873,2300000873,Matched,Matched,clean,clean
+876,GEETA PRASAD,103300000874,2300000874,Matched,Matched,rounding_within_1,clean
+877,SUNITA CHAUDHARY,103300000875,2300000875,Matched,Matched,word_order,clean
+878,ASHA ANSARI,103300000876,2300000876,Matched,Matched,clean,clean
+879,SURESH CHAND MEENA,103300000877,2300000877,Matched,Matched,clean,clean
+880,Harish Verma,103300000878,2300000878,Matched,Matched,spelling_variant,initial_in_ecr
+881,ARVIND YADAV,103300000879,2300000879,Matched,Matched,clean,spelling_variant
+882,ASHOK QURESHI,103300000880,2300000880,Matched,Amount mismatch,title_in_ecr,wagesheet_wrong
+883,IMRAN LAL PANDEY,103300000881,2300000881,Matched,Matched,clean,clean
+884,YOGESH ANSARI,103300000882,2300000882,Matched,Matched,clean,clean
+885,VEENA PASWAN,103300000883,2300000883,Matched,Missing,spelling_variant,missing_in_ecr
+886,ROHIT CHAUHAN,103300000884,2300000884,Matched,Matched,extra_name_part,title_in_ecr
+887,LAXMI MAURYA,103300000885,2300000885,Matched,Matched,word_order,clean
+888,PRADEEP PASWAN,103300000886,2300000886,Matched,Matched,clean,spelling_variant
+889,PANKAJ YADAV,103300000887,2300000887,Matched,Missing,clean,missing_in_ecr
+890,SHWETA CHAND SAINI,103300000888,2300000888,Matched,Matched,clean,clean
+891,SALMAN TIWARI,103300000889,2300000889,Missing,Matched,missing_in_ecr,clean
+892,RAJEEV RANI ANSARI,103300000890,2300000890,Matched,Matched,clean,clean
+893,SANJEEV KUMAR KHAN,103300000891,2300000891,Matched,Matched,clean,rounding_within_1
+894,SURESH KUMAR,103300000892,2300000892,Matched,Matched,title_in_ecr,clean
+895,PREETI KUMARI CHAUDHARY,103300000893,2300000893,Matched,Matched,clean,clean
+896,PREETI GUPTA,103300000894,2300000894,Matched,Matched,clean,clean
+897,NAVEEN CHANDRA DUBEY,103300000895,2300000895,Matched,Matched,clean,spelling_variant
+898,SANJEEV GUPTA,103300000896,2300000896,Matched,Matched,clean,clean
+899,RAHUL RANI KHAN,103300000897,2300000897,Matched,Amount mismatch,rounding_within_1,short_deposit
+900,KOMAL MEENA,103300000898,2300000898,Matched,Matched,clean,title_in_ecr
+901,PRAKASH MISHRA,103300000899,2300000899,Matched,Matched,clean,rounding_within_1
+902,NEETU DUBEY,103300000900,2300000900,Matched,Matched,clean,spelling_variant
+903,VEENA QURESHI,103300000901,2300000901,Name mismatch,Matched,surname_conflict,clean
+904,AJAY PANDEY,103300000902,2300000902,Matched,Matched,rounding_within_1,word_order
+905,MANOJ LAL TIWARI,103300000903,2300000903,Amount mismatch,Missing,wagesheet_wrong,missing_in_ecr
+906,AMIT TIWARI,103300000904,2300000904,Missing,Matched,missing_in_ecr,spelling_variant
+907,NEETU MEENA,103300000905,2300000905,Matched,Matched,clean,title_in_ecr
+908,ANITA DUBEY,103300000906,2300000906,Name mismatch,Matched,first_name_conflict,clean
+909,RAMESH DUBEY,103300000907,2300000907,Matched,Matched,extra_name_part,rounding_within_1
+910,SUNIL CHAUDHARY,103300000908,2300000908,Matched,Matched,clean,clean
+911,DEEPAK NEGI,103300000909,2300000909,Matched,Matched,clean,clean
+912,PRIYA KUSHWAHA,103300000910,2300000910,Matched,Amount mismatch,clean,short_deposit
+913,REKHA JAIN,103300000911,2300000911,Matched,Matched,clean,clean
+914,ANITA LAL ANSARI,103300000912,2300000912,Name mismatch,Matched,first_name_conflict,initial_in_ecr
+915,PRIYA BISHT,103300000913,2300000913,Matched,Matched,extra_name_part,clean
+916,MAHESH TIWARI,103300000914,2300000914,Matched,Missing,word_order,missing_in_ecr
+917,YOGESH MAURYA,103300000915,2300000915,Name mismatch,Matched,surname_conflict,spelling_variant
+918,YOGESH KUMARI KUSHWAHA,103300000916,2300000916,Matched,Matched,clean,clean
+919,VIJAY THAKUR,103300000917,2300000917,Matched,Matched,clean,spelling_variant
+920,MAMTA KUSHWAHA,103300000918,2300000918,Matched,Amount mismatch,clean,short_deposit
+921,NAVEEN KUSHWAHA,103300000919,2300000919,Matched,Matched,clean,spelling_variant
+922,PREETI PASWAN,103300000920,2300000920,Matched,Matched,title_in_ecr,title_in_ecr
+923,PRAKASH SRIVASTAVA,103300000921,2300000921,Matched,Name mismatch,clean,name_and_amount
+924,HARISH LAL PRASAD,103300000922,2300000922,Matched,Matched,clean,title_in_ecr
+925,POOJA RAWAT,103300000923,2300000923,Matched,Matched,clean,clean
+926,AMIT PANDEY,103300000924,2300000924,Name mismatch,Matched,name_and_amount,spelling_variant
+927,SANJAY SINGH,103300000925,2300000925,Matched,Matched,clean,spelling_variant
+928,Komal Chand Qureshi,103300000926,2300000926,Name mismatch,Matched,first_name_conflict,clean
+929,RAKESH KUMAR SRIVASTAVA,103300000927,2300000927,Matched,Matched,clean,clean
+930,NEHA MEENA,103300000928,2300000928,Matched,Matched,clean,clean
+931,AJAY RAWAT,103300000929,2300000929,Missing,Matched,blank_id,clean
+932,ARVIND SAINI,103300000930,2300000930,Missing,Matched,missing_in_ecr,clean
+933,VIKAS RANI PASWAN,103300000931,2300000931,Matched,Name mismatch,clean,surname_conflict
+934,ROHIT YADAV,103300000932,2300000932,Matched,Matched,word_order,clean
+935,ROHIT SINGH PRASAD,103300000933,2300000933,Name mismatch,Amount mismatch,surname_conflict,short_deposit
+936,KAVITA PASWAN,103300000934,2300000934,Matched,Matched,initial_in_ecr,clean
+937,SURESH YADAV,103300000935,2300000935,Matched,Matched,clean,clean
+938,MOHAMMAD KUMAR,103300000936,2300000936,Amount mismatch,Matched,short_deposit,spelling_variant
+939,ANITA VERMA,103300000937,2300000937,Matched,Name mismatch,clean,first_name_conflict
+940,PRAKASH PANDEY,103300000938,2300000938,Matched,Matched,clean,clean
+941,SATISH NEGI,103300000939,2300000939,Matched,Matched,clean,clean
+942,SANJEEV MAURYA,103300000940,2300000940,Matched,Missing,clean,missing_in_ecr
+943,JYOTI CHAUDHARY,103300000941,2300000941,Matched,Matched,clean,clean
+944,GEETA DUBEY,103300000942,2300000942,Missing,Matched,missing_in_ecr,clean
+945,POOJA TIWARI,103300000943,2300000943,Amount mismatch,Matched,wagesheet_wrong,extra_name_part
+946,SANJAY KHAN,103300000944,2300000944,Matched,Matched,clean,clean
+947,RAKESH IRFAN KUMARI RAWAT,103300000945,2300000945,Name mismatch,Matched,first_name_conflict,clean
+948,PREETI MAURYA,103300000946,2300000946,Matched,Missing,clean,missing_in_ecr
+949,DEEPAK PRASAD CHAUHAN,103300000947,2300000947,Matched,Missing,clean,missing_in_ecr
+950,LAXMI PRASAD YADAV,103300000948,2300000948,Missing,Matched,blank_id,extra_name_part
+951,RAMESH KUSHWAHA,103300000949,2300000949,Matched,Matched,clean,clean
+952,AMIT QURESHI,103300000950,2300000950,Matched,Matched,word_order,clean
+953,REENA KUMARI NEGI,103300000951,2300000951,Matched,Amount mismatch,clean,wagesheet_wrong
+954,RAKESH SINGH,103300000952,2300000952,Matched,Name mismatch,clean,first_name_conflict
+955,KOMAL YADAV,103300000953,2300000953,Matched,Matched,word_order,extra_name_part
+956,MAHESH PASWAN,103300000954,2300000954,Amount mismatch,Matched,short_deposit,clean
+957,VIKAS BHARDWAJ,103300000955,2300000955,Name mismatch,Matched,surname_conflict,word_order
+958,RAMESH MOHAN SHARMA,103300000956,2300000956,Matched,Name mismatch,rounding_within_1,first_name_conflict
+959,PRADEEP BISHT,103300000957,2300000957,Matched,Matched,clean,initial_in_ecr
+960,PRADEEP DUBEY,103300000958,2300000958,Matched,Amount mismatch,clean,short_deposit
+961,SURESH ANSARI,103300000959,2300000959,Matched,Matched,clean,clean
+962,ANIL MISHRA,103300000960,2300000960,Matched,Matched,clean,clean
+963,GURPREET SRIVASTAVA,103300000961,2300000961,Matched,Matched,clean,spelling_variant
+964,JYOTI LAL QURESHI,103300000962,2300000962,Amount mismatch,Matched,short_deposit,rounding_within_1
+965,VEENA BISHT,103300000963,2300000963,Matched,Matched,clean,clean
+966,PRADEEP CHAUDHARY,103300000964,2300000964,Missing,Matched,missing_in_ecr,clean
+967,SHWETA SAINI,103300000965,2300000965,Matched,Matched,clean,clean
+968,MAHESH SHARMA,103300000966,2300000966,Matched,Matched,clean,clean
+969,AJAY KUMAR,103300000967,2300000967,Matched,Amount mismatch,clean,wagesheet_wrong
+970,NEETU SAINI,103300000968,2300000968,Matched,Matched,clean,clean
+971,NEHA PANDEY,103300000969,2300000969,Matched,Matched,clean,clean
+972,NEHA GUPTA,103300000970,2300000970,Matched,Matched,title_in_ecr,clean
+973,SEEMA TIWARI,103300000971,2300000971,Name mismatch,Name mismatch,surname_conflict,name_and_amount
+974,ASHA SHARMA,103300000972,2300000972,Matched,Matched,clean,clean
+975,SUNITA NEGI,103300000973,2300000973,Matched,Matched,clean,clean
+976,PRAKASH ANSARI,103300000974,2300000974,Matched,Matched,clean,spelling_variant
+977,ASHOK VERMA,103300000975,2300000975,Matched,Matched,initial_in_ecr,extra_name_part
+978,Rahul Kushwaha,103300000976,2300000976,Matched,Amount mismatch,clean,short_deposit
+979,PREETI RANI RAWAT,103300000977,2300000977,Matched,Matched,clean,spelling_variant
+980,GURPREET DEVI DUBEY,103300000978,2300000978,Missing,Matched,missing_in_ecr,clean
+981,GURPREET ANSARI,103300000979,2300000979,Matched,Matched,spelling_variant,clean
+982,NEETU KUMAR MAURYA,103300000980,2300000980,Matched,Matched,clean,clean
+983,ARVIND SAINI,103300000981,2300000981,Matched,Matched,clean,rounding_within_1
+984,RAJEEV CHAUHAN,103300000982,2300000982,Matched,Missing,clean,missing_in_ecr
+985,MAMTA CHAUHAN,103300000983,2300000983,Matched,Missing,clean,missing_in_ecr
+986,Satish Lal Paswan,103300000984,2300000984,Missing,Name mismatch,missing_in_ecr,first_name_conflict
+987,MOHAMMAD DUBEY,103300000985,2300000985,Name mismatch,Matched,first_name_conflict,spelling_variant
+988,PANKAJ CHAUDHARY,103300000986,2300000986,Matched,Matched,extra_name_part,spelling_variant
+989,SURESH CHANDRA JAIN,103300000987,2300000987,Matched,Matched,clean,clean
+990,DINESH QURESHI,103300000988,2300000988,Matched,Matched,clean,clean
+991,POOJA JAIN,103300000989,2300000989,Matched,Matched,spelling_variant,clean
+992,PRAKASH TIWARI,103300000990,2300000990,Matched,Matched,clean,clean
+993,SAROJ RANI PRASAD,103300000991,2300000991,Name mismatch,Matched,name_and_amount,word_order
+994,Naveen Srivastava,103300000992,2300000992,Matched,Matched,spelling_variant,clean
+995,PANKAJ RANI DUBEY,103300000993,2300000993,Matched,Missing,clean,missing_in_ecr
+996,VEENA RANI PANDEY,103300000994,2300000994,Matched,Matched,clean,clean
+997,POOJA DEVI CHAUHAN,103300000995,2300000995,Matched,Matched,spelling_variant,word_order
+998,NEHA KUMAR QURESHI,103300000996,2300000996,Matched,Matched,title_in_ecr,clean
+999,GEETA SRIVASTAVA,103300000997,2300000997,Matched,Matched,clean,clean
+1000,NEETU MEENA,103300000998,2300000998,Missing,Matched,missing_in_ecr,clean
+1001,MAHESH MAURYA,103300000999,2300000999,Matched,Matched,clean,spelling_variant
+1002,PREETI MAURYA,103300001000,2300001000,Name mismatch,Missing,surname_conflict,missing_in_ecr
+1003,MAMTA SINGH KHAN,103300001001,2300001001,Matched,Matched,spelling_variant,clean
+1004,NEETU LAL TIWARI,103300001002,2300001002,Amount mismatch,Matched,wagesheet_wrong,clean
+1005,PANKAJ THAKUR,103300001003,2300001003,Matched,Amount mismatch,rounding_within_1,short_deposit
+1006,GEETA RAWAT,103300001004,2300001004,Name mismatch,Matched,first_name_conflict,clean
+1007,PRIYA CHAND KHAN,103300001005,2300001005,Matched,Matched,clean,initial_in_ecr
+1008,HARISH DUBEY,103300001006,2300001006,Matched,Missing,rounding_within_1,missing_in_ecr
+1009,VIKAS CHAUHAN,103300001007,2300001007,Matched,Name mismatch,clean,name_and_amount
+1010,ANITA PANDEY,103300001008,2300001008,Matched,Matched,clean,clean
+1011,NISHA TIWARI,103300001009,2300001009,Matched,Missing,clean,missing_in_ecr
+1012,ANITA DEVI KUSHWAHA,103300001010,2300001010,Matched,Matched,clean,extra_name_part
+1013,SUNITA SHARMA,103300001011,2300001011,Matched,Matched,clean,clean
+1014,KAVITA SRIVASTAVA,103300001012,2300001012,Matched,Amount mismatch,clean,short_deposit
+1015,IMRAN QURESHI,103300001013,2300001013,Matched,Matched,clean,clean
+1016,ASHA VERMA,103300001014,2300001014,Name mismatch,Amount mismatch,first_name_conflict,short_deposit
+1017,SUNITA TIWARI,103300001015,2300001015,Matched,Matched,clean,spelling_variant
+1018,PRIYA THAKUR,103300001016,2300001016,Matched,Matched,clean,clean
+1019,VINOD RAWAT,103300001017,2300001017,Matched,Amount mismatch,spelling_variant,short_deposit
+1020,SATISH RANI BISHT,103300001018,2300001018,Matched,Matched,clean,rounding_within_1
+1021,Preeti Yadav,103300001019,2300001019,Matched,Matched,word_order,title_in_ecr
+1022,Ajay Maurya,103300001020,2300001020,Matched,Matched,clean,clean
+1023,SEEMA RAWAT,103300001021,2300001021,Matched,Matched,clean,spelling_variant
+1024,VIKAS KUMARI CHAUDHARY,103300001022,2300001022,Matched,Matched,extra_name_part,clean
+1025,JYOTI BISHT,103300001023,2300001023,Amount mismatch,Matched,wagesheet_wrong,spelling_variant
+1026,RAKESH BISHT,103300001024,2300001024,Name mismatch,Matched,surname_conflict,clean
+1027,ASHA RAWAT,103300001025,2300001025,Matched,Matched,clean,clean
+1028,Deepak Negi,103300001026,2300001026,Matched,Matched,clean,clean
+1029,PREETI KUMARI RAWAT,103300001027,2300001027,Matched,Matched,clean,rounding_within_1
+1030,REKHA DEVI BISHT,103300001028,2300001028,Matched,Matched,clean,clean
+1031,SEEMA DUBEY,103300001029,2300001029,Matched,Matched,clean,clean
+1032,SAROJ GUPTA,103300001030,2300001030,Missing,Missing,blank_id,missing_in_ecr
+1033,VIKAS MAURYA,103300001031,2300001031,Matched,Amount mismatch,clean,short_deposit
+1034,SUNIL CHANDRA KUSHWAHA,103300001032,2300001032,Matched,Matched,word_order,clean
+1035,NAVEEN RANI KHAN,103300001033,2300001033,Matched,Matched,clean,clean
+1036,DINESH TIWARI,103300001034,2300001034,Matched,Matched,clean,clean
+1037,MOHAMMAD ANSARI,103300001035,2300001035,Missing,Matched,missing_in_ecr,clean
+1038,PANKAJ THAKUR,103300001036,2300001036,Name mismatch,Matched,name_and_amount,word_order
+1039,YOGESH DUBEY,103300001037,2300001037,Matched,Amount mismatch,word_order,wagesheet_wrong
+1040,LAXMI CHAUDHARY,103300001038,2300001038,Matched,Matched,word_order,clean
+1041,PRADEEP PRASAD YADAV,103300001039,2300001039,Matched,Amount mismatch,title_in_ecr,short_deposit
+1042,JYOTI MISHRA,103300001040,2300001040,Matched,Matched,title_in_ecr,word_order
+1043,ASHOK SRIVASTAVA,103300001041,2300001041,Matched,Matched,clean,clean
+1044,DEEPAK JAIN,103300001042,2300001042,Matched,Matched,rounding_within_1,clean
+1045,NEHA SINGH DUBEY,103300001043,2300001043,Matched,Matched,word_order,clean
+1046,PRIYA CHAND BISHT,103300001044,2300001044,Matched,Matched,clean,extra_name_part
+1047,REKHA NEGI,103300001045,2300001045,Matched,Matched,spelling_variant,clean
+1048,VIJAY PRASAD,103300001046,2300001046,Matched,Matched,extra_name_part,clean
+1049,NEETU KHAN,103300001047,2300001047,Matched,Matched,spelling_variant,word_order
+1050,JYOTI CHAND SRIVASTAVA,103300001048,2300001048,Matched,Matched,clean,rounding_within_1
+1051,PRAKASH SHARMA,103300001049,2300001049,Missing,Amount mismatch,missing_in_ecr,short_deposit
+1052,MANOJ JAIN,103300001050,2300001050,Matched,Matched,clean,spelling_variant
+1053,AJAY SAINI,103300001051,2300001051,Matched,Name mismatch,word_order,name_and_amount
+1054,VEENA CHAUHAN,103300001052,2300001052,Matched,Matched,extra_name_part,clean
+1055,KOMAL DEVI KUSHWAHA,103300001053,2300001053,Matched,Amount mismatch,clean,wagesheet_wrong
+1056,VIKAS CHAUHAN,103300001054,2300001054,Matched,Matched,clean,clean
+1057,PRADEEP KUMAR CHAUHAN,103300001055,2300001055,Matched,Matched,extra_name_part,word_order
+1058,RAHUL KUSHWAHA,103300001056,2300001056,Amount mismatch,Matched,short_deposit,clean
+1059,JYOTI THAKUR,103300001057,2300001057,Matched,Matched,title_in_ecr,clean
+1060,MAHESH TIWARI,103300001058,2300001058,Name mismatch,Matched,name_and_amount,clean
+1061,PREETI TIWARI,103300001059,2300001059,Matched,Matched,clean,spelling_variant
+1062,Komal Chaudhary,103300001060,2300001060,Matched,Matched,clean,word_order
+1063,MANOJ THAKUR,103300001061,2300001061,Matched,Matched,rounding_within_1,spelling_variant
+1064,SAROJ KUSHWAHA,103300001062,2300001062,Matched,Matched,clean,clean
+1065,PANKAJ DUBEY,103300001063,2300001063,Matched,Matched,clean,clean
+1066,RAMESH SINGH MEENA,103300001064,2300001064,Matched,Matched,clean,clean
+1067,VINOD KUMARI RAWAT,103300001065,2300001065,Matched,Matched,initial_in_ecr,clean
+1068,GURPREET GUPTA,103300001066,2300001066,Name mismatch,Matched,first_name_conflict,clean
+1069,SANJAY TIWARI,103300001067,2300001067,Matched,Matched,clean,clean
+1070,VEENA QURESHI,103300001068,2300001068,Amount mismatch,Matched,short_deposit,clean
+1071,RAHUL TIWARI,103300001069,2300001069,Matched,Matched,clean,clean
+1072,REKHA MEENA,103300001070,2300001070,Matched,Matched,word_order,clean
+1073,VINOD CHAUDHARY,103300001071,2300001071,Matched,Amount mismatch,initial_in_ecr,short_deposit
+1074,GURPREET PRASAD VERMA,103300001072,2300001072,Matched,Matched,clean,initial_in_ecr
+1075,MOHAMMAD SHARMA,103300001073,2300001073,Matched,Matched,spelling_variant,clean
+1076,AJAY KUMAR KHAN,103300001074,2300001074,Matched,Matched,clean,clean
+1077,VINOD QURESHI,103300001075,2300001075,Matched,Amount mismatch,clean,short_deposit
+1078,ROHIT GUPTA,103300001076,2300001076,Matched,Matched,spelling_variant,clean
+1079,SUNITA BHARDWAJ,103300001077,2300001077,Matched,Matched,clean,clean
+1080,MANOJ CHANDRA RANI NEGI,103300001078,2300001078,Matched,Missing,clean,blank_id
+1081,PRADEEP SINGH KUSHWAHA,103300001079,2300001079,Matched,Amount mismatch,clean,wagesheet_wrong
+1082,REENA MEENA,103300001080,2300001080,Matched,Matched,rounding_within_1,clean
+1083,ARVIND KUSHWAHA,103300001081,2300001081,Matched,Matched,clean,rounding_within_1
+1084,PRIYA MISHRA,103300001082,2300001082,Matched,Matched,clean,spelling_variant
+1085,VINOD BISHT,103300001083,2300001083,Matched,Matched,clean,clean
+1086,JYOTI ANSARI,103300001084,2300001084,Matched,Matched,word_order,spelling_variant
+1087,RAKESH MISHRA,103300001085,2300001085,Matched,Matched,clean,clean
+1088,PRADEEP IRFAN KUMARI KUMAR,103300001086,2300001086,Missing,Matched,missing_in_ecr,title_in_ecr
+1089,Rahul Meena,103300001087,2300001087,Missing,Matched,missing_in_ecr,clean
+1090,VIKAS KUSHWAHA,103300001088,2300001088,Name mismatch,Matched,surname_conflict,clean
+1091,MOHAMMAD IRFAN KHAN,103300001089,2300001089,Matched,Matched,spelling_variant,initial_in_ecr
+1092,SUNIL SINGH,103300001090,2300001090,Name mismatch,Matched,name_and_amount,rounding_within_1
+1093,ANITA KUMARI KHAN,103300001091,2300001091,Name mismatch,Matched,first_name_conflict,clean
+1094,RAHUL THAKUR,103300001092,2300001092,Matched,Matched,clean,clean
+1095,DEEPAK KHAN,103300001093,2300001093,Matched,Matched,clean,clean
+1096,VINOD MEENA,103300001094,2300001094,Amount mismatch,Matched,short_deposit,clean
+1097,SUNITA CHANDRA GUPTA,103300001095,2300001095,Matched,Matched,clean,clean
+1098,Ajay Sharma,103300001096,2300001096,Matched,Matched,clean,clean
+1099,LAXMI KHAN,103300001097,2300001097,Matched,Name mismatch,clean,first_name_conflict
+1100,MAMTA BISHT,103300001098,2300001098,Matched,Matched,spelling_variant,clean
+1101,GEETA VERMA,103300001099,2300001099,Matched,Matched,clean,clean
+1102,RAHUL SRIVASTAVA,103300001100,2300001100,Matched,Matched,clean,clean
+1103,MANOJ VERMA,103300001101,2300001101,Matched,Amount mismatch,word_order,wagesheet_wrong
+1104,POOJA BHARDWAJ,103300001102,2300001102,Matched,Amount mismatch,title_in_ecr,short_deposit
+1105,AJAY YADAV,103300001103,2300001103,Matched,Matched,clean,rounding_within_1
+1106,ARVIND DEVI YADAV,103300001104,2300001104,Matched,Missing,spelling_variant,missing_in_ecr
+1107,AMIT THAKUR,103300001105,2300001105,Matched,Matched,clean,title_in_ecr
+1108,MOHAMMAD MISHRA,103300001106,2300001106,Matched,Matched,clean,clean
+1109,KAVITA MAURYA,103300001107,2300001107,Amount mismatch,Matched,short_deposit,clean
+1110,LAXMI RANI SRIVASTAVA,103300001108,2300001108,Matched,Matched,clean,clean
+1111,AJAY CHAND MAURYA,103300001109,2300001109,Matched,Matched,rounding_within_1,clean
+1112,SURESH SRIVASTAVA,103300001110,2300001110,Matched,Matched,clean,clean
+1113,MAHESH CHAND CHAUDHARY,103300001111,2300001111,Matched,Missing,initial_in_ecr,blank_id
+1114,VEENA LAL PASWAN,103300001112,2300001112,Missing,Matched,missing_in_ecr,clean
+1115,IMRAN THAKUR,103300001113,2300001113,Matched,Matched,title_in_ecr,clean
+1116,RAJEEV KHAN,103300001114,2300001114,Matched,Matched,spelling_variant,clean
+1117,REKHA PASWAN,103300001115,2300001115,Matched,Matched,clean,title_in_ecr
+1118,IMRAN DUBEY,103300001116,2300001116,Matched,Matched,spelling_variant,clean
+1119,PRAKASH PRASAD,103300001117,2300001117,Matched,Matched,clean,clean
+1120,RAHUL SHARMA,103300001118,2300001118,Name mismatch,Matched,surname_conflict,clean
+1121,MANOJ DEVI TIWARI,103300001119,2300001119,Matched,Matched,clean,clean
+1122,SANJEEV TIWARI,103300001120,2300001120,Matched,Matched,clean,clean
+1123,REENA THAKUR,103300001121,2300001121,Name mismatch,Matched,surname_conflict,spelling_variant
+1124,ASHA CHAND TIWARI,103300001122,2300001122,Matched,Matched,clean,clean
+1125,PRIYA BHARDWAJ,103300001123,2300001123,Matched,Matched,clean,clean
+1126,MOHAMMAD CHAUHAN,103300001124,2300001124,Amount mismatch,Matched,wagesheet_wrong,rounding_within_1
+1127,PRADEEP MEENA,103300001125,2300001125,Matched,Matched,clean,clean
+1128,ROHIT QURESHI,103300001126,2300001126,Matched,Matched,clean,spelling_variant
+1129,GEETA THAKUR,103300001127,2300001127,Matched,Matched,spelling_variant,clean
+1130,PANKAJ RAWAT,103300001128,2300001128,Matched,Matched,clean,clean
+1131,AJAY CHANDRA PRASAD,103300001129,2300001129,Matched,Amount mismatch,clean,wagesheet_wrong
+1132,DINESH MISHRA,103300001130,2300001130,Matched,Matched,clean,clean
+1133,Amit Rawat,103300001131,2300001131,Matched,Matched,clean,clean
+1134,Mohammad Chand Yadav,103300001132,2300001132,Matched,Matched,clean,clean
+1135,YOGESH PRAKASH RAWAT,103300001133,2300001133,Matched,Matched,clean,clean
+1136,SUNIL RAWAT,103300001134,2300001134,Matched,Amount mismatch,rounding_within_1,short_deposit
+1137,GEETA PRASAD,103300001135,2300001135,Matched,Matched,title_in_ecr,clean
+1138,VEENA RANI THAKUR,103300001136,2300001136,Matched,Matched,clean,spelling_variant
+1139,JYOTI CHAUHAN,103300001137,2300001137,Matched,Matched,clean,clean
+1140,SANJAY CHAND ANSARI,103300001138,2300001138,Matched,Matched,clean,title_in_ecr
+1141,HARISH JAIN,103300001139,2300001139,Matched,Missing,clean,missing_in_ecr
+1142,AMIT CHAND SAINI,103300001140,2300001140,Matched,Matched,spelling_variant,spelling_variant
+1143,AJAY KHAN,103300001141,2300001141,Matched,Matched,clean,clean
+1144,NEETU KUSHWAHA,103300001142,2300001142,Matched,Missing,rounding_within_1,missing_in_ecr
+1145,ASHOK TIWARI,103300001143,2300001143,Matched,Matched,clean,clean
+1146,KAVITA CHAUHAN,103300001144,2300001144,Matched,Name mismatch,clean,surname_conflict
+1147,PRADEEP BHARDWAJ,103300001145,2300001145,Missing,Matched,missing_in_ecr,clean
+1148,PRIYA THAKUR,103300001146,2300001146,Matched,Matched,title_in_ecr,rounding_within_1
+1149,GURPREET RANI TIWARI,103300001147,2300001147,Matched,Matched,clean,clean
+1150,MAHESH MEENA,103300001148,2300001148,Matched,Matched,clean,clean
+1151,Laxmi Verma,103300001149,2300001149,Amount mismatch,Matched,short_deposit,clean
+1152,SATISH SINGH,103300001150,2300001150,Name mismatch,Matched,first_name_conflict,title_in_ecr
+1153,KAVITA DUBEY,103300001151,2300001151,Matched,Matched,clean,spelling_variant
+1154,AMIT DUBEY,103300001152,2300001152,Matched,Amount mismatch,clean,short_deposit
+1155,SONIA SHARMA,103300001153,2300001153,Matched,Matched,spelling_variant,clean
+1156,Geeta Chandra Qureshi,103300001154,2300001154,Matched,Matched,clean,clean
+1157,ASHOK THAKUR,103300001155,2300001155,Matched,Matched,clean,spelling_variant
+1158,REKHA MAURYA,103300001156,2300001156,Matched,Matched,clean,clean
+1159,AJAY KUMAR,103300001157,2300001157,Matched,Matched,spelling_variant,clean
+1160,VIJAY KUMAR PANDEY,103300001158,2300001158,Matched,Amount mismatch,clean,short_deposit
+1161,Prakash Yadav,103300001159,2300001159,Matched,Matched,clean,clean
+1162,JYOTI SHARMA,103300001160,2300001160,Matched,Matched,word_order,word_order
+1163,MAMTA GUPTA,103300001161,2300001161,Amount mismatch,Matched,wagesheet_wrong,word_order
+1164,SAROJ KHAN,103300001162,2300001162,Name mismatch,Matched,surname_conflict,clean
+1165,MANOJ CHAUHAN,103300001163,2300001163,Missing,Matched,blank_id,clean
+1166,GURPREET YADAV,103300001164,2300001164,Matched,Matched,rounding_within_1,spelling_variant
+1167,RAKESH LAL YADAV,103300001165,2300001165,Matched,Matched,clean,clean
+1168,JYOTI GUPTA,103300001166,2300001166,Matched,Missing,clean,missing_in_ecr
+1169,PREETI MEENA,103300001167,2300001167,Matched,Matched,clean,clean
+1170,VINOD KHAN,103300001168,2300001168,Matched,Name mismatch,clean,first_name_conflict
+1171,NEHA NEGI,103300001169,2300001169,Matched,Matched,spelling_variant,rounding_within_1
+1172,SURESH KUMAR KUSHWAHA,103300001170,2300001170,Matched,Matched,clean,clean
+1173,LAXMI PRASAD KHAN,103300001171,2300001171,Matched,Matched,rounding_within_1,clean
+1174,GEETA NEGI,103300001172,2300001172,Matched,Matched,clean,clean
+1175,Ajay Pandey,103300001173,2300001173,Matched,Matched,word_order,spelling_variant
+1176,ROHIT PASWAN,103300001174,2300001174,Amount mismatch,Matched,short_deposit,spelling_variant
+1177,POOJA NEGI,103300001175,2300001175,Matched,Matched,spelling_variant,clean
+1178,AJAY SINGH,103300001176,2300001176,Matched,Name mismatch,clean,first_name_conflict
+1179,VINOD PRASAD,103300001177,2300001177,Matched,Matched,clean,clean
+1180,RAJEEV PRASAD,103300001178,2300001178,Missing,Matched,missing_in_ecr,spelling_variant
+1181,LAXMI KHAN,103300001179,2300001179,Amount mismatch,Name mismatch,short_deposit,first_name_conflict
+1182,RAMESH PRASAD VERMA,103300001180,2300001180,Matched,Matched,clean,clean
+1183,SANJAY NEGI,103300001181,2300001181,Matched,Matched,clean,clean
+1184,REKHA MOHAN LAL CHAUDHARY,103300001182,2300001182,Matched,Name mismatch,spelling_variant,surname_conflict
+1185,PRADEEP CHAUDHARY,103300001183,2300001183,Matched,Matched,initial_in_ecr,clean
+1186,PRIYA PRAKASH SINGH NEGI,103300001184,2300001184,Matched,Matched,word_order,clean
+1187,NEHA ANSARI,103300001185,2300001185,Matched,Matched,clean,clean
+1188,NEHA TIWARI,103300001186,2300001186,Matched,Name mismatch,clean,surname_conflict
+1189,GURPREET DEVI MEENA,103300001187,2300001187,Matched,Matched,clean,clean
+1190,GEETA MAURYA,103300001188,2300001188,Missing,Matched,missing_in_ecr,clean
+1191,ASHOK QURESHI,103300001189,2300001189,Matched,Name mismatch,clean,name_and_amount
+1192,SANJAY CHAND QURESHI,103300001190,2300001190,Matched,Matched,clean,rounding_within_1
+1193,REENA SINGH,103300001191,2300001191,Name mismatch,Missing,first_name_conflict,missing_in_ecr
+1194,VIKAS TIWARI,103300001192,2300001192,Matched,Matched,clean,clean
+1195,JYOTI DUBEY,103300001193,2300001193,Matched,Matched,spelling_variant,word_order
+1196,REENA BISHT,103300001194,2300001194,Matched,Matched,clean,clean
+1197,PRADEEP NEGI,103300001195,2300001195,Matched,Matched,clean,clean
+1198,VIKAS BISHT,103300001196,2300001196,Matched,Amount mismatch,rounding_within_1,short_deposit
+1199,RAJEEV KUMAR,103300001197,2300001197,Matched,Matched,clean,clean
+1200,VEENA PRASAD,103300001198,2300001198,Matched,Matched,rounding_within_1,clean
+1201,VIJAY KUMAR,103300001199,2300001199,Matched,Matched,clean,word_order
+1202,RAMESH THAKUR,103300001200,2300001200,Matched,Matched,word_order,clean
+1203,VINOD KHAN,103300001201,2300001201,Matched,Matched,clean,clean
+1204,SUNITA MAURYA,103300001202,2300001202,Name mismatch,Name mismatch,surname_conflict,name_and_amount
+1205,NAVEEN JAIN,103300001203,2300001203,Name mismatch,Matched,first_name_conflict,clean
+1206,VIJAY JAIN,103300001204,2300001204,Matched,Matched,word_order,spelling_variant
+1207,LAXMI JAIN,103300001205,2300001205,Missing,Matched,missing_in_ecr,spelling_variant
+1208,REKHA TIWARI,103300001206,2300001206,Matched,Amount mismatch,clean,wagesheet_wrong
+1209,KOMAL ANSARI,103300001207,2300001207,Matched,Matched,clean,clean
+1210,ASHA VERMA,103300001208,2300001208,Amount mismatch,Matched,short_deposit,clean
+1211,GEETA SRIVASTAVA,103300001209,2300001209,Matched,Name mismatch,initial_in_ecr,first_name_conflict
+1212,SONIA DUBEY,103300001210,2300001210,Amount mismatch,Name mismatch,wagesheet_wrong,surname_conflict
+1213,VIJAY DUBEY,103300001211,2300001211,Matched,Matched,rounding_within_1,clean
+1214,IMRAN PRASAD,103300001212,2300001212,Matched,Amount mismatch,clean,short_deposit
+1215,REENA BHARDWAJ,103300001213,2300001213,Amount mismatch,Matched,short_deposit,clean
+1216,VIKAS NEGI,103300001214,2300001214,Matched,Missing,clean,missing_in_ecr
+1217,SATISH TIWARI,103300001215,2300001215,Matched,Matched,clean,clean
+1218,KOMAL QURESHI,103300001216,2300001216,Missing,Matched,missing_in_ecr,clean
+1219,SHWETA KUMAR,103300001217,2300001217,Matched,Matched,clean,clean
+1220,PRAKASH DUBEY,103300001218,2300001218,Matched,Matched,rounding_within_1,clean
+1221,SANJAY MISHRA,103300001219,2300001219,Matched,Matched,clean,clean
+1222,YOGESH VERMA,103300001220,2300001220,Matched,Matched,clean,word_order
+1223,LAXMI SRIVASTAVA,103300001221,2300001221,Matched,Matched,clean,clean
+1224,SUNIL PRAKASH LAL CHAUDHARY,103300001222,2300001222,Matched,Matched,clean,spelling_variant
+1225,AMIT RAWAT,103300001223,2300001223,Matched,Matched,clean,clean
+1226,SUNITA RAWAT,103300001224,2300001224,Matched,Matched,clean,clean
+1227,SUNIL BHARDWAJ,103300001225,2300001225,Name mismatch,Matched,first_name_conflict,clean
+1228,RAKESH SAINI,103300001226,2300001226,Matched,Matched,spelling_variant,clean
+1229,SANJEEV QURESHI,103300001227,2300001227,Name mismatch,Matched,first_name_conflict,word_order
+1230,SHWETA CHAUDHARY,103300001228,2300001228,Matched,Matched,clean,clean
+1231,Jyoti Qureshi,103300001229,2300001229,Matched,Matched,spelling_variant,rounding_within_1
+1232,PANKAJ YADAV,103300001230,2300001230,Matched,Matched,clean,clean
+1233,SANJEEV NEGI,103300001231,2300001231,Amount mismatch,Matched,short_deposit,spelling_variant
+1234,AMIT MAURYA,103300001232,2300001232,Matched,Matched,clean,clean
+1235,LAXMI KUSHWAHA,103300001233,2300001233,Matched,Matched,clean,clean
+1236,POOJA PANDEY,103300001234,2300001234,Matched,Matched,clean,clean
+1237,RAJEEV KUSHWAHA,103300001235,2300001235,Matched,Matched,clean,clean
+1238,PRADEEP THAKUR,103300001236,2300001236,Matched,Name mismatch,title_in_ecr,first_name_conflict
+1239,HARISH ANSARI,103300001237,2300001237,Matched,Matched,clean,clean
+1240,PRIYA KUMAR PASWAN,103300001238,2300001238,Matched,Matched,clean,clean
+1241,SANJAY MISHRA,103300001239,2300001239,Matched,Matched,clean,clean
+1242,Manoj Kumari Verma,103300001240,2300001240,Matched,Matched,extra_name_part,clean
+1243,MANOJ PRASAD,103300001241,2300001241,Name mismatch,Matched,name_and_amount,clean
+1244,RAHUL JAIN,103300001242,2300001242,Matched,Matched,clean,title_in_ecr
+1245,PRIYA LAL KUMAR,103300001243,2300001243,Matched,Matched,clean,clean
+1246,VINOD IRFAN CHAUHAN,103300001244,2300001244,Matched,Matched,clean,clean
+1247,HARISH CHAUHAN,103300001245,2300001245,Matched,Matched,clean,clean
+1248,PRAKASH JAIN,103300001246,2300001246,Missing,Matched,blank_id,clean
+1249,DEEPAK KUMAR,103300001247,2300001247,Matched,Amount mismatch,clean,short_deposit
+1250,PANKAJ CHAND KHAN,103300001248,2300001248,Name mismatch,Matched,first_name_conflict,spelling_variant
+1251,KAVITA SHARMA,103300001249,2300001249,Missing,Matched,blank_id,clean
+1252,KOMAL JAIN,103300001250,2300001250,Matched,Name mismatch,clean,name_and_amount
+1253,ASHA KUMAR,103300001251,2300001251,Missing,Matched,blank_id,spelling_variant
+1254,DEEPAK THAKUR,103300001252,2300001252,Name mismatch,Missing,first_name_conflict,missing_in_ecr
+1255,PRAKASH MAURYA,103300001253,2300001253,Matched,Missing,spelling_variant,missing_in_ecr
+1256,SUNITA DEVI KUMAR,103300001254,2300001254,Matched,Matched,word_order,clean
+1257,YOGESH SAINI,103300001255,2300001255,Amount mismatch,Matched,short_deposit,clean
+1258,NISHA PASWAN,103300001256,2300001256,Matched,Matched,clean,clean
+1259,ANITA MOHAN MISHRA,103300001257,2300001257,Matched,Matched,rounding_within_1,spelling_variant
+1260,REENA CHAUDHARY,103300001258,2300001258,Amount mismatch,Matched,short_deposit,extra_name_part
+1261,MAHESH MAURYA,103300001259,2300001259,Matched,Matched,clean,extra_name_part
+1262,Ajay Meena,103300001260,2300001260,Matched,Name mismatch,clean,surname_conflict
+1263,PREETI IRFAN THAKUR,103300001261,2300001261,Matched,Matched,clean,rounding_within_1
+1264,SHWETA JAIN,103300001262,2300001262,Matched,Matched,clean,spelling_variant
+1265,YOGESH KUMARI PASWAN,103300001263,2300001263,Matched,Name mismatch,extra_name_part,first_name_conflict
+1266,VIJAY BHARDWAJ,103300001264,2300001264,Matched,Matched,clean,clean
+1267,GEETA RAWAT,103300001265,2300001265,Matched,Matched,clean,clean
+1268,SHWETA MOHAN PRASAD,103300001266,2300001266,Matched,Missing,spelling_variant,missing_in_ecr
+1269,PREETI CHAUDHARY,103300001267,2300001267,Matched,Matched,clean,spelling_variant
+1270,GEETA SHARMA,103300001268,2300001268,Name mismatch,Matched,first_name_conflict,rounding_within_1
+1271,ANITA CHANDRA KUSHWAHA,103300001269,2300001269,Matched,Matched,clean,clean
+1272,SANJAY THAKUR,103300001270,2300001270,Matched,Matched,title_in_ecr,rounding_within_1
+1273,NISHA SINGH,103300001271,2300001271,Matched,Matched,initial_in_ecr,clean
+1274,GEETA KUMARI MAURYA,103300001272,2300001272,Matched,Matched,clean,extra_name_part
+1275,AJAY MAURYA,103300001273,2300001273,Matched,Matched,clean,clean
+1276,HARISH PRASAD,103300001274,2300001274,Name mismatch,Matched,first_name_conflict,clean
+1277,SAROJ CHAUDHARY,103300001275,2300001275,Matched,Matched,clean,clean
+1278,MOHAMMAD KUMAR GUPTA,103300001276,2300001276,Matched,Matched,clean,clean
+1279,MANOJ BISHT,103300001277,2300001277,Missing,Matched,missing_in_ecr,initial_in_ecr
+1280,NEHA BHARDWAJ,103300001278,2300001278,Matched,Name mismatch,clean,first_name_conflict
+1281,JYOTI SRIVASTAVA,103300001279,2300001279,Matched,Matched,clean,rounding_within_1
+1282,ASHA CHAUDHARY,103300001280,2300001280,Matched,Name mismatch,title_in_ecr,first_name_conflict
+1283,NISHA SINGH KUMAR,103300001281,2300001281,Amount mismatch,Matched,short_deposit,clean
+1284,RAJEEV GUPTA,103300001282,2300001282,Matched,Name mismatch,word_order,first_name_conflict
+1285,VIKAS MEENA,103300001283,2300001283,Matched,Matched,title_in_ecr,clean
+1286,PRADEEP PRASAD MISHRA,103300001284,2300001284,Matched,Matched,clean,clean
+1287,ANITA TIWARI,103300001285,2300001285,Matched,Matched,clean,title_in_ecr
+1288,YOGESH MEENA,103300001286,2300001286,Matched,Matched,title_in_ecr,clean
+1289,NAVEEN PANDEY,103300001287,2300001287,Matched,Missing,clean,missing_in_ecr
+1290,ASHA KUMAR CHAUHAN,103300001288,2300001288,Amount mismatch,Name mismatch,short_deposit,first_name_conflict
+1291,Satish Khan,103300001289,2300001289,Matched,Matched,word_order,clean
+1292,ROHIT GUPTA,103300001290,2300001290,Matched,Matched,clean,clean
+1293,ARVIND KUMARI KHAN,103300001291,2300001291,Matched,Missing,clean,missing_in_ecr
+1294,AJAY KUSHWAHA,103300001292,2300001292,Matched,Matched,clean,clean
+1295,YOGESH KUMAR,103300001293,2300001293,Matched,Amount mismatch,title_in_ecr,wagesheet_wrong
+1296,RAKESH KUMAR,103300001294,2300001294,Matched,Matched,rounding_within_1,clean
+1297,MAMTA YADAV,103300001295,2300001295,Matched,Name mismatch,word_order,first_name_conflict
+1298,AMIT VERMA,103300001296,2300001296,Matched,Matched,clean,word_order
+1299,REKHA YADAV,103300001297,2300001297,Matched,Amount mismatch,clean,wagesheet_wrong
+1300,VINOD MEENA,103300001298,2300001298,Matched,Amount mismatch,clean,wagesheet_wrong
+1301,Deepak Mishra,103300001299,2300001299,Matched,Matched,clean,rounding_within_1
+1302,VIJAY LAL SAINI,103300001300,2300001300,Matched,Amount mismatch,clean,wagesheet_wrong
+1303,JYOTI KUMAR VERMA,103300001301,2300001301,Matched,Name mismatch,clean,first_name_conflict
+1304,SEEMA KUMAR PRASAD,103300001302,2300001302,Matched,Missing,spelling_variant,missing_in_ecr
+1305,SONIA BHARDWAJ,103300001303,2300001303,Missing,Matched,missing_in_ecr,clean
+1306,NEETU THAKUR,103300001304,2300001304,Matched,Matched,clean,clean
+1307,LAXMI MAURYA,103300001305,2300001305,Matched,Matched,clean,clean
+1308,PRAKASH PASWAN,103300001306,2300001306,Missing,Matched,missing_in_ecr,clean
+1309,NEETU TIWARI,103300001307,2300001307,Matched,Matched,clean,title_in_ecr
+1310,ROHIT KHAN,103300001308,2300001308,Matched,Matched,clean,clean
+1311,YOGESH GUPTA,103300001309,2300001309,Matched,Missing,clean,missing_in_ecr
+1312,MANOJ DEVI CHAUHAN,103300001310,2300001310,Matched,Name mismatch,clean,name_and_amount
+1313,SANJAY PRASAD YADAV,103300001311,2300001311,Name mismatch,Matched,first_name_conflict,spelling_variant
+1314,JYOTI PRASAD,103300001312,2300001312,Matched,Matched,title_in_ecr,clean
+1315,RAKESH JAIN,103300001313,2300001313,Amount mismatch,Matched,short_deposit,spelling_variant
+1316,SEEMA KUSHWAHA,103300001314,2300001314,Matched,Matched,clean,rounding_within_1
+1317,SUNITA BHARDWAJ,103300001315,2300001315,Matched,Name mismatch,clean,first_name_conflict
+1318,MANOJ RAWAT,103300001316,2300001316,Matched,Amount mismatch,clean,short_deposit
+1319,SURESH LAL BISHT,103300001317,2300001317,Matched,Matched,title_in_ecr,spelling_variant
+1320,VIKAS PANDEY,103300001318,2300001318,Matched,Amount mismatch,rounding_within_1,wagesheet_wrong
+1321,SONIA CHAUDHARY,103300001319,2300001319,Matched,Name mismatch,initial_in_ecr,first_name_conflict
+1322,ASHOK SHARMA,103300001320,2300001320,Matched,Name mismatch,spelling_variant,surname_conflict
+1323,ROHIT MAURYA,103300001321,2300001321,Matched,Matched,clean,clean
+1324,ANITA BISHT,103300001322,2300001322,Matched,Matched,spelling_variant,clean
+1325,GEETA KUMARI SAINI,103300001323,2300001323,Name mismatch,Matched,first_name_conflict,clean
+1326,ASHA LAL THAKUR,103300001324,2300001324,Matched,Matched,clean,initial_in_ecr
+1327,MANOJ DUBEY,103300001325,2300001325,Name mismatch,Matched,surname_conflict,spelling_variant
+1328,Arvind Singh,103300001326,2300001326,Name mismatch,Matched,surname_conflict,clean
+1329,IMRAN PRASAD,103300001327,2300001327,Matched,Missing,clean,blank_id
+1330,SEEMA PRASAD,103300001328,2300001328,Matched,Missing,clean,blank_id
+1331,RAHUL THAKUR,103300001329,2300001329,Matched,Matched,clean,clean
+1332,VEENA PASWAN,103300001330,2300001330,Matched,Matched,clean,clean
+1333,SURESH KUMAR BISHT,103300001331,2300001331,Matched,Amount mismatch,clean,short_deposit
+1334,NISHA CHAUDHARY,103300001332,2300001332,Matched,Name mismatch,clean,name_and_amount
+1335,SUNITA SRIVASTAVA,103300001333,2300001333,Matched,Missing,clean,missing_in_ecr
+1336,ASHA MEENA,103300001334,2300001334,Matched,Name mismatch,clean,surname_conflict
+1337,GURPREET PASWAN,103300001335,2300001335,Matched,Missing,clean,missing_in_ecr
+1338,HARISH MEENA,103300001336,2300001336,Matched,Amount mismatch,clean,short_deposit
+1339,SONIA TIWARI,103300001337,2300001337,Matched,Matched,clean,clean
+1340,PRADEEP PASWAN,103300001338,2300001338,Matched,Matched,spelling_variant,clean
+1341,Saroj Maurya,103300001339,2300001339,Matched,Matched,rounding_within_1,clean
+1342,SURESH QURESHI,103300001340,2300001340,Matched,Matched,clean,clean
+1343,REENA CHAUDHARY,103300001341,2300001341,Matched,Matched,clean,spelling_variant
+1344,NISHA PASWAN,103300001342,2300001342,Name mismatch,Matched,first_name_conflict,rounding_within_1
+1345,SANJAY MISHRA,103300001343,2300001343,Matched,Matched,clean,clean
+1346,KAVITA BHARDWAJ,103300001344,2300001344,Matched,Matched,clean,rounding_within_1
+1347,LAXMI KUSHWAHA,103300001345,2300001345,Amount mismatch,Matched,short_deposit,clean
+1348,PRADEEP PANDEY,103300001346,2300001346,Matched,Matched,clean,clean
+1349,RAMESH MAURYA,103300001347,2300001347,Matched,Matched,clean,clean
+1350,PRIYA KUMAR,103300001348,2300001348,Matched,Amount mismatch,clean,short_deposit
+1351,IMRAN SHARMA,103300001349,2300001349,Matched,Missing,clean,missing_in_ecr
+1352,ANITA QURESHI,103300001350,2300001350,Matched,Matched,clean,spelling_variant
+1353,SHWETA PRASAD ANSARI,103300001351,2300001351,Matched,Matched,clean,spelling_variant
+1354,PANKAJ CHAUHAN,103300001352,2300001352,Missing,Matched,missing_in_ecr,clean
+1355,RAMESH KUSHWAHA,103300001353,2300001353,Matched,Amount mismatch,clean,short_deposit
+1356,NAVEEN VERMA,103300001354,2300001354,Matched,Matched,extra_name_part,clean
+1357,ASHOK BHARDWAJ,103300001355,2300001355,Amount mismatch,Matched,short_deposit,clean
+1358,SANJEEV ANSARI,103300001356,2300001356,Matched,Matched,clean,clean
+1359,PREETI CHAUDHARY,103300001357,2300001357,Matched,Amount mismatch,rounding_within_1,wagesheet_wrong
+1360,Dinesh Kumar,103300001358,2300001358,Amount mismatch,Matched,short_deposit,spelling_variant
+1361,JYOTI PRAKASH JAIN,103300001359,2300001359,Matched,Missing,clean,missing_in_ecr
+1362,REENA SINGH,103300001360,2300001360,Matched,Matched,clean,clean
+1363,NEHA DUBEY,103300001361,2300001361,Missing,Matched,missing_in_ecr,clean
+1364,PANKAJ SRIVASTAVA,103300001362,2300001362,Matched,Matched,word_order,clean
+1365,ANITA PRASAD,103300001363,2300001363,Matched,Matched,clean,clean
+1366,SUNITA PANDEY,103300001364,2300001364,Missing,Matched,missing_in_ecr,clean
+1367,AMIT PRASAD MAURYA,103300001365,2300001365,Matched,Matched,clean,clean
+1368,IMRAN KUSHWAHA,103300001366,2300001366,Matched,Matched,word_order,clean
+1369,SURESH PRASAD,103300001367,2300001367,Matched,Name mismatch,clean,first_name_conflict
+1370,SURESH MISHRA,103300001368,2300001368,Amount mismatch,Matched,short_deposit,clean
+1371,PRAKASH KUSHWAHA,103300001369,2300001369,Matched,Matched,clean,clean
+1372,Mahesh Khan,103300001370,2300001370,Missing,Missing,missing_in_ecr,missing_in_ecr
+1373,PRIYA DEVI KHAN,103300001371,2300001371,Missing,Matched,missing_in_ecr,clean
+1374,Jyoti Negi,103300001372,2300001372,Matched,Matched,clean,clean
+1375,DINESH GUPTA,103300001373,2300001373,Missing,Matched,blank_id,clean
+1376,GEETA YADAV,103300001374,2300001374,Matched,Matched,clean,clean
+1377,ARVIND CHAND CHAUHAN,103300001375,2300001375,Matched,Matched,spelling_variant,clean
+1378,NEETU YADAV,103300001376,2300001376,Matched,Matched,extra_name_part,rounding_within_1
+1379,AJAY PASWAN,103300001377,2300001377,Matched,Matched,clean,clean
+1380,GURPREET SHARMA,103300001378,2300001378,Matched,Name mismatch,clean,first_name_conflict
+1381,LAXMI NEGI,103300001379,2300001379,Missing,Name mismatch,missing_in_ecr,surname_conflict
+1382,YOGESH ANSARI,103300001380,2300001380,Matched,Matched,clean,clean
+1383,SATISH QURESHI,103300001381,2300001381,Matched,Matched,clean,rounding_within_1
+1384,MAMTA CHAUHAN,103300001382,2300001382,Matched,Matched,clean,clean
+1385,ARVIND GUPTA,103300001383,2300001383,Matched,Matched,initial_in_ecr,rounding_within_1
+1386,PANKAJ PRASAD,103300001384,2300001384,Matched,Matched,clean,spelling_variant
+1387,KAVITA DUBEY,103300001385,2300001385,Matched,Matched,word_order,clean
+1388,SAROJ PASWAN,103300001386,2300001386,Matched,Matched,clean,clean
+1389,LAXMI BHARDWAJ,103300001387,2300001387,Matched,Missing,word_order,missing_in_ecr
+1390,HARISH SRIVASTAVA,103300001388,2300001388,Matched,Matched,clean,clean
+1391,VIJAY THAKUR,103300001389,2300001389,Name mismatch,Matched,first_name_conflict,clean
+1392,MANOJ KUMAR MEENA,103300001390,2300001390,Amount mismatch,Matched,short_deposit,title_in_ecr
+1393,Rohit Srivastava,103300001391,2300001391,Matched,Matched,spelling_variant,rounding_within_1
+1394,RAMESH CHANDRA JAIN,103300001392,2300001392,Amount mismatch,Matched,short_deposit,clean
+1395,MAHESH KHAN,103300001393,2300001393,Matched,Matched,clean,clean
+1396,RAMESH MEENA,103300001394,2300001394,Matched,Matched,spelling_variant,clean
+1397,PREETI RANI GUPTA,103300001395,2300001395,Matched,Matched,clean,word_order
+1398,PANKAJ CHAUDHARY,103300001396,2300001396,Name mismatch,Matched,surname_conflict,clean
+1399,POOJA SINGH,103300001397,2300001397,Matched,Matched,spelling_variant,word_order
+1400,MOHAMMAD PRASAD,103300001398,2300001398,Amount mismatch,Matched,short_deposit,clean
+1401,PRIYA CHAUHAN,103300001399,2300001399,Matched,Matched,clean,clean
+1402,ASHA LAL BISHT,103300001400,2300001400,Matched,Matched,clean,clean
+1403,RAKESH THAKUR,103300001401,2300001401,Matched,Name mismatch,clean,first_name_conflict
+1404,ASHA TIWARI,103300001402,2300001402,Matched,Matched,clean,spelling_variant
+1405,Imran Khan,103300001403,2300001403,Matched,Matched,clean,spelling_variant
+1406,JYOTI CHAUHAN,103300001404,2300001404,Matched,Matched,clean,initial_in_ecr
+1407,AJAY CHAND BISHT,103300001405,2300001405,Matched,Matched,spelling_variant,extra_name_part
+1408,ROHIT BHARDWAJ,103300001406,2300001406,Matched,Matched,clean,word_order
+1409,ASHA JAIN,103300001407,2300001407,Matched,Matched,clean,clean
+1410,GEETA PANDEY,103300001408,2300001408,Matched,Missing,clean,missing_in_ecr
+1411,LAXMI RANI PANDEY,103300001409,2300001409,Amount mismatch,Amount mismatch,short_deposit,short_deposit
+1412,ASHA CHAUDHARY,103300001410,2300001410,Missing,Matched,missing_in_ecr,clean
+1413,RAMESH VERMA,103300001411,2300001411,Matched,Matched,clean,spelling_variant
+1414,SATISH SRIVASTAVA,103300001412,2300001412,Matched,Missing,clean,missing_in_ecr
+1415,PREETI CHAUDHARY,103300001413,2300001413,Matched,Matched,clean,clean
+1416,RAHUL CHAUHAN,103300001414,2300001414,Matched,Matched,clean,clean
+1417,RAJEEV RAWAT,103300001415,2300001415,Matched,Matched,clean,clean
+1418,PRIYA YADAV,103300001416,2300001416,Matched,Matched,title_in_ecr,clean
+1419,YOGESH GUPTA,103300001417,2300001417,Matched,Matched,clean,title_in_ecr
+1420,SALMAN SHARMA,103300001418,2300001418,Matched,Matched,clean,clean
+1421,JYOTI RANI ANSARI,103300001419,2300001419,Matched,Matched,spelling_variant,clean
+1422,GEETA YADAV,103300001420,2300001420,Amount mismatch,Matched,short_deposit,clean
+1423,DEEPAK PANDEY,103300001421,2300001421,Matched,Matched,title_in_ecr,clean
+1424,NEETU IRFAN PASWAN,103300001422,2300001422,Missing,Amount mismatch,missing_in_ecr,short_deposit
+1425,VIKAS ANSARI,103300001423,2300001423,Matched,Matched,clean,clean
+1426,PRAKASH PRASAD,103300001424,2300001424,Matched,Matched,clean,clean
+1427,ASHA MISHRA,103300001425,2300001425,Amount mismatch,Matched,short_deposit,clean
+1428,SAROJ MOHAN BHARDWAJ,103300001426,2300001426,Matched,Matched,spelling_variant,clean
+1429,SANJEEV KUMARI TIWARI,103300001427,2300001427,Matched,Missing,clean,missing_in_ecr
+1430,KOMAL IRFAN PRASAD KUSHWAHA,103300001428,2300001428,Matched,Matched,clean,clean
+1431,PRADEEP BHARDWAJ,103300001429,2300001429,Name mismatch,Matched,first_name_conflict,word_order
+1432,Kavita Ansari,103300001430,2300001430,Matched,Matched,clean,clean
+1433,SEEMA BISHT,103300001431,2300001431,Amount mismatch,Matched,short_deposit,initial_in_ecr
+1434,Preeti Kumari Bhardwaj,103300001432,2300001432,Matched,Name mismatch,clean,first_name_conflict
+1435,VIJAY PANDEY,103300001433,2300001433,Matched,Name mismatch,word_order,first_name_conflict
+1436,PANKAJ KUMAR YADAV,103300001434,2300001434,Matched,Matched,clean,clean
+1437,ASHA SAINI,103300001435,2300001435,Matched,Amount mismatch,spelling_variant,short_deposit
+1438,KAVITA DUBEY,103300001436,2300001436,Matched,Matched,clean,clean
+1439,RAKESH THAKUR,103300001437,2300001437,Matched,Name mismatch,spelling_variant,surname_conflict
+1440,SURESH CHAND ANSARI,103300001438,2300001438,Matched,Matched,clean,spelling_variant
+1441,MANOJ SRIVASTAVA,103300001439,2300001439,Matched,Amount mismatch,clean,wagesheet_wrong
+1442,PRAKASH TIWARI,103300001440,2300001440,Name mismatch,Matched,first_name_conflict,clean
+1443,SONIA SINGH,103300001441,2300001441,Matched,Matched,spelling_variant,rounding_within_1
+1444,SUNITA RANI KHAN,103300001442,2300001442,Matched,Matched,clean,word_order
+1445,RAJEEV PANDEY,103300001443,2300001443,Matched,Matched,clean,spelling_variant
+1446,SALMAN CHAND DUBEY,103300001444,2300001444,Matched,Matched,extra_name_part,clean
+1447,ARVIND PRASAD MEENA,103300001445,2300001445,Matched,Name mismatch,clean,first_name_conflict
+1448,PANKAJ VERMA,103300001446,2300001446,Matched,Matched,spelling_variant,clean
+1449,ARVIND SINGH,103300001447,2300001447,Name mismatch,Matched,surname_conflict,clean
+1450,DEEPAK KUMAR SRIVASTAVA,103300001448,2300001448,Matched,Matched,clean,clean
+1451,DINESH YADAV,103300001449,2300001449,Matched,Matched,spelling_variant,clean
+1452,DEEPAK KUSHWAHA,103300001450,2300001450,Name mismatch,Matched,surname_conflict,clean
+1453,JYOTI BHARDWAJ,103300001451,2300001451,Matched,Matched,clean,clean
+1454,MANOJ BISHT,103300001452,2300001452,Matched,Matched,clean,initial_in_ecr
+1455,SALMAN KUMARI QURESHI,103300001453,2300001453,Matched,Matched,clean,spelling_variant
+1456,POOJA MISHRA,103300001454,2300001454,Matched,Matched,clean,spelling_variant
+1457,NEETU JAIN,103300001455,2300001455,Matched,Amount mismatch,clean,short_deposit
+1458,GEETA NEGI,103300001456,2300001456,Matched,Name mismatch,clean,first_name_conflict
+1459,VEENA YADAV,103300001457,2300001457,Matched,Matched,clean,clean
+1460,VIJAY JAIN,103300001458,2300001458,Matched,Name mismatch,spelling_variant,first_name_conflict
+1461,ROHIT IRFAN PASWAN,103300001459,2300001459,Name mismatch,Matched,first_name_conflict,clean
+1462,SATISH ANSARI,103300001460,2300001460,Matched,Matched,clean,clean
+1463,NEETU TIWARI,103300001461,2300001461,Matched,Matched,clean,spelling_variant
+1464,MOHAMMAD PANDEY,103300001462,2300001462,Matched,Matched,clean,spelling_variant
+1465,NEHA TIWARI,103300001463,2300001463,Matched,Name mismatch,clean,surname_conflict
+1466,MAMTA RAWAT,103300001464,2300001464,Matched,Matched,clean,clean
+1467,SHWETA YADAV,103300001465,2300001465,Matched,Matched,clean,clean
+1468,HARISH RAWAT,103300001466,2300001466,Matched,Amount mismatch,clean,short_deposit
+1469,IMRAN PRASAD,103300001467,2300001467,Matched,Matched,spelling_variant,clean
+1470,PRADEEP CHAUHAN,103300001468,2300001468,Matched,Matched,clean,title_in_ecr
+1471,NAVEEN ANSARI,103300001469,2300001469,Amount mismatch,Matched,short_deposit,word_order
+1472,DEEPAK KUMAR PANDEY,103300001470,2300001470,Matched,Matched,clean,clean
+1473,NEHA KUMAR,103300001471,2300001471,Matched,Matched,clean,clean
+1474,Geeta Irfan Kumari Pandey,103300001472,2300001472,Matched,Matched,clean,clean
+1475,KAVITA KUMARI TIWARI,103300001473,2300001473,Matched,Matched,clean,clean
+1476,AMIT PRAKASH PRASAD,103300001474,2300001474,Amount mismatch,Matched,wagesheet_wrong,clean
+1477,DINESH SAINI,103300001475,2300001475,Matched,Matched,clean,rounding_within_1
+1478,KAVITA RAWAT,103300001476,2300001476,Matched,Matched,title_in_ecr,clean
+1479,NEETU SAINI,103300001477,2300001477,Missing,Matched,missing_in_ecr,clean
+1480,ROHIT BHARDWAJ,103300001478,2300001478,Matched,Matched,clean,initial_in_ecr
+1481,JYOTI BHARDWAJ,103300001479,2300001479,Matched,Missing,spelling_variant,missing_in_ecr
+1482,JYOTI SINGH,103300001480,2300001480,Matched,Matched,clean,clean
+1483,IMRAN PRASAD,103300001481,2300001481,Name mismatch,Name mismatch,first_name_conflict,first_name_conflict
+1484,YOGESH VERMA,103300001482,2300001482,Missing,Matched,blank_id,clean
+1485,VIKAS CHANDRA SRIVASTAVA,103300001483,2300001483,Matched,Matched,clean,spelling_variant
+1486,YOGESH PRASAD ANSARI,103300001484,2300001484,Matched,Amount mismatch,clean,wagesheet_wrong
+1487,RAHUL LAL CHAUDHARY,103300001485,2300001485,Matched,Matched,word_order,rounding_within_1
+1488,PREETI YADAV,103300001486,2300001486,Matched,Matched,clean,title_in_ecr
+1489,ANIL TIWARI,103300001487,2300001487,Matched,Matched,word_order,clean
+1490,RAKESH YADAV,103300001488,2300001488,Matched,Matched,spelling_variant,clean
+1491,SANJAY MEENA,103300001489,2300001489,Amount mismatch,Amount mismatch,short_deposit,short_deposit
+1492,RAHUL RAWAT,103300001490,2300001490,Amount mismatch,Matched,short_deposit,clean
+1493,VIJAY QURESHI,103300001491,2300001491,Amount mismatch,Matched,short_deposit,clean
+1494,SHWETA SHARMA,103300001492,2300001492,Matched,Missing,clean,missing_in_ecr
+1495,SAROJ CHAUHAN,103300001493,2300001493,Matched,Matched,initial_in_ecr,clean
+1496,NEHA MISHRA,103300001494,2300001494,Matched,Matched,title_in_ecr,rounding_within_1
+1497,REENA SHARMA,103300001495,2300001495,Matched,Matched,clean,title_in_ecr
+1498,Salman Chaudhary,103300001496,2300001496,Name mismatch,Matched,surname_conflict,clean
+1499,MANOJ GUPTA,103300001497,2300001497,Name mismatch,Matched,surname_conflict,clean
+1500,POOJA VERMA,103300001498,2300001498,Name mismatch,Matched,first_name_conflict,extra_name_part
+1501,DEEPAK DUBEY,103300001499,2300001499,Matched,Matched,rounding_within_1,word_order

@@ -1,0 +1,71 @@
+{% extends "shared/base.html" %}
+{% block title %}Case Study 2 · Verification {{ job_id }}{% endblock %}
+
+{% block content %}
+<div id="app" data-job-id="{{ job_id }}">
+
+  <section class="card" id="progress-card">
+    <div class="row-between">
+      <h1 id="job-title">Verification</h1>
+      <span class="pill" id="job-status">loading</span>
+    </div>
+    <p class="muted" id="job-files"></p>
+    <div class="progress"><div class="progress-bar" id="progress-bar"></div></div>
+    <p id="progress-message" class="muted">Loading...</p>
+    <p class="muted small">You can close this page; the job keeps running. Bookmark this address to come back.</p>
+  </section>
+
+  <section class="card error-card hidden" id="error-card">
+    <h2>Could not complete the verification</h2>
+    <p id="error-message"></p>
+    <a href="/case-study-2" class="button">Upload again</a>
+  </section>
+
+  <div id="results" class="hidden">
+    <section class="card">
+      <div class="row-between">
+        <h2>Summary</h2>
+        <a class="button" id="download-btn" href="#">Download Excel report</a>
+      </div>
+      <div class="summary-grid" id="summary"></div>
+      <div id="warnings"></div>
+      <details>
+        <summary>Totals reconciliation (parsed vs printed on the ECRs)</summary>
+        <table class="table compact" id="reconciliation"></table>
+      </details>
+    </section>
+
+    <section class="card">
+      <div class="tabs" id="tabs">
+        <button data-tab="combined" class="active">Combined</button>
+        <button data-tab="pf">PF</button>
+        <button data-tab="esic">ESIC</button>
+        <button data-tab="ecr-only">In ECR, not in wagesheet</button>
+      </div>
+      <div class="filters" id="filters">
+        <select id="status-filter">
+          <option value="">All statuses</option>
+          <option>Matched</option><option>Name mismatch</option><option>Amount mismatch</option><option>Missing</option>
+        </select>
+        <label class="inline"><input type="checkbox" id="review-filter"> Needs review only</label>
+        <input type="search" id="search" placeholder="Search name, UAN or IP number">
+      </div>
+      <div class="table-wrap"><table class="table" id="results-table"></table></div>
+      <div class="pager" id="pager"></div>
+    </section>
+
+    <section class="card">
+      <h2>Ask about these results</h2>
+      <p class="muted small">Try: "Who is missing in ESIC?", "Why is Vikram flagged?", "Give me a summary",
+        "What is the ESIC wage ceiling?"</p>
+      <form id="ask-form" class="ask">
+        <input type="text" id="question" maxlength="500" placeholder="Type a question" required>
+        <button type="submit">Ask</button>
+      </form>
+      <div id="answer" class="answer hidden"></div>
+    </section>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}<script src="/static/js/case_study_2/job.js?v={{ asset_version }}"></script>{% endblock %}

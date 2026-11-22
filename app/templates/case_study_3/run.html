@@ -1,0 +1,78 @@
+{% extends "shared/base.html" %}
+{% block title %}Case Study 3 · Run {{ run_id }}{% endblock %}
+
+{% block content %}
+<div id="cs3-run" data-run-id="{{ run_id }}">
+
+  <section class="card">
+    <div class="row-between">
+      <h1 id="run-title">FC P&amp;L analysis</h1>
+      <span class="pill" id="run-status">loading</span>
+    </div>
+    <p class="muted" id="run-file"></p>
+    <div class="progress"><div class="progress-bar" id="run-progress"></div></div>
+    <p class="muted" id="run-message">Loading...</p>
+  </section>
+
+  <section class="card error-card hidden" id="run-error">
+    <h2>Could not complete the analysis</h2>
+    <p id="run-error-text"></p>
+    <a href="/case-study-3" class="button">Upload again</a>
+  </section>
+
+  <div id="run-results" class="hidden">
+    <section class="card">
+      <div class="row-between">
+        <h2>Summary</h2>
+        <div class="button-row">
+          <a class="button" href="/case-study-3/dashboard">Central dashboard</a>
+          <a class="button" id="run-download" href="#">Download Excel report</a>
+        </div>
+      </div>
+      <div class="cs3-tiles" id="run-tiles"></div>
+      <div class="cs3-scenarios" id="run-scenarios"></div>
+      <div id="run-warnings"></div>
+    </section>
+
+    <section class="card">
+      <h2>Daily status <span class="muted small">(cell = CM2 %, click for the insight)</span></h2>
+      <div class="table-wrap" id="run-grid"></div>
+      <div class="cs3-detail hidden" id="run-detail"></div>
+    </section>
+
+    <section class="card">
+      <div class="tabs" id="run-tabs">
+        <button data-tab="insights" class="active">Insights</button>
+        <button data-tab="anomalies">Anomaly log</button>
+        <button data-tab="pnl">Daily P&amp;L</button>
+      </div>
+      <div class="filters cs3-filters">
+        <select id="run-fc"><option value="">All FCs</option></select>
+        <select id="run-colour">
+          <option value="">All colours</option><option>Red</option><option>Yellow</option><option>Green</option><option>Blue</option>
+        </select>
+        <select id="run-severity">
+          <option value="">All severities</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option>
+        </select>
+      </div>
+      <div class="table-wrap"><table class="table" id="run-table"></table></div>
+    </section>
+
+    <section class="card">
+      <div class="row-between">
+        <h2>Daily digest to FC managers</h2>
+        <button id="run-send">Send digests now</button>
+      </div>
+      <p class="muted small" id="run-digest-note">Each FC's digest covers its latest day. Preview one below.</p>
+      <div class="button-row" id="run-digest-fcs"></div>
+      <div id="run-digest-result"></div>
+      <iframe id="run-digest-preview" class="cs3-preview hidden" title="Digest preview"></iframe>
+    </section>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/case_study_3/grid.js?v={{ asset_version }}"></script>
+<script src="/static/js/case_study_3/run.js?v={{ asset_version }}"></script>
+{% endblock %}

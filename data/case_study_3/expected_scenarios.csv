@@ -1,0 +1,125 @@
+fc,date,planted,expected_scenario,expected_colour
+FC-Gurgaon,2025-05-01,clean,clean day,Green
+FC-Gurgaon,2025-05-02,clean,clean day,Green
+FC-Gurgaon,2025-05-03,cm2_breach,CM2 breach,Red
+FC-Gurgaon,2025-05-04,clean,clean day,Green
+FC-Gurgaon,2025-05-05,line_only,line-item-only breach,Green
+FC-Gurgaon,2025-05-06,line_only,line-item-only breach,Green
+FC-Gurgaon,2025-05-07,clean,clean day,Green
+FC-Gurgaon,2025-05-08,clean,clean day,Green
+FC-Gurgaon,2025-05-09,clean,clean day,Green
+FC-Gurgaon,2025-05-10,clean,clean day,Green
+FC-Gurgaon,2025-05-11,clean,clean day,Green
+FC-Gurgaon,2025-05-12,line_only,line-item-only breach,Green
+FC-Gurgaon,2025-05-13,clean,clean day,Green
+FC-Gurgaon,2025-05-14,line_only,line-item-only breach,Green
+FC-Gurgaon,2025-05-15,line_only,line-item-only breach,Green
+FC-Gurgaon,2025-05-16,line_only,line-item-only breach,Green
+FC-Gurgaon,2025-05-17,clean,clean day,Green
+FC-Gurgaon,2025-05-18,clean,clean day,Green
+FC-Gurgaon,2025-05-19,clean,clean day,Green
+FC-Gurgaon,2025-05-20,blue,suspiciously high CM2,Blue
+FC-Gurgaon,2025-05-21,cm2_breach,CM2 breach,Red
+FC-Gurgaon,2025-05-22,clean,clean day,Green
+FC-Gurgaon,2025-05-23,cm2_breach,CM2 breach,Red
+FC-Gurgaon,2025-05-24,line_only,line-item-only breach,Green
+FC-Gurgaon,2025-05-25,clean,clean day,Green
+FC-Gurgaon,2025-05-26,line_only,line-item-only breach,Green
+FC-Gurgaon,2025-05-27,line_only,line-item-only breach,Green
+FC-Gurgaon,2025-05-28,clean,clean day,Green
+FC-Gurgaon,2025-05-29,clean,clean day,Green
+FC-Gurgaon,2025-05-30,line_only,line-item-only breach,Green
+FC-Gurgaon,2025-05-31,clean,clean day,Green
+FC-Bhiwandi,2025-05-01,line_only,line-item-only breach,Green
+FC-Bhiwandi,2025-05-02,line_only,line-item-only breach,Green
+FC-Bhiwandi,2025-05-03,yellow,,Yellow
+FC-Bhiwandi,2025-05-04,clean,clean day,Green
+FC-Bhiwandi,2025-05-05,line_only,line-item-only breach,Green
+FC-Bhiwandi,2025-05-06,line_only,line-item-only breach,Green
+FC-Bhiwandi,2025-05-07,clean,clean day,Green
+FC-Bhiwandi,2025-05-08,clean,clean day,Green
+FC-Bhiwandi,2025-05-09,clean,clean day,Green
+FC-Bhiwandi,2025-05-10,line_only,line-item-only breach,Green
+FC-Bhiwandi,2025-05-11,clean,clean day,Green
+FC-Bhiwandi,2025-05-12,line_only,line-item-only breach,Green
+FC-Bhiwandi,2025-05-13,clean,clean day,Green
+FC-Bhiwandi,2025-05-14,line_only,line-item-only breach,Green
+FC-Bhiwandi,2025-05-15,line_only,line-item-only breach,Green
+FC-Bhiwandi,2025-05-16,line_only,line-item-only breach,Green
+FC-Bhiwandi,2025-05-17,line_only,line-item-only breach,Green
+FC-Bhiwandi,2025-05-18,blue,suspiciously high CM2,Blue
+FC-Bhiwandi,2025-05-19,line_only,line-item-only breach,Green
+FC-Bhiwandi,2025-05-20,line_only,line-item-only breach,Green
+FC-Bhiwandi,2025-05-21,clean,clean day,Green
+FC-Bhiwandi,2025-05-22,clean,clean day,Green
+FC-Bhiwandi,2025-05-23,cm2_breach,CM2 breach,Red
+FC-Bhiwandi,2025-05-24,clean,clean day,Green
+FC-Bhiwandi,2025-05-25,yellow,,Yellow
+FC-Bhiwandi,2025-05-26,clean,clean day,Green
+FC-Bhiwandi,2025-05-27,line_only,line-item-only breach,Green
+FC-Bhiwandi,2025-05-28,clean,clean day,Green
+FC-Bhiwandi,2025-05-29,yellow,,Yellow
+FC-Bhiwandi,2025-05-30,clean,clean day,Green
+FC-Bhiwandi,2025-05-31,clean,clean day,Green
+FC-Bengaluru,2025-05-01,clean,clean day,Green
+FC-Bengaluru,2025-05-02,clean,clean day,Green
+FC-Bengaluru,2025-05-03,yellow,,Yellow
+FC-Bengaluru,2025-05-04,line_only,line-item-only breach,Green
+FC-Bengaluru,2025-05-05,clean,clean day,Green
+FC-Bengaluru,2025-05-06,blue,suspiciously high CM2,Blue
+FC-Bengaluru,2025-05-07,clean,clean day,Green
+FC-Bengaluru,2025-05-08,clean,clean day,Green
+FC-Bengaluru,2025-05-09,yellow,,Yellow
+FC-Bengaluru,2025-05-10,line_only,line-item-only breach,Green
+FC-Bengaluru,2025-05-11,cm2_breach,CM2 breach,Red
+FC-Bengaluru,2025-05-12,clean,clean day,Green
+FC-Bengaluru,2025-05-13,clean,clean day,Green
+FC-Bengaluru,2025-05-14,cm2_breach,CM2 breach,Red
+FC-Bengaluru,2025-05-15,blue,suspiciously high CM2,Blue
+FC-Bengaluru,2025-05-16,clean,clean day,Green
+FC-Bengaluru,2025-05-17,line_only,line-item-only breach,Green
+FC-Bengaluru,2025-05-18,clean,clean day,Green
+FC-Bengaluru,2025-05-19,line_only,line-item-only breach,Green
+FC-Bengaluru,2025-05-20,clean,clean day,Green
+FC-Bengaluru,2025-05-21,clean,clean day,Green
+FC-Bengaluru,2025-05-22,cm2_breach,CM2 breach,Red
+FC-Bengaluru,2025-05-23,line_only,line-item-only breach,Green
+FC-Bengaluru,2025-05-24,line_only,line-item-only breach,Green
+FC-Bengaluru,2025-05-25,yellow,,Yellow
+FC-Bengaluru,2025-05-26,line_only,line-item-only breach,Green
+FC-Bengaluru,2025-05-27,clean,clean day,Green
+FC-Bengaluru,2025-05-28,line_only,line-item-only breach,Green
+FC-Bengaluru,2025-05-29,yellow,,Yellow
+FC-Bengaluru,2025-05-30,line_only,line-item-only breach,Green
+FC-Bengaluru,2025-05-31,clean,clean day,Green
+FC-Kolkata,2025-05-01,line_only,line-item-only breach,Green
+FC-Kolkata,2025-05-02,line_only,line-item-only breach,Green
+FC-Kolkata,2025-05-03,clean,clean day,Green
+FC-Kolkata,2025-05-04,line_only,line-item-only breach,Green
+FC-Kolkata,2025-05-05,line_only,line-item-only breach,Green
+FC-Kolkata,2025-05-06,cm2_breach,CM2 breach,Red
+FC-Kolkata,2025-05-07,line_only,line-item-only breach,Green
+FC-Kolkata,2025-05-08,line_only,line-item-only breach,Green
+FC-Kolkata,2025-05-09,line_only,line-item-only breach,Green
+FC-Kolkata,2025-05-10,clean,clean day,Green
+FC-Kolkata,2025-05-11,clean,clean day,Green
+FC-Kolkata,2025-05-12,line_only,line-item-only breach,Green
+FC-Kolkata,2025-05-13,yellow,,Yellow
+FC-Kolkata,2025-05-14,cm2_breach,CM2 breach,Red
+FC-Kolkata,2025-05-15,line_only,line-item-only breach,Green
+FC-Kolkata,2025-05-16,clean,clean day,Green
+FC-Kolkata,2025-05-17,clean,clean day,Green
+FC-Kolkata,2025-05-18,clean,clean day,Green
+FC-Kolkata,2025-05-19,clean,clean day,Green
+FC-Kolkata,2025-05-20,line_only,line-item-only breach,Green
+FC-Kolkata,2025-05-21,line_only,line-item-only breach,Green
+FC-Kolkata,2025-05-22,line_only,line-item-only breach,Green
+FC-Kolkata,2025-05-23,line_only,line-item-only breach,Green
+FC-Kolkata,2025-05-24,line_only,line-item-only breach,Green
+FC-Kolkata,2025-05-25,line_only,line-item-only breach,Green
+FC-Kolkata,2025-05-26,clean,clean day,Green
+FC-Kolkata,2025-05-27,cm2_breach,CM2 breach,Red
+FC-Kolkata,2025-05-28,cm2_breach,CM2 breach,Red
+FC-Kolkata,2025-05-29,cm2_breach,CM2 breach,Red
+FC-Kolkata,2025-05-30,clean,clean day,Green
+FC-Kolkata,2025-05-31,clean,clean day,Green

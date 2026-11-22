@@ -1,0 +1,63 @@
+{% extends "shared/base.html" %}
+{% block title %}Case Study 3 · Dashboard{% endblock %}
+
+{% block content %}
+<section class="card">
+  <div class="row-between">
+    <h1>FC daily status dashboard</h1>
+    <div class="button-row">
+      <a class="button" href="/case-study-3">Upload data</a>
+      <button id="dash-send">Send today's digests</button>
+    </div>
+  </div>
+  <p class="muted">All FCs from every upload (history kept in MongoDB). Cell = CM2 % for that day; click a cell for
+    the insight. Digest delivery: <b>{{ 'email (SMTP)' if delivery == 'email' else 'outbox - SMTP not configured, digests are saved as files' }}</b>.</p>
+  <div class="cs3-legend">
+    <span><i class="sw sw-Red"></i>Red: CM2 &lt; 12%</span>
+    <span><i class="sw sw-Yellow"></i>Yellow: 12–15% or 30–33%</span>
+    <span><i class="sw sw-Green"></i>Green: 15–30%</span>
+    <span><i class="sw sw-Blue"></i>Blue: &gt; 33% (check unreported costs)</span>
+  </div>
+  <div id="dash-result"></div>
+</section>
+
+<section class="card">
+  <h2>Latest status per FC</h2>
+  <div class="cs3-latest" id="dash-latest"><p class="muted">Loading...</p></div>
+</section>
+
+<section class="card">
+  <h2>Daily grid <span class="muted small" id="dash-range"></span></h2>
+  <div class="table-wrap" id="dash-grid"></div>
+  <div class="cs3-detail hidden" id="dash-detail"></div>
+</section>
+
+<section class="card">
+  <h2>Known issues (manager overrides)</h2>
+  <p class="muted small">A known issue (e.g. "quarterly rent booked on 1st") stays in the anomaly log but is left out of
+    alerts for the dates given. Applies to data processed after it is added.</p>
+  <form id="ovr-form" class="ovr-form">
+    <input name="fc" placeholder="FC (e.g. FC-Gurgaon)" required>
+    <select name="line_item">
+      <option>Manpower</option><option>Packaging</option><option>Power &amp; Fuel</option><option>FC Rent</option>
+      <option>Equipment Rentals</option><option>Overheads</option><option>CM1 %</option><option>CM2 %</option>
+    </select>
+    <input name="date_from" placeholder="From YYYY-MM-DD" required>
+    <input name="date_to" placeholder="To YYYY-MM-DD" required>
+    <input name="note" placeholder="Note, e.g. quarterly rent" maxlength="200">
+    <button type="submit">Add</button>
+  </form>
+  <span class="error" id="ovr-error"></span>
+  <table class="table compact" id="ovr-table"></table>
+</section>
+
+<section class="card">
+  <h2>Digest delivery log</h2>
+  <table class="table compact" id="dash-log"></table>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/case_study_3/grid.js?v={{ asset_version }}"></script>
+<script src="/static/js/case_study_3/dashboard.js?v={{ asset_version }}"></script>
+{% endblock %}
