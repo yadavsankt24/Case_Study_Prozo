@@ -1,0 +1,56 @@
+{% extends "shared/base.html" %}
+{% block title %}Case Study 1 · Review{% endblock %}
+
+{% block content %}
+<div id="cs1-review" data-batch-id="{{ batch_id }}">
+  <section class="card">
+    <div class="row-between">
+      <h1>Review flagged frames</h1>
+      <div class="button-row">
+        <a class="button secondary" href="/case-study-1/batches/{{ batch_id }}">Back to batch</a>
+        <a class="button" href="/api/cs1/batches/{{ batch_id }}/csv">Download CSV</a>
+      </div>
+    </div>
+    <p class="muted" id="review-progress">Loading...</p>
+  </section>
+
+  <section class="card hidden" id="review-empty">
+    <h2>Nothing left to review</h2>
+    <p class="muted">Every flagged frame in this batch has been reviewed (or there were none).</p>
+  </section>
+
+  <section class="card cs1-review hidden" id="review-panel">
+    <div class="cs1-review-image">
+      <a id="review-image-link" target="_blank" title="Open the full-size frame"><img id="review-image" alt="Frame"></a>
+    </div>
+    <div class="cs1-review-form">
+      <h2 id="review-file"></h2>
+      <p><span id="review-status"></span> <span class="muted small" id="review-reason"></span></p>
+      <ul class="small" id="review-notes"></ul>
+
+      <form id="review-form" novalidate>
+        <label><span class="field-title">AWB</span><input type="text" name="awb" autocomplete="off"></label>
+        <div class="cs1-dims">
+          <label><span class="field-title">Length (cm)</span><input type="text" name="length_cm" inputmode="decimal"></label>
+          <label><span class="field-title">Width (cm)</span><input type="text" name="width_cm" inputmode="decimal"></label>
+          <label><span class="field-title">Height (cm)</span><input type="text" name="height_cm" inputmode="decimal"></label>
+        </div>
+        <label><span class="field-title">Weight (kg)</span><input type="text" name="weight_kg" inputmode="decimal"></label>
+        <label><span class="field-title">Note <span class="muted">(optional)</span></span><input type="text" name="note" maxlength="200"></label>
+        <p class="muted small">Values are pre-filled with what the readers saw. Check them against the frame.</p>
+        <div class="button-row">
+          <button type="submit" data-action="confirm">Confirm as OK</button>
+          <button type="submit" data-action="keep_flag" class="secondary">Keep the flag</button>
+          <button type="button" id="review-skip" class="secondary">Skip</button>
+        </div>
+        <p class="error" id="review-error" role="alert"></p>
+      </form>
+    </div>
+  </section>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/case_study_1/frames.js?v={{ asset_version }}"></script>
+<script src="/static/js/case_study_1/review.js?v={{ asset_version }}"></script>
+{% endblock %}

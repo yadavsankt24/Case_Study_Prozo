@@ -6,14 +6,22 @@ python-multipart>=0.0.9
 python-dotenv>=1.0     # loads .env
 
 # Storage
-pymongo>=4.8
+# pymongo 4.18 added TLS session reuse, which old SSL libraries (e.g. Apple's built-in Python 3.9 with
+# LibreSSL) break against MongoDB Atlas: "SSL handshake failed ... BAD_PSK_IDENTITY". Newer Pythons are fine.
+pymongo>=4.8,<4.18; python_version < "3.11"
+pymongo>=4.8; python_version >= "3.11"
 mongomock>=4.2          # in-memory MongoDB for demos/tests when no server is running
 
 # Document processing
 pdfplumber>=0.11
 openpyxl>=3.1
 
-# Optional AI assistant (Gemini / Ollama over HTTP)
+# Case Study 1: offline readers (no internet or API key needed)
+rapidocr-onnxruntime>=1.2     # OCR of the machine's text overlay (ONNX models included)
+zxing-cpp>=2.2,<3; python_version < "3.10"    # barcode reading on the label (3.x needs Python 3.10+)
+zxing-cpp>=2.2; python_version >= "3.10"
+
+# Optional AI (Gemini / Ollama over HTTP): CS1 vision agent, CS2 assistant, CS3 digest wording
 requests>=2.31
 
 # Test-data generation

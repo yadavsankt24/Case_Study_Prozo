@@ -13,7 +13,7 @@ This web app checks a vendor's monthly wagesheet against the two statutory filin
 | **Stack** | Python 3.9+ · FastAPI · MongoDB (with an in-memory fallback) · pdfplumber · openpyxl · vanilla JS |
 | **Sample data** | Reproduces the hand-checked answer key exactly (PF 9/1/1/1, ESIC 8/1/1/2) |
 | **Synthetic data** | 100% verdict accuracy on 3,544 PF/ESIC checks across 3 generated sets, up to 1,500 employees and 50-page ECRs |
-| **Tests** | 62 automated tests for Case Study 2, plus 6 page tests (104 in the repo including Case Study 3) |
+| **Tests** | 62 automated tests for Case Study 2, plus 7 page tests (163 in the repo across all case studies) |
 | **Cost** | Free. No paid API is needed. AI is optional (Gemini free tier or local Ollama). |
 
 ![Summary screen](screenshots/2_summary.png)
@@ -88,7 +88,7 @@ If MongoDB is running on `localhost:27017` it is used. Otherwise the app starts 
 
 ### Try it
 
-The home page (`/`) links to each case study. Open **Case Study 2** (`/case-study-2`) and upload the three files from `data/case_study_2/sample/`, or any folder under `data/case_study_2/synthetic/`. **Case Study 3** (`/case-study-3`) is documented in [its README](../case_study_3/README.md).
+The home page (`/`) links to each case study (Case Study 1 is documented in [its README](../case_study_1/README.md)). Open **Case Study 2** (`/case-study-2`) and upload the three files from `data/case_study_2/sample/`, or any folder under `data/case_study_2/synthetic/`. **Case Study 3** (`/case-study-3`) is documented in [its README](../case_study_3/README.md).
 
 | Page | Address |
 |---|---|
@@ -104,7 +104,7 @@ The home page (`/`) links to each case study. Open **Case Study 2** (`/case-stud
 python scripts/case_study_2/verify_cli.py --wagesheet data/case_study_2/sample/Sample_Wagesheet_Aug25.xlsx \
     --pf "data/case_study_2/sample/PF ECR AUG-25 SAMPLE.pdf" --esic "data/case_study_2/sample/ESIC ECR AUG-25 SAMPLE.pdf" --out report.xlsx
 
-python -m pytest tests/case_study_2       # this case study's tests (python -m pytest runs all 104)
+python -m pytest tests/case_study_2       # this case study's tests (python -m pytest runs all 163)
 python scripts/case_study_2/generate_test_data.py   # regenerate synthetic sets (deterministic seeds)
 python scripts/case_study_2/evaluate.py             # accuracy against every answer key + Excel outputs
 ```
@@ -267,6 +267,7 @@ prozo-compliance-poc/
 │   │   ├── assistant/           Ask (RAG): assistant.py, retriever.py, knowledge_base.md
 │   │   ├── api.py               /api/jobs: upload, status, results, report, ask
 │   │   └── pages.py             /case-study-2 and /case-study-2/jobs/{id}
+│   ├── case_study_1/            Parcel frames -> shipment CSV (same layout, see its README)
 │   ├── case_study_3/            Daily FC P&L monitor (same layout, see its README)
 │   ├── templates/               shared/ (base, home) · case_study_2/ · case_study_3/
 │   └── static/                  css/style.css · js/shared/ · js/case_study_2/ · js/case_study_3/

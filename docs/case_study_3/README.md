@@ -10,7 +10,7 @@ Every fulfilment centre (FC) produces daily revenue and cost data. This module c
 | **Sample data** | Reproduces the brief's sample: 100 days → 86 Green, 11 Yellow, 3 Red, 0 Blue |
 | **Extended data** | 4 FCs × 31 days with planted scenarios: all 124 FC-days classified as designed, covering a clean day, a CM2 breach, a cost-only breach and a suspiciously high CM2 |
 | **Delivery** | Real email via SMTP (e.g. Gmail app password). Without SMTP, digests are saved to `storage/cs3_outbox/` and shown in the app |
-| **Tests** | 34 tests for Case Study 3 (102 in the repo) |
+| **Tests** | 36 tests for Case Study 3 (163 in the repo) |
 | **Cost** | Free. The AI step is optional (Gemini free tier / Ollama) and can never change a number |
 
 ![Run summary](screenshots/cs3_2_run_summary.png)

@@ -1,0 +1,61 @@
+{% extends "shared/base.html" %}
+{% block title %}Case Study 1 · Batch {{ batch_id }}{% endblock %}
+
+{% block content %}
+<div id="cs1-batch" data-batch-id="{{ batch_id }}">
+
+  <section class="card">
+    <div class="row-between">
+      <h1 id="batch-title">Batch</h1>
+      <span class="pill" id="batch-status">loading</span>
+    </div>
+    <p class="muted" id="batch-mode"></p>
+    <div class="progress"><div class="progress-bar" id="batch-progress"></div></div>
+    <p class="muted" id="batch-message">Loading...</p>
+  </section>
+
+  <section class="card error-card hidden" id="batch-error">
+    <h2>Could not read this batch</h2>
+    <p id="batch-error-text"></p>
+    <a href="/case-study-1" class="button">Upload again</a>
+  </section>
+
+  <div id="batch-results" class="hidden">
+    <section class="card">
+      <div class="row-between">
+        <h2>Summary</h2>
+        <div class="button-row">
+          <button class="secondary hidden" id="batch-rerun">Re-read failed frames</button>
+          <a class="button" id="batch-review" href="#">Review flagged frames</a>
+          <a class="button" id="batch-csv" href="#">Download CSV</a>
+        </div>
+      </div>
+      <div class="cs1-tiles" id="batch-tiles"></div>
+      <div class="cs1-statuses" id="batch-statuses"></div>
+      <div id="batch-skipped"></div>
+    </section>
+
+    <section class="card">
+      <div class="row-between">
+        <div class="tabs" id="batch-view">
+          <button data-view="table" class="active">Table</button>
+          <button data-view="grid">Thumbnails</button>
+        </div>
+        <div class="filters cs1-filters">
+          <select id="batch-filter"><option value="">All statuses</option></select>
+          <input type="search" id="batch-search" placeholder="Search file, AWB, location">
+        </div>
+      </div>
+      <div class="table-wrap" id="batch-table-wrap"><table class="table" id="batch-table"></table></div>
+      <div class="cs1-grid hidden" id="batch-grid"></div>
+    </section>
+
+    <section class="card hidden" id="frame-detail"></section>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/case_study_1/frames.js?v={{ asset_version }}"></script>
+<script src="/static/js/case_study_1/batch.js?v={{ asset_version }}"></script>
+{% endblock %}

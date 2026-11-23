@@ -1,0 +1,48 @@
+{% extends "shared/base.html" %}
+{% block title %}Case Study 1{% endblock %}
+
+{% block content %}
+<section class="card">
+  <h1>Case Study 1: Parcel images to shipment data</h1>
+  <p class="muted">Upload scanning-station frames (hundreds at once). Each frame gets one record: AWB, dimensions
+    and weight read from the machine's text overlay and the courier label, checked by independent readers,
+    or an honest flag when a clean read is not possible. Download the batch as CSV.</p>
+
+  {% if mode.vision %}
+  <div class="cs1-mode on">Vision agent on ({{ mode.model }}): scene check + second read for every frame.</div>
+  {% else %}
+  <div class="cs1-mode off">Offline mode: frames are read with OCR and the barcode reader only, so the scene
+    (parcel cut off, two parcels, covered) is not checked. Add GEMINI_API_KEY in .env to turn the vision agent on.</div>
+  {% endif %}
+
+  <form id="cs1-form" class="upload-grid" novalidate>
+    <label class="drop full" id="cs1-drop">
+      <span class="drop-title">Frames</span>
+      <span class="muted">JPG / PNG frames or a ZIP of them (any folders inside) · choose several files at once ·
+        <a href="/api/cs1/samples/sample-frames.zip">download the 5 sample frames</a></span>
+      <input type="file" name="files" accept=".jpg,.jpeg,.png,.webp,.bmp,.tif,.tiff,.zip" multiple required>
+      <span class="muted small" id="cs1-picked"></span>
+    </label>
+
+    <label class="full">
+      <span class="field-title">Batch name <span class="muted">(optional)</span></span>
+      <input type="text" name="label" maxlength="80" placeholder="e.g. Bilaspur sorter, 5 June morning">
+    </label>
+
+    <div class="full actions">
+      <button type="submit" id="cs1-submit">Read frames</button>
+      <span id="cs1-error" class="error" role="alert"></span>
+    </div>
+  </form>
+</section>
+
+<section class="card">
+  <h2>Recent batches</h2>
+  <table class="table" id="cs1-batches">
+    <thead><tr><th>Created</th><th>Batch</th><th>Status</th><th>Frames</th><th>OK</th><th>Flagged</th><th>Read automatically</th><th>Mode</th><th></th></tr></thead>
+    <tbody><tr><td colspan="9" class="muted">Loading...</td></tr></tbody>
+  </table>
+</section>
+{% endblock %}
+
+{% block scripts %}<script src="/static/js/case_study_1/upload.js?v={{ asset_version }}"></script>{% endblock %}

@@ -1,0 +1,42 @@
+image_file,expected_status,expected_status_offline,awb,length_cm,width_cm,height_cm,weight_kg,what_it_tests
+01_clean_kolkata_1.jpg,OK,OK,19108064154895,31.8,22.1,15.3,,"clean frame, kolkata layout"
+02_clean_kolkata_2.jpg,OK,OK,19108580586324,16.2,41.4,4.7,,"clean frame, kolkata layout"
+03_clean_kolkata_3.jpg,OK,OK,19108193959674,16.4,16.8,16.2,,"clean frame, kolkata layout"
+04_clean_bilaspur_1.png,OK,OK,19108468087610,47.5,21.7,27.8,8.38,"clean frame, bilaspur layout"
+05_clean_bilaspur_2.jpg,OK,OK,19108569239178,15.4,18.9,28.0,7.6,"clean frame, bilaspur layout"
+06_clean_bilaspur_3.jpg,OK,OK,19108393310241,50.3,25.1,19.9,2.27,"clean frame, bilaspur layout"
+07_clean_hoskote_1.jpg,OK,OK,19108387374371,18.9,40.3,13.0,1.26,"clean frame, hoskote layout"
+08_clean_hoskote_2.jpg,OK,OK,19108238022920,41.5,17.7,24.7,3.4,"clean frame, hoskote layout"
+09_clean_hoskote_3.jpg,OK,OK,19108547838058,54.4,31.1,27.4,2.69,"clean frame, hoskote layout"
+10_clean_itg_1.jpg,OK,OK,77877863353,52.3,43.2,13.0,1.59,"clean frame, itg layout"
+11_clean_itg_2.jpg,OK,OK,77875114745,48.6,13.1,12.5,5.03,"clean frame, itg layout"
+12_clean_itg_3.jpg,OK,OK,77872843473,53.8,23.7,10.1,2.08,"clean frame, itg layout"
+13_clean_waybill_1.jpg,OK,OK,19108525920475,54.1,14.3,25.4,8.79,"clean frame, waybill layout"
+14_clean_waybill_2.png,OK,OK,19108071834627,31.9,16.4,6.9,5.05,"clean frame, waybill layout"
+15_clean_waybill_3.jpg,OK,OK,19108814173304,17.0,33.7,29.4,2.13,"clean frame, waybill layout"
+16_clean_shipment_1.jpg,OK,OK,19108573138457,58.2,30.7,34.1,5.75,"clean frame, shipment layout"
+17_clean_shipment_2.jpg,OK,OK,19108469726329,47.1,20.9,14.3,3.12,"clean frame, shipment layout"
+18_clean_shipment_3.jpg,OK,OK,19108782547512,54.2,28.8,24.5,6.49,"clean frame, shipment layout"
+19_clean_panel_1.jpg,OK,OK,19108788401148,58.9,26.0,9.7,2.33,"clean frame, panel-below layout (sample 1)"
+20_clean_panel_2.jpg,OK,OK,19108635923877,34.1,25.9,26.4,4.64,"clean frame, panel-below layout (sample 1)"
+21_clean_panel_3.jpg,OK,OK,19108268876349,36.3,39.5,13.5,4.09,"clean frame, panel-below layout (sample 1)"
+22_volume_mismatch_1.jpg,NEEDS_REVIEW,NEEDS_REVIEW,,,,,,printed volume 40% off L x W x H (a digit misread)
+23_volume_mismatch_2.jpg,NEEDS_REVIEW,NEEDS_REVIEW,,,,,,printed volume 40% off L x W x H (a digit misread)
+24_weight_out_of_range.png,NEEDS_REVIEW,NEEDS_REVIEW,,,,,,weight 250 kg is outside 0.01-100 kg
+25_parcel_partial_1.jpg,PARCEL_PARTIAL,OK,,,,,,parcel half out of the frame
+26_parcel_partial_2.jpg,PARCEL_PARTIAL,OK,,,,,,parcel half out of the frame
+27_multiple_parcels_1.jpg,MULTIPLE_PARCELS,OK,,,,,,two parcels in the frame
+28_multiple_parcels_2.jpg,MULTIPLE_PARCELS,OK,,,,,,two parcels in the frame
+29_view_obstructed_1.jpg,VIEW_OBSTRUCTED,OK,,,,,,a hand covers the parcel and its label
+30_view_obstructed_2.jpg,VIEW_OBSTRUCTED,OK,,,,,,a hand covers the parcel and its label
+31_no_parcel_1.jpg,NO_PARCEL,NEEDS_REVIEW,,,,,,empty belt; machine printed NOREAD and zero dimensions
+32_no_parcel_2.jpg,NO_PARCEL,NEEDS_REVIEW,,,,,,empty belt; machine printed NOREAD and zero dimensions
+33_label_only_1.jpg,OK,OK,77877459274,,,,,no machine overlay; AWB from the label barcode
+34_label_only_2.png,OK,OK,77875707488,,,,,no machine overlay; AWB from the label barcode
+35_unreadable_blurred_1.jpg,UNREADABLE,UNREADABLE,,,,,,no overlay and a blurred label
+36_unreadable_blurred_2.jpg,UNREADABLE,UNREADABLE,,,,,,no overlay and a blurred label
+37_unreadable_dark.jpg,UNREADABLE,UNREADABLE,,,,,,no overlay and a very dark frame
+38_duplicate_awb_1.jpg,OK,OK,19108705275733,44.3,17.4,13.4,2.32,same AWB scanned twice (note on both)
+39_duplicate_awb_2.jpg,OK,OK,19108705275733,44.3,17.4,13.4,2.32,same AWB scanned twice (note on both)
+40_corrupt_file.jpg,INVALID_IMAGE,INVALID_IMAGE,,,,,,not an image (bytes of text)
+41_tiny_image.jpg,INVALID_IMAGE,INVALID_IMAGE,,,,,,"120 x 90 px, too small to read"

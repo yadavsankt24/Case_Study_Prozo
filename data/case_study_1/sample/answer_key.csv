@@ -1,0 +1,6 @@
+image_file,expected_status,expected_status_offline,awb,length_cm,width_cm,height_cm,weight_kg,what_it_tests
+Dimensions and Image in different format_png.rf.CAbu5W6dBxxQmO8GVX0e.png,OK,OK,19108610769602,39,28.5,29,2.32,"panel below the photo; L/W/H on separate lines; A.W and V.W in grams (V.W = L x W x H); person in frame, not covering"
+Dimensions has no LBH words_Dimensions in mm_png.rf.A6aDdlLgyOHHCkLnmfAP.png,OK,OK,19108610787894,20.8,14.8,16.3,,"one dimension string with no L/W/H words, mm with no unit printed; volume printed; no weight"
+Half shipment captured_png.rf.WNrelVB6aeQO3rpN0eiY.png,PARCEL_PARTIAL,OK,19108610817924,21.3,17.8,14.8,1.19,"half-captured frame; 'Barcode:' key; L-H-W order; weight with no unit (grams)"
+download (2)_jpeg.rf.bo0zLhZTso7FTTzLvhqL.jpeg,OK,OK,19108610906662,35.9,34.5,15.7,2.21,"separate Length/Width/Height in cm; R.Vol; weight in gm; two labels on one parcel; label barcode decodes only at 2x"
+f5dafc4bff76062f11fe6ebb3dad97d9_jpg.rf.bW1ywxbuEzVDIFh3KpAM.jpg,OK,OK,77873372404,21.4,16.4,6.2,0.58,"units inside the key names; Blue Dart label barcode confirms the AWB"

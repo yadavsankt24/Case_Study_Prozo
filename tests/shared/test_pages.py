@@ -16,14 +16,16 @@ def client(tmp_path):
         yield test_client
 
 
-def test_home_links_to_both_case_studies(client):
+def test_home_links_to_every_case_study(client):
     page = client.get("/")
     assert page.status_code == 200
+    assert 'href="/case-study-1"' in page.text
     assert 'href="/case-study-2"' in page.text
     assert 'href="/case-study-3"' in page.text
 
 
 @pytest.mark.parametrize("path, heading", [
+    ("/case-study-1", "Case Study 1: Parcel images to shipment data"),
     ("/case-study-2", "Case Study 2: Wagesheet vs PF / ESIC ECR verification"),
     ("/case-study-3", "Case Study 3: Daily FC P&amp;L monitor"),
 ])

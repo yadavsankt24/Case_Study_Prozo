@@ -1,9 +1,10 @@
 """
 Application settings (infrastructure only).
 
-Business rules live with each case study - `app/case_study_2/rules.py` (rates,
-tolerance, column aliases) and `app/case_study_3/rules.py` (targets, colours,
-severity) - so compliance logic and deployment settings never get mixed up.
+Business rules live with each case study - `app/case_study_1/rules.py` (flags, overlay
+keys, units), `app/case_study_2/rules.py` (rates, tolerance, column aliases) and
+`app/case_study_3/rules.py` (targets, colours, severity) - so business logic and
+deployment settings never get mixed up.
 
 Every setting can be overridden with an environment variable (see `.env.example`).
 """
@@ -54,9 +55,18 @@ class Settings:
     # "none" (default, rule-based answers), "gemini" (free tier key) or "ollama" (local).
     llm_provider: str = "none"
     gemini_api_key: str = ""
-    gemini_model: str = "gemini-2.0-flash"
+    gemini_model: str = "gemini-3.5-flash"
     ollama_url: str = "http://localhost:11434"
     ollama_model: str = "llama3.1"
+
+    # --- Case Study 1: parcel frames -> shipment data -----------------------------
+    # The vision agent (scene check + second read) uses GEMINI_API_KEY. Without a key, or
+    # with CS1_USE_VISION=false, frames are read offline (OCR + barcode) and the scene is not checked.
+    cs1_use_vision: bool = True
+    cs1_vision_model: str = "gemini-3.5-flash"
+    cs1_vision_per_minute: int = 10          # stay inside the free-tier rate limit
+    cs1_workers: int = 2
+    cs1_max_upload_mb: int = 500             # one batch can hold hundreds of frames
 
     # --- Case Study 3: digest delivery -----------------------------------------
     # Email via any SMTP server (e.g. Gmail with an app password). When SMTP is not
@@ -78,6 +88,14 @@ class Settings:
     @property
     def report_dir(self) -> Path:
         return self.storage_dir / "reports"
+
+    @property
+    def cs1_frame_dir(self) -> Path:
+        return self.storage_dir / "cs1_frames"
+
+    @property
+    def cs1_vision_enabled(self) -> bool:
+        return self.cs1_use_vision and bool(self.gemini_api_key)
 
     @property
     def cs3_outbox_dir(self) -> Path:
@@ -104,6 +122,11 @@ class Settings:
             gemini_model=os.getenv("GEMINI_MODEL", defaults.gemini_model),
             ollama_url=os.getenv("OLLAMA_URL", defaults.ollama_url),
             ollama_model=os.getenv("OLLAMA_MODEL", defaults.ollama_model),
+            cs1_use_vision=_env_bool("CS1_USE_VISION", defaults.cs1_use_vision),
+            cs1_vision_model=os.getenv("CS1_VISION_MODEL", defaults.cs1_vision_model),
+            cs1_vision_per_minute=int(os.getenv("CS1_VISION_PER_MINUTE", defaults.cs1_vision_per_minute)),
+            cs1_workers=int(os.getenv("CS1_WORKERS", defaults.cs1_workers)),
+            cs1_max_upload_mb=int(os.getenv("CS1_MAX_UPLOAD_MB", defaults.cs1_max_upload_mb)),
             smtp_host=os.getenv("SMTP_HOST", defaults.smtp_host),
             smtp_port=int(os.getenv("SMTP_PORT", defaults.smtp_port)),
             smtp_user=os.getenv("SMTP_USER", defaults.smtp_user),
