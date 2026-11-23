@@ -7,7 +7,9 @@ One web app with three working solutions. Open it, pick a case study from the ho
 | **In one line** | Read AWB, size and weight from parcel photos | Check that contractors really paid workers' PF and ESIC | Tell each warehouse manager, the same day, when profit slips and why |
 | **You upload** | Parcel photos (or a ZIP) | Wagesheet (Excel) + PF ECR (PDF) + ESIC ECR (PDF) | Daily revenue and costs per warehouse (CSV / Excel) |
 | **You get** | One row per photo, with a status, as CSV | A verdict and a reason for every worker, as Excel | A colour per warehouse per day, the cause, and a daily email |
-| **Open at** | `/case-study-1` | `/case-study-2` | `/case-study-3` |
+| **Read more** | [Case Study 1 section](#case-study-1-parcel-images-to-shipment-data) | [Case Study 2 section](#case-study-2-wagesheet-vs-pf--esic-verification) | [Case Study 3 section](#case-study-3-daily-fc-pl-monitor-and-alert-digest) |
+| **Documents** | [Roadmap & workflow](docs/case_study_1/CS1_Roadmap_and_Workflow.docx) | [Roadmap & workflow](docs/case_study_2/CS2_Roadmap_and_Workflow.docx) | [Requirements](docs/case_study_3/CS3_Requirements_and_Workflow.docx) · [Roadmap](docs/case_study_3/CS3_Roadmap_and_Workflow.docx) |
+| **Open in the app** | [localhost:8000/case-study-1](http://localhost:8000/case-study-1) | [localhost:8000/case-study-2](http://localhost:8000/case-study-2) | [localhost:8000/case-study-3](http://localhost:8000/case-study-3) |
 
 **The idea behind all three:** numbers are decided by plain code, so they are exact and can be explained. AI is used only where it helps (checking a photo, writing a sentence), and it can never change a number. When the system is not sure, it says so instead of guessing.
 
@@ -179,6 +181,8 @@ prozo-compliance-poc/
 ├── tests/                      automated tests
 └── docs/                       Word documents, interview guide, screenshots
 ```
+
+The interview preparation guide is in [docs/Prozo_EIR_Interview_Prep_Guide.docx](docs/Prozo_EIR_Interview_Prep_Guide.docx).
 
 Inside each case study the same file names do the same job:
 
