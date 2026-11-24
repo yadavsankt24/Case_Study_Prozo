@@ -1,6 +1,7 @@
 # Prozo EIR (Agentic AI): Case Studies 1, 2 and 3
 
 One web app with three working proofs of concept. Open the home page, pick a case study, upload the files, and download the results.
+Demo Link: https://case-study-prozo.onrender.com/
 
 | | Case Study 1 | Case Study 2 | Case Study 3 |
 |---|---|---|---|
